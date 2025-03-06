@@ -4,11 +4,29 @@
   margin: 0;
 }
 
-body {
-  font-family: var(--font-prompt), sans-serif;
-}
-
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ant-typography {
+  margin: 0 !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ant-typography,
+.ant-btn {
+  font-family: var(--font-prompt), sans-serif;
 }
