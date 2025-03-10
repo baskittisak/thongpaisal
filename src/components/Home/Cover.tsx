@@ -20,6 +20,7 @@ const FullScreenWrapper = styled.div`
   height: 100vh;
   overflow: hidden;
   padding: 48px 48px 96px 48px;
+  background-color: rgba(0, 0, 0, 0.3);
 
   .ant-typography {
     color: #fff !important;
@@ -131,7 +132,7 @@ export default function Cover() {
   return (
     <FullScreenWrapper>
       <BackgroundImage
-        src="/images/image-home.png"
+        src="/images/image-cover.png"
         alt="thongpaisal home"
         fill
         priority
