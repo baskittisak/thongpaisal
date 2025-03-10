@@ -107,7 +107,7 @@ export default function Cover() {
   });
 
   useEffect(() => {
-    const updateDrawerWidth = () => {
+    const updateSizing = () => {
       if (window.innerWidth <= 768) {
         setSizing({
           logo: 36,
@@ -123,10 +123,10 @@ export default function Cover() {
       }
     };
 
-    updateDrawerWidth();
-    window.addEventListener("resize", updateDrawerWidth);
+    updateSizing();
+    window.addEventListener("resize", updateSizing);
 
-    return () => window.removeEventListener("resize", updateDrawerWidth);
+    return () => window.removeEventListener("resize", updateSizing);
   }, []);
 
   return (
