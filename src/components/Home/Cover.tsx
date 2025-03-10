@@ -1,17 +1,25 @@
 "use client";
+import { useEffect, useState } from "react";
+import { Space, Typography } from "antd";
 import Image from "next/image";
 import styled from "styled-components";
-import { Space, Typography } from "antd";
 import Box from "@/components/Box";
+import NavBar from "./Navbar";
 
 const { Title, Text } = Typography;
+
+interface SizingProps {
+  logo: number;
+  image: number;
+  text: React.ComponentProps<typeof Typography.Title>["level"];
+}
 
 const FullScreenWrapper = styled.div`
   position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 48px;
+  padding: 48px 48px 96px 48px;
 
   .ant-typography {
     color: #fff !important;
@@ -40,30 +48,25 @@ const TextOverlay = styled.div`
     display: block;
     line-height: 60px;
   }
-`;
 
-const Nav = styled(Space)`
-  white-space: pre;
-
-  .ant-typography {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
+  @media (max-width: 1270px) {
+    width: 70%;
   }
 
-  .ant-typography::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    transition: width 0.3s ease-in-out;
-    transform: translateX(-50%);
+  @media (max-width: 1024px) {
+    .title {
+      font-size: 4rem;
+      line-height: 65px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      line-height: 30px;
+    }
   }
 
-  .ant-typography:hover::after {
+  @media (max-width: 768px) {
+    text-align: center;
     width: 100%;
   }
 `;
@@ -81,10 +84,50 @@ const ButtonContract = styled.div`
   border-radius: 8px;
   width: 40%;
   height: 65px;
-  font-size: 24px;
+  font-size: 1.5rem;
+
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+    height: 55px;
+    width: 30%;
+  }
+
+  @media (max-width: 768px) {
+    margin: auto;
+    width: 50%;
+  }
 `;
 
 export default function Cover() {
+  const [sizing, setSizing] = useState<SizingProps>({
+    logo: 48,
+    image: 80,
+    text: 3,
+  });
+
+  useEffect(() => {
+    const updateDrawerWidth = () => {
+      if (window.innerWidth <= 768) {
+        setSizing({
+          logo: 36,
+          image: 64,
+          text: 5,
+        });
+      } else {
+        setSizing({
+          logo: 48,
+          image: 80,
+          text: 3,
+        });
+      }
+    };
+
+    updateDrawerWidth();
+    window.addEventListener("resize", updateDrawerWidth);
+
+    return () => window.removeEventListener("resize", updateDrawerWidth);
+  }, []);
+
   return (
     <FullScreenWrapper>
       <BackgroundImage
@@ -98,18 +141,13 @@ export default function Cover() {
           <Box $align="center" $cursor="pointer">
             <Image
               src="/icons/icon-logo.png"
-              width={48}
-              height={48}
+              width={sizing.logo}
+              height={sizing.logo}
               alt="thongpaisal"
             />
-            <Title level={3}>THONGPAISAL CO.,LTD.</Title>
+            <Title level={sizing.text}>THONGPAISAL CO.,LTD.</Title>
           </Box>
-          <Nav size="large">
-            <Title level={4}>หน้าแรก</Title>
-            <Title level={4}>เกี่ยวกับเรา</Title>
-            <Title level={4}>สินค้า</Title>
-            <Title level={4}>ติดต่อเรา</Title>
-          </Nav>
+          <NavBar />
         </Box>
         <TextOverlay>
           <Title className="title">ผู้ผลิต ชิ้นส่วน</Title>
@@ -118,20 +156,20 @@ export default function Cover() {
           <ImageContainer size="large">
             <Image
               src="/icons/icon-made-in-thailand.png"
-              width={80}
-              height={80}
+              width={sizing.image}
+              height={sizing.image}
               alt="thongpaisal made in thailand"
             />
             <Image
               src="/icons/icon-quality-guaranteed.png"
-              width={80}
-              height={80}
+              width={sizing.image}
+              height={sizing.image}
               alt="thongpaisal quality guaranteed"
             />
             <Image
               src="/icons/icon-oem.png"
-              width={80}
-              height={80}
+              width={sizing.image}
+              height={sizing.image}
               alt="thongpaisal oem"
             />
           </ImageContainer>
