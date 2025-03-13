@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import AboutUs from "@/components/Home/AboutUs";
 import Cover from "@/components/Home/Cover";
+import Details from "@/components/Home/Details";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -16,6 +17,7 @@ export default function Home() {
     <>
       <Cover />
       <AboutUs />
+      <Details />
     </>
   );
 }

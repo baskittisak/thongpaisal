@@ -1,9 +1,9 @@
 "use client";
+import { useEffect, useState } from "react";
 import { Col, Row, Typography } from "antd";
 import Image from "next/image";
 import Box from "@/components/Box";
 import styled from "styled-components";
-import { useEffect, useState } from "react";
 
 const { Title } = Typography;
 
