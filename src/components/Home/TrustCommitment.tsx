@@ -1,4 +1,4 @@
-import { Typography } from "antd";
+import { Col, Row, Space, Typography } from "antd";
 import Image from "next/image";
 import styled from "styled-components";
 
@@ -141,14 +141,21 @@ const images = [
 ];
 
 const Wrapper = styled.div`
-  background-color: #f5f4f3;
-`;
-
-const SectionWrapper = styled.div`
   position: relative;
+  background-color: #f5f4f3;
   width: 100vw;
   height: 100vh;
+  padding-bottom: 36px;
   overflow: hidden;
+
+  @media (max-width: 1200px) {
+    height: 100%;
+    overflow: auto;
+  }
+`;
+
+const ImageWrapper = styled.div`
+  position: relative;
   padding: 36px;
 
   @media (max-width: 1200px) {
@@ -159,9 +166,10 @@ const SectionWrapper = styled.div`
 const GalleryWrapper = styled.div`
   position: relative;
   width: 1368px;
-  height: 400px;
+  height: 370px;
   margin: auto;
   overflow-x: auto;
+  overflow-y: hidden;
 
   img {
     object-fit: contain;
@@ -179,13 +187,27 @@ const ImageItem = styled.div<{
   `}
 `;
 
+const ColContent = styled(Col)`
+  margin: auto;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const Line = styled.div`
+  height: 4px;
+  width: 100%;
+  background-color: #2e2e2e;
+`;
+
 export default function TrustCommitment() {
   return (
     <Wrapper>
       <Title level={1} style={{ padding: "36px 36px 0 36px" }}>
         จากลูกค้าที่พึงพอใจของเรา
       </Title>
-      <SectionWrapper>
+      <ImageWrapper>
         <GalleryWrapper>
           {images.map((img, index) => (
             <ImageItem key={index} top={img.top} left={img.left}>
@@ -198,7 +220,61 @@ export default function TrustCommitment() {
             </ImageItem>
           ))}
         </GalleryWrapper>
-      </SectionWrapper>
+      </ImageWrapper>
+      <Row gutter={[32, 32]} style={{ padding: "0 36px" }}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
+          <Space direction="vertical" size={12}>
+            <Line />
+            <Title level={4} style={{ color: "#555", fontWeight: 400 }}>
+              ในนามของ บริษัท ทองไพศาล จำกัด
+              พวกเราขอขอบพระคุณทุกท่านที่ให้ความไว้วางใจ
+              และเลือกใช้สินค้าของทองไพศาลด้วยดีเสมอมา
+              ความเชื่อมั่นและการสนับสนุนของท่าน
+              เป็นแรงผลักดันสำคัญที่ทำให้เรามุ่งมั่นพัฒนาสินค้าและบริการให้ดียิ่งขึ้น
+            </Title>
+          </Space>
+          <Title level={4} style={{ color: "#2b2b2b" }}>
+            - ความไว้วางใจ
+          </Title>
+        </ColContent>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
+          <Space direction="vertical" size={12}>
+            <Line />
+            <Title level={4} style={{ color: "#555", fontWeight: 400 }}>
+              ทองไพศาลตระหนักดีว่าความไว้วางใจของท่านมีค่าอย่างยิ่งสำหรับเรา
+              เราจึงให้คำมั่นสัญญาว่าจะยังคงรักษามาตรฐานคุณภาพของสินค้าและบริการอย่างสูงสุด
+              เพื่อตอบแทนความไว้วางใจที่ท่านมอบให้
+            </Title>
+          </Space>
+          <Title level={4} style={{ color: "#2b2b2b" }}>
+            - คำมั่นสัญญา
+          </Title>
+        </ColContent>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
+          <Space direction="vertical" size={12}>
+            <Line />
+            <Title level={4} style={{ color: "#555", fontWeight: 400 }}>
+              หากท่านมีข้อสงสัยหรือต้องการข้อมูลเพิ่มเติมเกี่ยวกับสินค้าและบริการของเรา
+              สามารถติดต่อเราได้ตลอดเวลา
+              เรายินดีให้บริการและให้คำปรึกษาแก่ท่านด้วยความเต็มใจ
+            </Title>
+          </Space>
+          <Title level={4} style={{ color: "#2b2b2b" }}>
+            - บริการด้วยใจ
+          </Title>
+        </ColContent>
+      </Row>
+      <Image
+        src="/icons/icon-logo.png"
+        width={100}
+        height={100}
+        alt="thongpaisal"
+        style={{
+          position: "absolute",
+          bottom: "28px",
+          right: "36px",
+        }}
+      />
     </Wrapper>
   );
 }
