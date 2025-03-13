@@ -48,7 +48,7 @@ export default function Details() {
   return (
     <FullScreenWrapper>
       <RowContainer gutter={[32, 32]}>
-        <ColContent xl={8} lg={12} sm={24}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
             width={320}
             height={230}
@@ -67,7 +67,7 @@ export default function Details() {
             </Title>
           </Text>
         </ColContent>
-        <ColContent xl={8} lg={12} sm={24}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
             width={320}
             height={230}
@@ -86,7 +86,7 @@ export default function Details() {
             </Title>
           </Text>
         </ColContent>
-        <ColContent xl={8} lg={12} sm={24}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
             width={320}
             height={230}

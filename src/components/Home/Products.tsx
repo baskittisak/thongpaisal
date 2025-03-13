@@ -81,7 +81,7 @@ export default function Products() {
         />
       </Topic>
       <Row gutter={[32, 32]}>
-        <ColContent xl={8} lg={12} sm={24}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
             width={350}
             height={350}
@@ -98,7 +98,7 @@ export default function Products() {
           </Text>
           <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
         </ColContent>
-        <ColContent xl={8} lg={12} sm={24}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
             width={350}
             height={350}
@@ -114,7 +114,7 @@ export default function Products() {
           </Text>
           <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
         </ColContent>
-        <ColContent xl={8} lg={12} sm={24}>
+        <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
             width={350}
             height={350}
