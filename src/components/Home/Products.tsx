@@ -18,7 +18,6 @@ const FullScreenWrapper = styled.div`
 
   @media (max-width: 1200px) {
     height: 100%;
-    overflow: auto;
   }
 `;
 
