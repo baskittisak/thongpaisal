@@ -5,6 +5,7 @@ import Cover from "@/components/Home/Cover";
 import Details from "@/components/Home/Details";
 import Products from "@/components/Home/Products";
 import Services from "@/components/Home/Services";
+import TrustCommitment from "@/components/Home/TrustCommitment";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -22,6 +23,7 @@ export default function Home() {
       <Details />
       <Products />
       <Services />
+      <TrustCommitment />
     </>
   );
 }
