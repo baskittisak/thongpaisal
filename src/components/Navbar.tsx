@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Drawer, Space, Typography } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
@@ -54,8 +55,6 @@ const Nav = styled(Space)<NavbarProps>`
       width: 100%;
       padding: 24px 36px;
       justify-content: flex-end;
-      position: fixed;
-      top: 0;
       z-index: 1;
       background: linear-gradient(
         to right,
@@ -85,10 +84,7 @@ const MenuButton = styled(MenuOutlined)<NavbarProps>`
     css`
       width: 100%;
       padding: 24px 36px;
-      display: flex !important;
       justify-content: flex-end;
-      position: fixed;
-      top: 0;
       z-index: 1;
       background: linear-gradient(
         to right,
@@ -96,6 +92,10 @@ const MenuButton = styled(MenuOutlined)<NavbarProps>`
         rgba(0, 0, 0, 0.4)
       );
       backdrop-filter: blur(8px);
+
+      @media (max-width: 1024px) {
+        display: flex !important;
+      }
     `}
 `;
 
@@ -144,6 +144,7 @@ const MENUS = [
 ];
 
 export default function NavBar({ type = "default" }: NavbarProps) {
+  const pathName = usePathname();
   const [open, setOpen] = useState<boolean>(false);
   const [drawerWidth, setDrawerWidth] = useState<string | number>(300);
   const [activeMenu, setActiveMenu] = useState<string>("หน้าแรก");
@@ -162,6 +163,13 @@ export default function NavBar({ type = "default" }: NavbarProps) {
 
     return () => window.removeEventListener("resize", updateDrawerWidth);
   }, []);
+
+  useEffect(() => {
+    const activeMenu = MENUS.find((menu) => menu.path === pathName)?.name;
+    if (activeMenu) {
+      setActiveMenu(activeMenu);
+    }
+  }, [pathName]);
 
   return (
     <>

@@ -2,11 +2,7 @@
 import { useEffect, useState } from "react";
 import NavBar from "@/components/Navbar";
 import AboutUs from "@/components/Home/AboutUs";
-import styled from "styled-components";
-
-const Container = styled.div`
-  margin-top: 76px;
-`;
+import AboutUsDetails from "@/components/AboutUs/AboutUsDetails";
 
 export default function AboutUsPage() {
   const [isClient, setIsClient] = useState(false);
@@ -20,9 +16,8 @@ export default function AboutUsPage() {
   return (
     <>
       <NavBar type="fixed" />
-      <Container>
-        <AboutUs />
-      </Container>
+      <AboutUs />
+      <AboutUsDetails />
     </>
   );
 }
