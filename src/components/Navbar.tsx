@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Drawer, Space, Typography } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import styled from "styled-components";
@@ -92,7 +93,12 @@ const DrawerMenu = styled(Space)`
   }
 `;
 
-const MENUS = ["หน้าแรก", "เกี่ยวกับเรา", "สินค้า", "ติดต่อเรา"];
+const MENUS = [
+  { name: "หน้าแรก", path: "/" },
+  { name: "เกี่ยวกับเรา", path: "/about" },
+  { name: "สินค้า", path: "/products" },
+  { name: "ติดต่อเรา", path: "/contact" },
+];
 
 export default function NavBar() {
   const [open, setOpen] = useState<boolean>(false);
@@ -119,15 +125,16 @@ export default function NavBar() {
       <MenuButton onClick={() => setOpen(true)} />
 
       <Nav size="large">
-        {MENUS.map((menu) => (
-          <Title
-            key={menu}
-            level={4}
-            className={activeMenu === menu ? "active" : ""}
-            onClick={() => setActiveMenu(menu)}
-          >
-            {menu}
-          </Title>
+        {MENUS.map(({ name, path }) => (
+          <Link key={name} href={path} passHref>
+            <Title
+              level={4}
+              className={activeMenu === name ? "active" : ""}
+              onClick={() => setActiveMenu(name)}
+            >
+              {name}
+            </Title>
+          </Link>
         ))}
       </Nav>
 
@@ -141,18 +148,19 @@ export default function NavBar() {
         }}
       >
         <DrawerMenu>
-          {MENUS.map((menu) => (
-            <Title
-              key={menu}
-              level={5}
-              onClick={() => {
-                setActiveMenu(menu);
-                setOpen(false);
-              }}
-              className={activeMenu === menu ? "active" : ""}
-            >
-              {menu}
-            </Title>
+          {MENUS.map(({ name, path }) => (
+            <Link key={name} href={path} passHref>
+              <Title
+                level={5}
+                onClick={() => {
+                  setActiveMenu(name);
+                  setOpen(false);
+                }}
+                className={activeMenu === name ? "active" : ""}
+              >
+                {name}
+              </Title>
+            </Link>
           ))}
         </DrawerMenu>
       </Drawer>

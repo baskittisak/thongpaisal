@@ -4,7 +4,7 @@ import { Space, Typography } from "antd";
 import Image from "next/image";
 import styled from "styled-components";
 import Box from "@/components/Box";
-import NavBar from "./Navbar";
+import NavBar from "@/components/Navbar";
 
 const { Title, Text } = Typography;
 
