@@ -3,11 +3,15 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Drawer, Space, Typography } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+interface NavbarProps {
+  type?: "fixed" | "default";
+}
 
 const { Title } = Typography;
 
-const Nav = styled(Space)`
+const Nav = styled(Space)<NavbarProps>`
   white-space: pre;
 
   .ant-typography {
@@ -43,9 +47,30 @@ const Nav = styled(Space)`
   @media (max-width: 1024px) {
     display: none;
   }
+
+  ${({ type }) =>
+    type === "fixed" &&
+    css`
+      width: 100%;
+      padding: 24px 36px;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.4)
+      );
+      backdrop-filter: blur(8px);
+
+      .ant-typography {
+        color: #fff;
+      }
+    `}
 `;
 
-const MenuButton = styled(MenuOutlined)`
+const MenuButton = styled(MenuOutlined)<NavbarProps>`
   display: none;
   cursor: pointer;
   color: #fff;
@@ -54,6 +79,24 @@ const MenuButton = styled(MenuOutlined)`
   @media (max-width: 1024px) {
     display: block;
   }
+
+  ${({ type }) =>
+    type === "fixed" &&
+    css`
+      width: 100%;
+      padding: 24px 36px;
+      display: flex !important;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.4)
+      );
+      backdrop-filter: blur(8px);
+    `}
 `;
 
 const DrawerMenu = styled(Space)`
@@ -95,12 +138,12 @@ const DrawerMenu = styled(Space)`
 
 const MENUS = [
   { name: "หน้าแรก", path: "/" },
-  { name: "เกี่ยวกับเรา", path: "/about" },
+  { name: "เกี่ยวกับเรา", path: "/about-us" },
   { name: "สินค้า", path: "/products" },
   { name: "ติดต่อเรา", path: "/contact" },
 ];
 
-export default function NavBar() {
+export default function NavBar({ type = "default" }: NavbarProps) {
   const [open, setOpen] = useState<boolean>(false);
   const [drawerWidth, setDrawerWidth] = useState<string | number>(300);
   const [activeMenu, setActiveMenu] = useState<string>("หน้าแรก");
@@ -122,9 +165,9 @@ export default function NavBar() {
 
   return (
     <>
-      <MenuButton onClick={() => setOpen(true)} />
+      <MenuButton onClick={() => setOpen(true)} type={type} />
 
-      <Nav size="large">
+      <Nav size="large" type={type}>
         {MENUS.map(({ name, path }) => (
           <Link key={name} href={path} passHref>
             <Title
