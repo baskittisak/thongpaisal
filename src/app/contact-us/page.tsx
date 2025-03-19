@@ -1,8 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 import NavBar from "@/components/Navbar";
+import ContactUs from "@/components/Home/ContactUs";
+import Footer from "@/components/Footer";
 
-export default function ProductsPage() {
+export default function ContactUsPage() {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -14,6 +16,8 @@ export default function ProductsPage() {
   return (
     <>
       <NavBar type="fixed" />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

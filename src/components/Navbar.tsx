@@ -140,7 +140,7 @@ const MENUS = [
   { name: "หน้าแรก", path: "/" },
   { name: "เกี่ยวกับเรา", path: "/about-us" },
   { name: "สินค้า", path: "/products" },
-  { name: "ติดต่อเรา", path: "/contact" },
+  { name: "ติดต่อเรา", path: "/contact-us" },
 ];
 
 export default function NavBar({ type = "default" }: NavbarProps) {
