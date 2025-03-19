@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import NavBar from "@/components/Navbar";
+import Products from "@/components/Home/Products";
+import Footer from "@/components/Footer";
 
 export default function ProductsPage() {
   const [isClient, setIsClient] = useState(false);
@@ -14,6 +16,8 @@ export default function ProductsPage() {
   return (
     <>
       <NavBar type="fixed" />
+      <Products />
+      <Footer />
     </>
   );
 }
