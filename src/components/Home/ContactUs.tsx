@@ -1,6 +1,14 @@
+import { useEffect } from "react";
 import { Col, Row, Typography } from "antd";
 import styled from "styled-components";
 import Image from "next/image";
+
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    FB?: any;
+  }
+}
 
 const { Title } = Typography;
 
@@ -64,11 +72,17 @@ const ImageWrapper = styled.div`
 
   iframe {
     border: none;
-    z-index: 1;
     height: 65%;
     position: relative;
     top: 34px;
     border-radius: 16px;
+  }
+
+  .fb_iframe_widget iframe {
+    width: 100% !important;
+    height: 100% !important;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   img {
@@ -78,6 +92,25 @@ const ImageWrapper = styled.div`
 `;
 
 export default function ContactUs() {
+  useEffect(() => {
+    if (!window.FB) {
+      const script = document.createElement("script");
+      script.src =
+        "https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v18.0";
+      script.async = true;
+      script.defer = true;
+      script.crossOrigin = "anonymous";
+      script.onload = () => {
+        if (window.FB) {
+          window.FB.XFBML.parse();
+        }
+      };
+      document.body.appendChild(script);
+    } else {
+      window.FB.XFBML.parse();
+    }
+  }, []);
+
   return (
     <FullScreenWrapper>
       <RowContainer>
@@ -86,7 +119,12 @@ export default function ContactUs() {
           <Title className="subtitle">US ON FACEBOOK</Title>
           <Title className="contact">@thongpaisal</Title>
           <ImageWrapper>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/profile.php?id=61564186742636&locale=th_TH" />
+            {/* <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/profile.php?id=61564186742636&locale=th_TH" /> */}
+            <div
+              className="fb-page"
+              data-href="https://www.facebook.com/profile.php?id=61564186742636"
+              data-tabs="timeline"
+            />
           </ImageWrapper>
         </ColContent>
         <ColContent color="#cc2a48" xl={8} sm={24} xs={24}>
