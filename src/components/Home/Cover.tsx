@@ -25,6 +25,10 @@ const FullScreenWrapper = styled.div`
   .ant-typography {
     color: #fff !important;
   }
+
+  @media (max-width: 768px) {
+    padding: 48px;
+  }
 `;
 
 const BackgroundImage = styled(Image)`

@@ -56,6 +56,10 @@ const Content = styled.div`
     flex-direction: column;
     gap: 20px;
   }
+
+  @media (max-width: 768px) {
+    padding: 36px;
+  }
 `;
 
 const ButtonProducts = styled.div`

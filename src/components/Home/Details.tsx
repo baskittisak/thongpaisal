@@ -15,6 +15,10 @@ const FullScreenWrapper = styled.div`
   @media (max-width: 1200px) {
     height: 100%;
   }
+
+  @media (max-width: 768px) {
+    padding: 36px;
+  }
 `;
 
 const RowContainer = styled(Row)`
