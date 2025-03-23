@@ -49,7 +49,7 @@ const Content = styled.div`
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 36px;
+  padding: 36px 150px;
   background-color: #f5f4f3;
 
   @media (max-width: 992px) {
