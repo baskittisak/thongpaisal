@@ -6,6 +6,7 @@ import AboutUsDetails from "@/components/AboutUs/AboutUsDetails";
 import Footer from "@/components/Footer";
 import Expert from "@/components/AboutUs/Expert";
 import Type from "@/components/AboutUs/Type";
+import TpsTechnology from "@/components/AboutUs/TpsTechnology";
 
 export default function AboutUsPage() {
   const [isClient, setIsClient] = useState(false);
@@ -23,6 +24,7 @@ export default function AboutUsPage() {
       <AboutUsDetails />
       <Expert />
       <Type />
+      <TpsTechnology />
       <Footer />
     </>
   );
