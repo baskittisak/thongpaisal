@@ -32,6 +32,13 @@ const FullScreenWrapper = styled.div`
   }
 `;
 
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+`;
+
 const RowContainer = styled(Row)`
   margin-top: 24px;
   justify-content: center;
@@ -95,114 +102,116 @@ const ColContent = styled(Col)`
 export default function Expert() {
   return (
     <FullScreenWrapper>
-      <Box $justify="flex-end">
-        <Space size={24}>
-          <Image
-            src="/icons/icon-made-in-thailand.png"
-            width={80}
-            height={80}
-            alt="thongpaisal"
-          />
-          <Space direction="vertical">
-            <Title>ทองไพศาล:</Title>
-            <Title className="title">
-              ผู้เชี่ยวชาญด้านการผลิตชิ้นงาน OEM ครบวงจร
-            </Title>
-          </Space>
-        </Space>
-      </Box>
-      <RowContainer gutter={[24, 24]}>
-        <ColImage xl={10} lg={10} sm={24} xs={24}>
-          <ImageContainer>
+      <Content>
+        <Box $justify="flex-end">
+          <Space size={24}>
             <Image
-              fill
-              src="/images/image-about-us-expert-1.png"
+              src="/icons/icon-made-in-thailand.png"
+              width={80}
+              height={80}
               alt="thongpaisal"
             />
-          </ImageContainer>
-        </ColImage>
-        <Col xl={14} lg={14} sm={24} xs={24}>
-          <Paragraph>
-            <Title level={2}>
-              สร้างสรรค์ผลิตภัณฑ์ที่ตอบโจทย์ความต้องการของคุณ ด้วยบริการ OEM
-              จากทองไพศาล ในยุคที่การแข่งขันทางธุรกิจทวีความรุนแรง
-              การสร้างความแตกต่างด้วยผลิตภัณฑ์ที่เป็นเอกลักษณ์ของตนเองจึงเป็นสิ่งสำคัญ
-              ทองไพศาลเข้าใจถึงความต้องการนี้ และพร้อมให้บริการผลิตชิ้นงาน OEM
-              (Original Equipment Manufacturer) แบบครบวงจร
-              เพื่อตอบโจทย์ความต้องการของธุรกิจคุณ
-            </Title>
-          </Paragraph>
-        </Col>
-        <Col xl={24} lg={24} sm={24} xs={24}>
-          <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
-        </Col>
-        <ColContent xl={4} lg={4} sm={12} xs={24}>
-          <Space direction="vertical" size="small" align="center">
-            <Image
-              src="/icons/icon-about-us-expert-1.png"
-              width={80}
-              height={80}
-              alt=""
-            />
-            <Title level={3}>ปรึกษา</Title>
+            <Space direction="vertical">
+              <Title>ทองไพศาล:</Title>
+              <Title className="title">
+                ผู้เชี่ยวชาญด้านการผลิตชิ้นงาน OEM ครบวงจร
+              </Title>
+            </Space>
           </Space>
-        </ColContent>
-        <ColContent xl={4} lg={4} sm={12} xs={24}>
-          <Space direction="vertical" size="small" align="center">
-            <Image
-              src="/icons/icon-about-us-expert-2.png"
-              width={80}
-              height={80}
-              alt=""
-            />
-            <Title level={3}>ออกแบบ</Title>
-          </Space>
-        </ColContent>
-        <ColContent xl={4} lg={4} sm={12} xs={24}>
-          <Space direction="vertical" size="small" align="center">
-            <Image
-              src="/icons/icon-about-us-expert-3.png"
-              width={80}
-              height={80}
-              alt=""
-            />
-            <Title level={3}>ประเมินราคา</Title>
-          </Space>
-        </ColContent>
-        <ColContent xl={4} lg={4} sm={12} xs={24}>
-          <Space direction="vertical" size="small" align="center">
-            <Image
-              src="/icons/icon-about-us-expert-4.png"
-              width={80}
-              height={80}
-              alt=""
-            />
-            <Title level={3}>ทำตัวอย่าง</Title>
-          </Space>
-        </ColContent>
-        <ColContent xl={4} lg={4} sm={12} xs={24}>
-          <Space direction="vertical" size="small" align="center">
-            <Image
-              src="/icons/icon-about-us-expert-5.png"
-              width={80}
-              height={80}
-              alt=""
-            />
-            <Title level={3}>สั่งผลิต</Title>
-          </Space>
-        </ColContent>
-        <ColContent xl={4} lg={4} sm={12} xs={24}>
-          <Space direction="vertical" size="small" align="center">
-            <Image
-              src="/icons/icon-about-us-expert-6.png"
-              width={80}
-              height={80}
-              alt=""
-            />
-            <Title level={3}>ดูแลหลังการขาย</Title>
-          </Space>
-        </ColContent>
-      </RowContainer>
+        </Box>
+        <RowContainer gutter={[24, 24]}>
+          <ColImage xl={10} lg={10} sm={24} xs={24}>
+            <ImageContainer>
+              <Image
+                fill
+                src="/images/image-about-us-expert-1.png"
+                alt="thongpaisal"
+              />
+            </ImageContainer>
+          </ColImage>
+          <Col xl={14} lg={14} sm={24} xs={24}>
+            <Paragraph>
+              <Title level={2}>
+                สร้างสรรค์ผลิตภัณฑ์ที่ตอบโจทย์ความต้องการของคุณ ด้วยบริการ OEM
+                จากทองไพศาล ในยุคที่การแข่งขันทางธุรกิจทวีความรุนแรง
+                การสร้างความแตกต่างด้วยผลิตภัณฑ์ที่เป็นเอกลักษณ์ของตนเองจึงเป็นสิ่งสำคัญ
+                ทองไพศาลเข้าใจถึงความต้องการนี้ และพร้อมให้บริการผลิตชิ้นงาน OEM
+                (Original Equipment Manufacturer) แบบครบวงจร
+                เพื่อตอบโจทย์ความต้องการของธุรกิจคุณ
+              </Title>
+            </Paragraph>
+          </Col>
+          <Col xl={24} lg={24} sm={24} xs={24}>
+            <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+          </Col>
+          <ColContent xl={4} lg={4} sm={12} xs={24}>
+            <Space direction="vertical" size="small" align="center">
+              <Image
+                src="/icons/icon-about-us-expert-1.png"
+                width={80}
+                height={80}
+                alt=""
+              />
+              <Title level={3}>ปรึกษา</Title>
+            </Space>
+          </ColContent>
+          <ColContent xl={4} lg={4} sm={12} xs={24}>
+            <Space direction="vertical" size="small" align="center">
+              <Image
+                src="/icons/icon-about-us-expert-2.png"
+                width={80}
+                height={80}
+                alt=""
+              />
+              <Title level={3}>ออกแบบ</Title>
+            </Space>
+          </ColContent>
+          <ColContent xl={4} lg={4} sm={12} xs={24}>
+            <Space direction="vertical" size="small" align="center">
+              <Image
+                src="/icons/icon-about-us-expert-3.png"
+                width={80}
+                height={80}
+                alt=""
+              />
+              <Title level={3}>ประเมินราคา</Title>
+            </Space>
+          </ColContent>
+          <ColContent xl={4} lg={4} sm={12} xs={24}>
+            <Space direction="vertical" size="small" align="center">
+              <Image
+                src="/icons/icon-about-us-expert-4.png"
+                width={80}
+                height={80}
+                alt=""
+              />
+              <Title level={3}>ทำตัวอย่าง</Title>
+            </Space>
+          </ColContent>
+          <ColContent xl={4} lg={4} sm={12} xs={24}>
+            <Space direction="vertical" size="small" align="center">
+              <Image
+                src="/icons/icon-about-us-expert-5.png"
+                width={80}
+                height={80}
+                alt=""
+              />
+              <Title level={3}>สั่งผลิต</Title>
+            </Space>
+          </ColContent>
+          <ColContent xl={4} lg={4} sm={12} xs={24}>
+            <Space direction="vertical" size="small" align="center">
+              <Image
+                src="/icons/icon-about-us-expert-6.png"
+                width={80}
+                height={80}
+                alt=""
+              />
+              <Title level={3}>ดูแลหลังการขาย</Title>
+            </Space>
+          </ColContent>
+        </RowContainer>
+      </Content>
     </FullScreenWrapper>
   );
 }
