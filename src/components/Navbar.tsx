@@ -96,6 +96,10 @@ const MenuButton = styled(MenuOutlined)<NavbarProps>`
       @media (max-width: 1024px) {
         display: flex !important;
       }
+
+      @media (max-width: 768px) {
+        padding: 24px 36px;
+      }
     `}
 `;
 

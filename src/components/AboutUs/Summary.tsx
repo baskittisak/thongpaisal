@@ -11,6 +11,10 @@ const FullScreenWrapper = styled.div`
   overflow: hidden;
   padding: 36px;
   background: linear-gradient(to bottom left, #000000, #1e9662);
+
+  @media (max-width: 1330px) {
+    height: 180vh;
+  }
 `;
 
 const Headline = styled.div`
@@ -58,9 +62,41 @@ const Content = styled.div`
   }
 
   .title {
+    white-space: pre;
     text-align: center;
     font-size: 4rem;
     margin-bottom: 16px !important;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 1330px) {
+    position: absolute;
+    top: -10%;
+    left: 6%;
+  }
+
+  @media (max-width: 1024px) {
+    .title {
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+    }
+
+    .correct {
+      width: 30px !important;
+      height: 30px !important;
+    }
+  }
+
+  @media (max-width: 700px) {
+    position: relative;
+    top: 0;
+    left: 0;
   }
 `;
 
@@ -81,6 +117,11 @@ const ButtonEvaluate = styled.div`
     font-size: 1rem;
     height: 55px;
     width: 50%;
+  }
+
+  @media (max-width: 700px) {
+    width: 70%;
+    height: 40px;
   }
 `;
 
@@ -104,6 +145,19 @@ const Parallelogram = styled.div`
     height: 180px !important;
     transform: skew(12deg);
     object-fit: cover;
+  }
+
+  @media (max-width: 1024px) {
+    transform: none;
+    right: 0;
+  }
+
+  @media (max-width: 700px) {
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    overflow: hidden;
+    top: 20%;
   }
 `;
 
@@ -155,39 +209,43 @@ export default function Summary() {
         <Space direction="vertical" size={16}>
           <Space size={32}>
             <Image
+              className="correct"
               src="/icons/icon-correct.png"
               width={60}
               height={60}
               alt=""
             />
-            <Title level={1}>ครบจบในที่เดียว</Title>
+            <Title className="subtitle">ครบจบในที่เดียว</Title>
           </Space>
           <Space size={32}>
             <Image
+              className="correct"
               src="/icons/icon-correct.png"
               width={60}
               height={60}
               alt=""
             />
-            <Title level={1}>ราคาโรงงานผลิต</Title>
+            <Title className="subtitle">ราคาโรงงานผลิต</Title>
           </Space>
           <Space size={32}>
             <Image
+              className="correct"
               src="/icons/icon-correct.png"
               width={60}
               height={60}
               alt=""
             />
-            <Title level={1}>มีบริการจัดส่งสินค้า</Title>
+            <Title className="subtitle">มีบริการจัดส่งสินค้า</Title>
           </Space>
           <Space size={32}>
             <Image
+              className="correct"
               src="/icons/icon-correct.png"
               width={60}
               height={60}
               alt=""
             />
-            <Title level={1}>รับประกันสินค้า</Title>
+            <Title className="subtitle">รับประกันสินค้า</Title>
           </Space>
         </Space>
         <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
