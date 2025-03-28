@@ -53,7 +53,7 @@ const Nav = styled(Space)<NavbarProps>`
     type === "fixed" &&
     css`
       width: 100%;
-      padding: 24px 36px;
+      padding: 24px 150px;
       justify-content: flex-end;
       z-index: 1;
       background: linear-gradient(
@@ -83,7 +83,7 @@ const MenuButton = styled(MenuOutlined)<NavbarProps>`
     type === "fixed" &&
     css`
       width: 100%;
-      padding: 24px 36px;
+      padding: 24px 150px;
       justify-content: flex-end;
       z-index: 1;
       background: linear-gradient(

@@ -69,6 +69,7 @@ const ColContent = styled(Col)<{ color: string }>`
 const ImageWrapper = styled.div`
   height: 100%;
   position: relative;
+  top: -30px;
 
   iframe {
     border: none;
