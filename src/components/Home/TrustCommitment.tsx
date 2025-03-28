@@ -148,8 +148,26 @@ const Wrapper = styled.div`
   padding-bottom: 36px;
   overflow: hidden;
 
+  .title {
+    padding: 36px 150px 0;
+  }
+
+  .content {
+    padding: 0 150px;
+  }
+
   @media (max-width: 1200px) {
     height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      padding: 36px;
+    }
+
+    .content {
+      padding: 0 36px;
+    }
   }
 `;
 
@@ -203,7 +221,7 @@ const Line = styled.div`
 export default function TrustCommitment() {
   return (
     <Wrapper>
-      <Title level={1} style={{ padding: "36px 36px 0 36px" }}>
+      <Title level={1} className="title">
         จากลูกค้าที่พึงพอใจของเรา
       </Title>
       <ImageWrapper>
@@ -220,7 +238,7 @@ export default function TrustCommitment() {
           ))}
         </GalleryWrapper>
       </ImageWrapper>
-      <Row gutter={[32, 32]} style={{ padding: "0 36px" }}>
+      <Row gutter={[32, 32]} className="content">
         <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Space direction="vertical" size={12}>
             <Line />

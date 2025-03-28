@@ -15,9 +15,9 @@ interface SizingProps {
 const FullScreenWrapper = styled.div`
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh + 69px);
   overflow: hidden;
-  padding: 36px;
+  padding: 36px 150px;
   background-color: rgba(0, 0, 0, 0.3);
 
   .ant-typography {
@@ -48,6 +48,10 @@ const FullScreenWrapper = styled.div`
 
   @media (max-width: 1200px) {
     height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    padding: 36px;
   }
 `;
 

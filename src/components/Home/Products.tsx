@@ -9,7 +9,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 36px;
+  padding: 36px 150px;
   background-color: #000000;
 
   .ant-typography {
@@ -18,6 +18,10 @@ const FullScreenWrapper = styled.div`
 
   @media (max-width: 1200px) {
     height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    padding: 36px;
   }
 `;
 

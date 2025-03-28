@@ -19,11 +19,15 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 48px 48px 96px 48px;
+  padding: 48px 150px 48px;
   background-color: rgba(0, 0, 0, 0.3);
 
   .ant-typography {
     color: #fff !important;
+  }
+
+  @media (max-width: 768px) {
+    padding: 48px;
   }
 `;
 
@@ -34,7 +38,7 @@ const BackgroundImage = styled(Image)`
 
 const TextOverlay = styled.div`
   position: relative;
-  width: 50%;
+  width: 70%;
 
   .title {
     font-size: 6rem;
@@ -51,10 +55,10 @@ const TextOverlay = styled.div`
   }
 
   @media (max-width: 1270px) {
-    width: 70%;
+    width: 80%;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1032px) {
     .title {
       font-size: 4rem;
       line-height: 65px;
