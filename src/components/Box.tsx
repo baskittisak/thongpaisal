@@ -12,6 +12,7 @@ interface BoxProps {
   $align?: "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
   $direction?: "row" | "row-reverse" | "column" | "column-reverse";
   $cursor?: "default" | "pointer" | "not-allowed";
+  $warp?: "nowrap" | "wrap" | "wrap-reverse";
   height?: string;
   onClick?: () => void;
   children?: React.ReactNode;

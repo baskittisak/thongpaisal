@@ -68,7 +68,7 @@ const Content = styled.div`
   }
 
   .content {
-    font-size: 1.5rem;
+    line-height: 1;
     font-weight: 400;
     color: #fff;
   }
