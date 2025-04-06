@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Col, Row, Typography } from "antd";
 import styled from "styled-components";
-import Image from "next/image";
 
 declare global {
   interface Window {
@@ -120,7 +119,6 @@ export default function ContactUs() {
           <Title className="subtitle">US ON FACEBOOK</Title>
           <Title className="contact">@thongpaisal</Title>
           <ImageWrapper>
-            {/* <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/profile.php?id=61564186742636&locale=th_TH" /> */}
             <div
               className="fb-page"
               data-href="https://www.facebook.com/profile.php?id=61564186742636"
@@ -130,15 +128,13 @@ export default function ContactUs() {
         </ColContent>
         <ColContent color="#cc2a48" xl={8} sm={24} xs={24}>
           <Title className="title">FOLLOW</Title>
-          <Title className="subtitle">US ON INSTAGRAM</Title>
-          <Title className="contact">@bigto_official</Title>
-          <ImageWrapper>
-            <Image
-              src="/images/image-home-contact-us-1.png"
-              alt="thongpaisal"
-              fill
-            />
-          </ImageWrapper>
+          <Title className="subtitle">US ON FACEBOOK</Title>
+          <Title className="contact">@BIGTO THAI</Title>
+          <div
+            className="fb-page"
+            data-href="https://www.facebook.com/bigtothailand"
+            data-tabs="timeline"
+          />
         </ColContent>
         <ColContent color="#000000" xl={8} sm={24} xs={24}>
           <Title className="title">FOLLOW</Title>
