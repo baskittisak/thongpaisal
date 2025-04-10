@@ -9,7 +9,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 48px 150px 48px;
+  padding: 32px 150px 32px;
 
   .title {
     font-size: 5rem;
@@ -35,7 +35,11 @@ const FullScreenWrapper = styled.div`
     width: 100%;
   }
 
-  @media (max-width: 1180px) {
+  @media (max-width: 1340px) {
+    padding: 32px 80px 32px;
+  }
+
+  @media (max-width: 1200px) {
     height: 100%;
   }
 
@@ -93,7 +97,19 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+
+  @media (max-width: 1200px) {
+    height: 200vh;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 960px) {
+    height: 220vh;
+  }
+
+  @media (max-width: 576px) {
+    height: 180vh;
+  }
 `;
 
 const Box = styled.div`
@@ -124,11 +140,19 @@ const Box = styled.div`
   }
 `;
 
-const Paper = styled.div`
+const Paper = styled.div<{ type?: string }>`
   width: 100%;
   padding: 16px;
   background-color: #fff;
   border-radius: 12px;
+  overflow: auto;
+  margin-bottom: 16px;
+
+  height: ${({ type }) => (type === "map" ? "40%" : "auto")};
+
+  @media (max-width: 1200px) {
+    height: ${({ type }) => (type === "map" ? "60%" : "auto")};
+  }
 `;
 
 const Form = styled.div`
@@ -220,7 +244,7 @@ export default function ContactUsForm() {
             </Box>
           </Col>
           <Col xl={10} lg={24} sm={24} xs={24}>
-            <Title level={1}>ให้เราได้ดูแลคุณ</Title>
+            <Title level={2}>ให้เราได้ดูแลคุณ</Title>
             <Paper>
               <Form>
                 <Space direction="vertical" size={4}>
@@ -265,6 +289,17 @@ export default function ContactUsForm() {
                   <Title level={5}>ส่งฟอร์ม</Title>
                 </Button>
               </Form>
+            </Paper>
+            <Paper type="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.7667584319775!2d100.42297640000001!3d13.611052499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2bd136dbdb669%3A0x12b6f382d1b0a7ea!2z4Lic4Lil4Li04LiV4LmB4Lil4Liw4LiI4Liz4Lir4LiZ4LmI4Liy4Lii4Lit4Liw4LmE4Lir4Lil4LmI4Lij4LiW4Lia4Lij4Lij4LiX4Li44LiBLeC4l-C4reC4h-C5hOC4nuC4qOC4suC4pShCSUdUTyk!5e0!3m2!1sth!2sth!4v1744288051745!5m2!1sth!2sth"
+                loading="lazy"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  border: "0",
+                }}
+              />
             </Paper>
           </Col>
         </Row>
