@@ -1,4 +1,4 @@
-import { Col, Row, Space, Typography } from "antd";
+import { Col, Input, Row, Select, Space, Typography } from "antd";
 import Image from "next/image";
 import styled from "styled-components";
 
@@ -124,6 +124,38 @@ const Box = styled.div`
   }
 `;
 
+const Paper = styled.div`
+  width: 100%;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+`;
+
+const Form = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+`;
+
+const SelectContainer = styled(Select)`
+  width: 100%;
+`;
+
+const Button = styled.div`
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f76a12;
+  border-radius: 8px;
+  height: 40px;
+
+  .ant-typography {
+    color: #fff !important;
+  }
+`;
+
 export default function ContactUsForm() {
   return (
     <FullScreenWrapper>
@@ -135,7 +167,7 @@ export default function ContactUsForm() {
       />
       <Content>
         <Row gutter={[32, 32]}>
-          <Col xl={16} lg={24} sm={24} xs={24}>
+          <Col xl={14} lg={24} sm={24} xs={24}>
             <Space size={0} className="topic">
               <Image
                 src="/icons/icon-q1.png"
@@ -187,7 +219,54 @@ export default function ContactUsForm() {
               </Space>
             </Box>
           </Col>
-          <Col xl={8} lg={24} sm={24} xs={24}></Col>
+          <Col xl={10} lg={24} sm={24} xs={24}>
+            <Title level={1}>ให้เราได้ดูแลคุณ</Title>
+            <Paper>
+              <Form>
+                <Space direction="vertical" size={4}>
+                  <Typography>ชื่อ-สกุล</Typography>
+                  <Input type="text" placeholder="กรอกชื่อ-สกุล" />
+                </Space>
+                <Space direction="vertical" size={4}>
+                  <Typography>อีเมล์</Typography>
+                  <Input type="text" placeholder="กรอกอีเมล์" />
+                </Space>
+                <Space direction="vertical" size={4}>
+                  <Typography>วัตถุประสงค์</Typography>
+                  <SelectContainer placeholder="เลือกวัตถุประสงค์">
+                    <Select.Option key="1" value="สอบถามข้อมูลสินค้า">
+                      สอบถามข้อมูลสินค้า
+                    </Select.Option>
+                    <Select.Option key="2" value="ขอใบเสนอราคา">
+                      ขอใบเสนอราคา
+                    </Select.Option>
+                    <Select.Option
+                      key="3"
+                      value="ติดต่อเพื่อเป็นคู่ค้า / ตัวแทนจำหน่าย"
+                    >
+                      ติดต่อเพื่อเป็นคู่ค้า / ตัวแทนจำหน่าย
+                    </Select.Option>
+                    <Select.Option
+                      key="4"
+                      value="แจ้งปัญหาการใช้งาน / ขอความช่วยเหลือ"
+                    >
+                      แจ้งปัญหาการใช้งาน / ขอความช่วยเหลือ
+                    </Select.Option>
+                    <Select.Option key="5" value="อื่นๆ">
+                      อื่นๆ(โปรดระบุในข้อความเพิ่มเติม)
+                    </Select.Option>
+                  </SelectContainer>
+                </Space>
+                <Space direction="vertical" size={4}>
+                  <Typography>ข้อความเพิ่มเติม</Typography>
+                  <Input.TextArea rows={2} placeholder="กรอข้อความเพิ่มเติม" />
+                </Space>
+                <Button>
+                  <Title level={5}>ส่งฟอร์ม</Title>
+                </Button>
+              </Form>
+            </Paper>
+          </Col>
         </Row>
       </Content>
     </FullScreenWrapper>
