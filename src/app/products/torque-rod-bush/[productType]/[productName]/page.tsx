@@ -4,7 +4,7 @@ import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductDetails from "@/components/Products/ProductDetails";
 
-export default function TorqueRodBushPage() {
+export default function TorqueRodBushDetailPage() {
   const { productType } = useParams();
   const pathName = usePathname();
 
