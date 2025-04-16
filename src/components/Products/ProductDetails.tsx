@@ -1,4 +1,5 @@
-import { useRef } from "react";
+"use client";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ParamValue } from "next/dist/server/request/params";
 import Slider, { Settings } from "react-slick";
 import { Col, Row, Space, Typography } from "antd";
@@ -126,17 +127,25 @@ export default function ProductDetails({
   productType,
   pathName,
 }: ProductDetailsProps) {
-  const mainSliderRef = useRef<Slider | null>(null);
-  const thumbSliderRef = useRef<Slider | null>(null);
+  const mainSliderRef = useRef<Slider>(null!);
+  const thumbSliderRef = useRef<Slider>(null!);
+
+  const [sliderReady, setSliderReady] = useState(false);
+
+  useEffect(() => {
+    if (mainSliderRef.current && thumbSliderRef.current) {
+      setSliderReady(true);
+    }
+  }, []);
 
   const mainSettings: Settings = {
-    asNavFor: thumbSliderRef.current as Slider | undefined,
+    asNavFor: sliderReady ? (thumbSliderRef.current as Slider) : undefined,
     arrows: false,
     fade: true,
   };
 
   const thumbSettings: Settings = {
-    asNavFor: mainSliderRef.current as Slider | undefined,
+    asNavFor: sliderReady ? (mainSliderRef.current as Slider) : undefined,
     slidesToShow: 3,
     swipeToSlide: true,
     focusOnSelect: true,
@@ -144,18 +153,19 @@ export default function ProductDetails({
     arrows: false,
   };
 
-  if (!mainSliderRef || !thumbSliderRef) return null;
-
-  const products =
-    productType === "bogie"
+  const products = useMemo(() => {
+    return productType === "bogie"
       ? TORQUE_ROD_BUSH_BOGIE
       : productType === "chinese"
       ? TORQUE_ROD_BUSH_CHINESE
       : productType === "scania"
       ? TORQUE_ROD_BUSH_SCANIA
       : TORQUE_ROD_BUSH_CRANE;
+  }, [productType]);
 
-  const productDetail = products.find((product) => product.link === pathName);
+  const productDetail = useMemo(() => {
+    return products.find((product) => product.link === pathName);
+  }, [pathName, products]);
 
   return (
     <FullScreenWrapper>
