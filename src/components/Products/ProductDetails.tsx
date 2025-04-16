@@ -247,7 +247,7 @@ export default function ProductDetails({
             </Box>
           </SpaceContainer>
           <Box $align="center" $justify="center">
-            <Title level={2}>ID: 781256</Title>
+            <Title level={2}>ID: {productDetail?.id}</Title>
             <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
           </Box>
         </Col>

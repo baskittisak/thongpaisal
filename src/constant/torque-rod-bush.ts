@@ -1,5 +1,6 @@
 export const TORQUE_ROD_BUSH_BOGIE = [
   {
+    id: 100001,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-standard",
@@ -12,6 +13,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100002,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-four-holes",
@@ -25,6 +27,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100003,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-wrapper",
@@ -36,6 +39,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100004,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-isuzu",
@@ -49,6 +53,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100005,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-egypt",
@@ -62,6 +67,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100006,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-gx-0",
@@ -75,6 +81,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100007,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-hino-series",
@@ -89,6 +96,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100008,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-lg-mg-mt",
@@ -102,6 +110,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100009,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-p-1",
@@ -114,6 +123,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100010,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-p-2",
@@ -126,6 +136,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100011,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-p-3",
@@ -138,6 +149,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100012,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-p.a.inter",
@@ -150,6 +162,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100013,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-py",
@@ -163,6 +176,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100014,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-sunny",
@@ -176,6 +190,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100015,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-black-core",
@@ -189,6 +204,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100016,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-open-core",
@@ -201,6 +217,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100017,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-small-core",
@@ -214,6 +231,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100018,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-pyk",
@@ -226,6 +244,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100019,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-ud-outer-head",
@@ -241,6 +260,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100020,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-jcm",
@@ -253,6 +273,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100021,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-kt",
@@ -265,6 +286,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100021,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-tx-68",
@@ -278,6 +300,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     ],
   },
   {
+    id: 100022,
     type: "ลูกหมากเพลาโบกี้",
     kind: "TORQUE ROD BUSH",
     name: "bogie-super-ud",
@@ -295,6 +318,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
 
 export const TORQUE_ROD_BUSH_SCANIA = [
   {
+    id: 200001,
     type: "ลูกหมาก SCANIA",
     kind: "TORQUE ROD BUSH",
     name: "scania-big-hole",
@@ -308,6 +332,7 @@ export const TORQUE_ROD_BUSH_SCANIA = [
     ],
   },
   {
+    id: 200002,
     type: "ลูกหมาก SCANIA",
     kind: "TORQUE ROD BUSH",
     name: "scania-small-hole",
@@ -325,6 +350,7 @@ export const TORQUE_ROD_BUSH_SCANIA = [
 
 export const TORQUE_ROD_BUSH_CHINESE = [
   {
+    id: 300001,
     type: "ลูกหมากรถจีน",
     kind: "TORQUE ROD BUSH",
     name: "chinese-tongfong",
@@ -338,6 +364,7 @@ export const TORQUE_ROD_BUSH_CHINESE = [
     ],
   },
   {
+    id: 300002,
     type: "ลูกหมากรถจีน",
     kind: "TORQUE ROD BUSH",
     name: "chinese-faw-small",
@@ -351,6 +378,7 @@ export const TORQUE_ROD_BUSH_CHINESE = [
     ],
   },
   {
+    id: 300003,
     type: "ลูกหมากรถจีน",
     kind: "TORQUE ROD BUSH",
     name: "chinese-faw-big",
@@ -364,6 +392,7 @@ export const TORQUE_ROD_BUSH_CHINESE = [
     ],
   },
   {
+    id: 300004,
     type: "ลูกหมากรถจีน",
     kind: "TORQUE ROD BUSH",
     name: "chinese-faw-dump",
@@ -377,6 +406,7 @@ export const TORQUE_ROD_BUSH_CHINESE = [
     ],
   },
   {
+    id: 300005,
     type: "ลูกหมากรถจีน",
     kind: "TORQUE ROD BUSH",
     name: "chinese-pawson",
@@ -393,6 +423,7 @@ export const TORQUE_ROD_BUSH_CHINESE = [
 
 export const TORQUE_ROD_BUSH_CRANE = [
   {
+    id: 400001,
     type: "ลูกหมากรถเครน",
     kind: "TORQUE ROD BUSH",
     name: "crane-tadano",
