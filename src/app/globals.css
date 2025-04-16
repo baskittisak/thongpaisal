@@ -39,3 +39,8 @@ h6,
 ::placeholder {
   font-family: var(--font-prompt), sans-serif;
 }
+
+.slick-slide.slick-current img.thumb {
+  border: 2px solid #ff3130;
+  background-color: #ff3130;
+}
