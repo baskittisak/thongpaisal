@@ -169,7 +169,10 @@ export default function NavBar({ type = "default" }: NavbarProps) {
   }, []);
 
   useEffect(() => {
-    const activeMenu = MENUS.find((menu) => menu.path === pathName)?.name;
+    const activeMenu = MENUS.find(
+      (menu) => pathName === menu.path || pathName.startsWith(menu.path + "/")
+    )?.name;
+
     if (activeMenu) {
       setActiveMenu(activeMenu);
     }

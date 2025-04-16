@@ -1,6 +1,7 @@
 import { Col, Row, Space, Typography } from "antd";
 import styled from "styled-components";
 import Image from "next/image";
+import Link from "next/link";
 
 const { Title } = Typography;
 
@@ -99,7 +100,9 @@ export default function Products() {
               ซึ่งมีหน้าที่รับน้ำหนักและแรงกระแทกจากพื้นถนน
             </Title>
           </Text>
-          <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
+          <Link href="/products/torque-rod-bush" passHref>
+            <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
+          </Link>
         </ColContent>
         <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
