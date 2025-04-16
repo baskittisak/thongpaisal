@@ -11,6 +11,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/standard/standard-2.jpg",
       "/images/products/torque-rod-bush/bogie/standard/standard-3.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100002,
@@ -25,6 +47,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/four-holes/four-holes-3.jpg",
       "/images/products/torque-rod-bush/bogie/four-holes/four-holes-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100003,
@@ -36,6 +80,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     images: [
       "/images/products/torque-rod-bush/bogie/wrapper/wrapper-1.jpg",
       "/images/products/torque-rod-bush/bogie/wrapper/wrapper-2.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -51,6 +117,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/isuzu/isuzu-3.jpg",
       "/images/products/torque-rod-bush/bogie/isuzu/isuzu-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100005,
@@ -65,6 +153,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/egypt/egypt-3.jpg",
       "/images/products/torque-rod-bush/bogie/egypt/egypt-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100006,
@@ -78,6 +188,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/gx-0/gx-0-2.jpg",
       "/images/products/torque-rod-bush/bogie/gx-0/gx-0-3.jpg",
       "/images/products/torque-rod-bush/bogie/gx-0/gx-0-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -94,6 +226,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/hino-series/hino-series-3.jpg",
       "/images/products/torque-rod-bush/bogie/hino-series/hino-series-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100008,
@@ -108,6 +262,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-3.jpg",
       "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100009,
@@ -120,6 +296,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/p-1/p-1-1.jpg",
       "/images/products/torque-rod-bush/bogie/p-1/p-1-2.jpg",
       "/images/products/torque-rod-bush/bogie/p-1/p-1-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -134,6 +332,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/p-2/p-2-2.jpg",
       "/images/products/torque-rod-bush/bogie/p-2/p-2-3.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100011,
@@ -147,6 +367,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/p-3/p-3-2.jpg",
       "/images/products/torque-rod-bush/bogie/p-3/p-3-3.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100012,
@@ -159,6 +401,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/p.a.inter/p.a.inter-1.jpg",
       "/images/products/torque-rod-bush/bogie/p.a.inter/p.a.inter-2.jpg",
       "/images/products/torque-rod-bush/bogie/p.a.inter/p.a.inter-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -174,6 +438,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/py/py-3.jpg",
       "/images/products/torque-rod-bush/bogie/py/py-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100014,
@@ -187,6 +473,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/sunny/sunny-2.jpg",
       "/images/products/torque-rod-bush/bogie/sunny/sunny-3.jpg",
       "/images/products/torque-rod-bush/bogie/sunny/sunny-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -202,6 +510,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/super-black-core/super-black-core-2.jpg",
       "/images/products/torque-rod-bush/bogie/super-black-core/super-black-core-3.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100016,
@@ -214,6 +544,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
     images: [
       "/images/products/torque-rod-bush/bogie/super-open-core/super-open-core-1.jpg",
       "/images/products/torque-rod-bush/bogie/super-open-core/super-open-core-2.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -229,6 +581,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/super-small-core/super-small-core-2.jpg",
       "/images/products/torque-rod-bush/bogie/super-small-core/super-small-core-3.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100018,
@@ -241,6 +615,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/super-pyk/super-pyk-1.jpg",
       "/images/products/torque-rod-bush/bogie/super-pyk/super-pyk-2.jpg",
       "/images/products/torque-rod-bush/bogie/super-pyk/super-pyk-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -258,6 +654,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/ud-outer-head/ud-outer-head-4.jpg",
       "/images/products/torque-rod-bush/bogie/ud-outer-head/ud-outer-head-5.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100020,
@@ -271,6 +689,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/jcm/jcm-2.jpg",
       "/images/products/torque-rod-bush/bogie/jcm/jcm-3.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100021,
@@ -283,6 +723,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/kt/kt-1.jpg",
       "/images/products/torque-rod-bush/bogie/kt/kt-2.jpg",
       "/images/products/torque-rod-bush/bogie/kt/kt-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -298,6 +760,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/tx-68/tx-68-3.jpg",
       "/images/products/torque-rod-bush/bogie/tx-68/tx-68-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 100022,
@@ -312,6 +796,28 @@ export const TORQUE_ROD_BUSH_BOGIE = [
       "/images/products/torque-rod-bush/bogie/ud/ud-3.jpg",
       "/images/products/torque-rod-bush/bogie/ud/ud-4.jpg",
       "/images/products/torque-rod-bush/bogie/ud/ud-5.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
 ];
@@ -330,6 +836,28 @@ export const TORQUE_ROD_BUSH_SCANIA = [
       "/images/products/torque-rod-bush/scania/big-hole/big-hole-3.jpg",
       "/images/products/torque-rod-bush/scania/big-hole/big-hole-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 200002,
@@ -344,6 +872,28 @@ export const TORQUE_ROD_BUSH_SCANIA = [
       "/images/products/torque-rod-bush/scania/small-hole/small-hole-2.jpg",
       "/images/products/torque-rod-bush/scania/small-hole/small-hole-3.jpg",
       "/images/products/torque-rod-bush/scania/small-hole/small-hole-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
 ];
@@ -362,6 +912,28 @@ export const TORQUE_ROD_BUSH_CHINESE = [
       "/images/products/torque-rod-bush/chinese/tongfong/tongfong-3.jpg",
       "/images/products/torque-rod-bush/chinese/tongfong/tongfong-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 300002,
@@ -375,6 +947,28 @@ export const TORQUE_ROD_BUSH_CHINESE = [
       "/images/products/torque-rod-bush/chinese/faw-small/faw-small-2.jpg",
       "/images/products/torque-rod-bush/chinese/faw-small/faw-small-3.jpg",
       "/images/products/torque-rod-bush/chinese/faw-small/faw-small-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
   {
@@ -390,6 +984,28 @@ export const TORQUE_ROD_BUSH_CHINESE = [
       "/images/products/torque-rod-bush/chinese/faw-big/faw-big-3.jpg",
       "/images/products/torque-rod-bush/chinese/faw-big/faw-big-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 300004,
@@ -404,6 +1020,28 @@ export const TORQUE_ROD_BUSH_CHINESE = [
       "/images/products/torque-rod-bush/chinese/faw-dump/faw-dump-3.jpg",
       "/images/products/torque-rod-bush/chinese/faw-dump/faw-dump-4.jpg",
     ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
+    ],
   },
   {
     id: 300005,
@@ -417,6 +1055,28 @@ export const TORQUE_ROD_BUSH_CHINESE = [
       "/images/products/torque-rod-bush/chinese/pawson/pawson-2.jpg",
       "/images/products/torque-rod-bush/chinese/pawson/pawson-3.jpg",
       "/images/products/torque-rod-bush/chinese/pawson/pawson-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
 ];
@@ -435,6 +1095,28 @@ export const TORQUE_ROD_BUSH_CRANE = [
       "/images/products/torque-rod-bush/crane/tadano/tadano-3.jpg",
       "/images/products/torque-rod-bush/crane/tadano/tadano-4.jpg",
       "/images/products/torque-rod-bush/crane/tadano/tadano-5.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "30+T",
+      },
     ],
   },
 ];

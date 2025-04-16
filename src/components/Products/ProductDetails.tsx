@@ -201,50 +201,19 @@ export default function ProductDetails({
           </Brand>
           <Title level={4}>รายละเอียดสินค้า</Title>
           <SpaceContainer direction="vertical" size={16}>
-            <Box $align="center">
-              <Image
-                width={80}
-                height={80}
-                src="/icons/products/torque-rod-bush/icon-product-code.png"
-                alt="torque-rod-bush"
-              />
-              <Content>
-                <Title level={1}>AP-78-410</Title>
-              </Content>
-            </Box>
-            <Box $align="center">
-              <Image
-                width={80}
-                height={80}
-                src="/icons/products/torque-rod-bush/icon-type-crane.png"
-                alt="torque-rod-bush"
-              />
-              <Content>
-                <Title level={1}>ใช้ได้ในรถเครน</Title>
-              </Content>
-            </Box>
-            <Box $align="center">
-              <Image
-                width={80}
-                height={80}
-                src="/icons/products/torque-rod-bush/icon-move.png"
-                alt="torque-rod-bush"
-              />
-              <Content>
-                <Title level={1}>แกนหมุนได้</Title>
-              </Content>
-            </Box>
-            <Box $align="center">
-              <Image
-                width={80}
-                height={80}
-                src="/icons/products/torque-rod-bush/icon-weight.png"
-                alt="torque-rod-bush"
-              />
-              <Content>
-                <Title level={1}>30+T</Title>
-              </Content>
-            </Box>
+            {productDetail?.details?.map((detail) => (
+              <Box $align="center" key={detail.name}>
+                <Image
+                  width={80}
+                  height={80}
+                  src={detail.icons}
+                  alt="torque-rod-bush"
+                />
+                <Content>
+                  <Title level={1}>{detail.detail}</Title>
+                </Content>
+              </Box>
+            ))}
           </SpaceContainer>
           <Box $align="center" $justify="center">
             <Title level={2}>ID: {productDetail?.id}</Title>
