@@ -32,6 +32,15 @@ h4,
 h5,
 h6,
 .ant-typography,
-.ant-btn {
+.ant-btn,
+.ant-select-selection-placeholder,
+.ant-select-item-option-content,
+.ant-select-selection-item,
+::placeholder {
   font-family: var(--font-prompt), sans-serif;
+}
+
+.slick-slide.slick-current img.thumb {
+  border: 2px solid #ff3130;
+  background-color: #ff3130;
 }

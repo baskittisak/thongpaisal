@@ -124,7 +124,7 @@ export default function Expert() {
             <ImageContainer>
               <Image
                 fill
-                src="/images/image-about-us-expert-1.png"
+                src="/images/image-about-us-expert-1.jpg"
                 alt="thongpaisal"
               />
             </ImageContainer>

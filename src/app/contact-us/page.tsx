@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import NavBar from "@/components/Navbar";
-import ContactUs from "@/components/Home/ContactUs";
 import Footer from "@/components/Footer";
+import ContactUsForm from "@/components/ContactUs/ContactUsForm";
+import ContactUsMap from "@/components/ContactUs/ContactUsMap";
 
 export default function ContactUsPage() {
   const [isClient, setIsClient] = useState(false);
@@ -16,7 +17,8 @@ export default function ContactUsPage() {
   return (
     <>
       <NavBar type="fixed" />
-      <ContactUs />
+      <ContactUsForm />
+      <ContactUsMap />
       <Footer />
     </>
   );

@@ -33,6 +33,10 @@ const Name = styled.div`
   display: flex;
   align-items: center;
 
+  img {
+    margin-right: 12px;
+  }
+
   @media (max-width: 768px) {
     justify-content: center;
 
@@ -77,7 +81,7 @@ export default function Footer() {
       />
       <Name>
         <Image
-          src="/icons/icon-logo.png"
+          src="/icons/icon-footer.png"
           width={80}
           height={80}
           alt="thongpaisal"
