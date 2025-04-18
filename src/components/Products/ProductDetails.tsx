@@ -19,6 +19,13 @@ import {
   SEAL_DUMP,
   SEAL_PIG_SPUR,
 } from "@/constant/seal";
+import {
+  BUSH_BUSHINGS,
+  BUSH_RUBBER,
+  BUSH_SHOCKPROOF,
+  BUSH_SLANT,
+  BUSH_LOCK_DUMP,
+} from "@/constant/bush";
 import styled from "styled-components";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
@@ -193,9 +200,25 @@ export default function ProductDetails({
       : SEAL_PIG_SPUR;
   }, [productType]);
 
+  const productsBush = useMemo(() => {
+    return productType === "bushings"
+      ? BUSH_BUSHINGS
+      : productType === "rubber"
+      ? BUSH_RUBBER
+      : productType === "shockproof"
+      ? BUSH_SHOCKPROOF
+      : productType === "slant"
+      ? BUSH_SLANT
+      : BUSH_LOCK_DUMP;
+  }, [productType]);
+
   const products = useMemo(() => {
-    return type === "torqueRodBush" ? productsTorque : productsSeal;
-  }, [productsSeal, productsTorque, type]);
+    return type === "torqueRodBush"
+      ? productsTorque
+      : type === "seal"
+      ? productsSeal
+      : productsBush;
+  }, [productsSeal, productsTorque, productsBush, type]);
 
   const productDetail = useMemo(() => {
     return products.find((product) => product.link === pathName);
@@ -248,12 +271,7 @@ export default function ProductDetails({
             {productDetail?.details?.map((detail) => (
               <Box $align="center" key={detail.name}>
                 {detail.icons && (
-                  <Image
-                    width={80}
-                    height={80}
-                    src={detail.icons}
-                    alt={type}
-                  />
+                  <Image width={80} height={80} src={detail.icons} alt={type} />
                 )}
                 <Content>
                   <Title level={1}>{detail.detail}</Title>
