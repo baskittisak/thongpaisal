@@ -1006,7 +1006,7 @@ export const SEAL_TRAILER = [
   },
 ];
 
-export const SEAL_HITNO = [
+export const SEAL_HTNO = [
   {
     id: 300001,
     type: "ซีลล้อ HINO",
@@ -2009,14 +2009,14 @@ export const SEAL_ISUZU = [
     id: 400015,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-136-0",
-    image: "/images/products/seal/isuzu/9-09724-136-0/9-09724-136-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-136-0",
+    name: "isuzu-9-09924-136-0",
+    image: "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-136-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-136-0/9-09724-136-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-136-0/9-09724-136-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-136-0/9-09724-136-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-136-0/9-09724-136-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-4.jpg",
     ],
     details: [
       {
@@ -2046,14 +2046,14 @@ export const SEAL_ISUZU = [
     id: 400016,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-242-0",
-    image: "/images/products/seal/isuzu/9-09724-242-0/9-09724-242-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-242-0",
+    name: "isuzu-9-09924-242-0",
+    image: "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-242-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-242-0/9-09724-242-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-242-0/9-09724-242-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-242-0/9-09724-242-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-242-0/9-09724-242-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-4.jpg",
     ],
     details: [
       {
@@ -2083,14 +2083,14 @@ export const SEAL_ISUZU = [
     id: 400017,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-290-0",
-    image: "/images/products/seal/isuzu/9-09724-290-0/9-09724-290-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-290-0",
+    name: "isuzu-9-09924-290-0",
+    image: "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-290-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-290-0/9-09724-290-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-290-0/9-09724-290-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-290-0/9-09724-290-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-290-0/9-09724-290-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-4.jpg",
     ],
     details: [
       {
@@ -2120,14 +2120,14 @@ export const SEAL_ISUZU = [
     id: 400018,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-350-0",
-    image: "/images/products/seal/isuzu/9-09724-350-0/9-09724-350-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-350-0",
+    name: "isuzu-9-09924-350-0",
+    image: "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-350-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-350-0/9-09724-350-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-350-0/9-09724-350-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-350-0/9-09724-350-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-350-0/9-09724-350-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-4.jpg",
     ],
     details: [
       {
@@ -2157,14 +2157,14 @@ export const SEAL_ISUZU = [
     id: 400019,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-374-0",
-    image: "/images/products/seal/isuzu/9-09724-374-0/9-09724-374-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-374-0",
+    name: "isuzu-9-09924-374-0",
+    image: "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-374-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-374-0/9-09724-374-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-374-0/9-09724-374-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-374-0/9-09724-374-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-374-0/9-09724-374-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-4.jpg",
     ],
     details: [
       {
@@ -2194,14 +2194,14 @@ export const SEAL_ISUZU = [
     id: 400020,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-444-0",
-    image: "/images/products/seal/isuzu/9-09724-444-0/9-09724-444-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-444-0",
+    name: "isuzu-9-09924-444-0",
+    image: "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-444-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-444-0/9-09724-444-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-444-0/9-09724-444-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-444-0/9-09724-444-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-444-0/9-09724-444-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-4.jpg",
     ],
     details: [
       {
@@ -2231,14 +2231,14 @@ export const SEAL_ISUZU = [
     id: 400021,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-470-0",
-    image: "/images/products/seal/isuzu/9-09724-470-0/9-09724-470-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-470-0",
+    name: "isuzu-9-09924-470-0",
+    image: "/images/products/seal/isuzu/9-09924-470-0/9-09924-470-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-470-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-470-0/9-09724-470-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-470-0/9-09724-470-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-470-0/9-09724-470-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-470-0/9-09724-470-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-470-0/9-09924-470-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-470-0/9-09924-470-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-470-0/9-09924-470-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-470-0/9-09924-470-0-4.jpg",
     ],
     details: [
       {
@@ -2268,14 +2268,14 @@ export const SEAL_ISUZU = [
     id: 400022,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-500-0",
-    image: "/images/products/seal/isuzu/9-09724-500-0/9-09724-500-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-500-0",
+    name: "isuzu-9-09924-500-0",
+    image: "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-500-0",
     images: [
-      "/images/products/seal/isuzu/9-09724-500-0/9-09724-500-0-1.jpg",
-      "/images/products/seal/isuzu/9-09724-500-0/9-09724-500-0-2.jpg",
-      "/images/products/seal/isuzu/9-09724-500-0/9-09724-500-0-3.jpg",
-      "/images/products/seal/isuzu/9-09724-500-0/9-09724-500-0-4.jpg",
+      "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-1.jpg",
+      "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-2.jpg",
+      "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-3.jpg",
+      "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-4.jpg",
     ],
     details: [
       {
@@ -2305,10 +2305,10 @@ export const SEAL_ISUZU = [
     id: 400023,
     type: "ซีลล้อ ISUZU",
     kind: "SEAL ISUZU WHEEL",
-    name: "isuzu-9-09724-511-0",
-    image: "/images/products/seal/isuzu/9-09724-511-0/9-09724-511-0-1.jpg",
-    link: "/products/seal/isuzu/9-09724-511-0",
-    images: ["/images/products/seal/isuzu/9-09724-511-0/9-09724-511-0-1.jpg"],
+    name: "isuzu-9-09924-511-0",
+    image: "/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-1.jpg",
+    link: "/products/seal/isuzu/9-09924-511-0",
+    images: ["/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-1.jpg"],
     details: [
       {
         name: "product-code",
