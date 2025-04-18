@@ -138,7 +138,9 @@ export default function Products() {
               ช่วยลดการสั่นสะเทือนและแรงกระแทกจากพื้นถนน
             </Title>
           </Text>
-          <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
+          <Link href="/products/bush" passHref>
+            <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
+          </Link>
         </ColContent>
       </Row>
     </FullScreenWrapper>
