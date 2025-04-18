@@ -74,7 +74,7 @@ const ButtonProducts = styled.div`
 export default function Bush() {
   return (
     <>
-      <ProductCover type="torqueRodBush" />
+      <ProductCover type="bush" />
       <FullScreenWrapper>
         <Space>
           <Space direction="vertical" size={4}>

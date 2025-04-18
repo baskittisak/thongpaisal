@@ -26,6 +26,12 @@ const PRODUCT_COVER_DETAILS = [
       "ซีลล้อ (Wheel seal) คือชิ้นส่วนสำคัญในระบบล้อของยานพาหนะ มีหน้าที่หลักคือป้องกันไม่ให้จาระบีหรือน้ำมันหล่อลื่นที่อยู่ในดุมล้อรั่วไหลออกมา และป้องกันสิ่งสกปรก ฝุ่นละออง และน้ำเข้าไปในดุมล้อป้องกันการรั่วไหลของสารหล่อลื่น ซีลล้อช่วยป้องกันไม่ให้จาระบีหรือน้ำมันหล่อลื่นที่อยู่ในดุมล้อรั่วไหลออกมา ซึ่งจะช่วยลดการสึกหรอของลูกปืนล้อและชิ้นส่วนอื่นๆ ในระบบล้อ",
     images: ["/images/image-products-cover-2-1.png"],
   },
+  {
+    type: "bush",
+    description:
+      "บูชช่วงล่างรถยนต์ คือชิ้นส่วนสำคัญในระบบช่วงล่างของรถยนต์ มีหน้าที่หลักคือเป็นตัวเชื่อมระหว่างชิ้นส่วนต่างๆ ของช่วงล่าง เช่น ปีกนก โช้คอัพ และเหล็กกันโคลง ทำให้ชิ้นส่วนเหล่านี้สามารถเคลื่อนที่ได้อย่างอิสระและยืดหยุ่นดยทั่วไป บูชช่วงล่างทำจากยางหรือวัสดุสังเคราะห์ที่มีความยืดหยุ่น",
+    images: ["/images/image-products-cover-3-1.png"],
+  },
 ];
 
 const FullScreenWrapper = styled.div`
@@ -183,6 +189,134 @@ const IconSeal3 = styled.div`
   }
 `;
 
+const IconBush1 = styled.div`
+  position: absolute;
+  top: 173px;
+  right: 161px;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 154px;
+    right: 99px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 146px;
+    right: 74px;
+  }
+`;
+
+const IconBush2 = styled.div`
+  position: absolute;
+  top: 153px;
+  right: 271px;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 142px;
+    right: 175px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 136px;
+    right: 131px;
+  }
+`;
+
+const IconBush3 = styled.div`
+  position: absolute;
+  top: 163px;
+  left: 130px;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 147px;
+    left: 77px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 141px;
+    left: 58px;
+  }
+`;
+
+const IconBush4 = styled.div`
+  position: absolute;
+  top: 157px;
+  left: 0;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 144px;
+    left: -13px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 139px;
+    left: -10px;
+  }
+`;
+
+const IconBush5 = styled.div`
+  position: absolute;
+  top: 13px;
+  left: 117px;
+  z-index: 1;
+  transform: rotate(180deg);
+
+  @media (max-width: 600px) {
+    top: 21px;
+    left: 67px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 46px;
+    left: 50px;
+  }
+`;
+
+const IconBush6 = styled.div`
+  position: absolute;
+  top: 142px;
+  right: 52px;
+  z-index: 1;
+  transform: rotate(-30deg);
+
+  @media (max-width: 600px) {
+    top: 134px;
+    right: 18px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 130px;
+    right: 13px;
+  }
+`;
+
 const ColImage = styled(Col)`
   img {
     width: 100% !important;
@@ -253,7 +387,7 @@ const Description = styled.div`
   }
 `;
 
-const ImageSeal = styled.div`
+const ImageSealBush = styled.div`
   position: relative;
   width: 100%;
   height: 160px;
@@ -323,6 +457,64 @@ export default function ProductCover({ type }: ProductCoverProps) {
                 </IconSeal3>
               </ImageTruck>
             )}
+            {type === "bush" && (
+              <ImageTruck>
+                <Image
+                  src="/images/image-products-truck-1.png"
+                  alt="thongpaisal"
+                  fill
+                  priority
+                />
+                <IconBush1>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconBush1>
+                <IconBush2>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconBush2>
+                <IconBush3>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconBush3>
+                <IconBush4>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconBush4>
+                <IconBush5>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconBush5>
+                <IconBush6>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconBush6>
+              </ImageTruck>
+            )}
             <BoxImage>
               {type === "torqueRodBush" && (
                 <Row gutter={[24, 24]}>
@@ -333,10 +525,10 @@ export default function ProductCover({ type }: ProductCoverProps) {
                   ))}
                 </Row>
               )}
-              {type === "seal" && (
-                <ImageSeal>
+              {(type === "seal" || type === "bush") && (
+                <ImageSealBush>
                   <Image src={detail.images[0]} alt="" fill />
-                </ImageSeal>
+                </ImageSealBush>
               )}
               <Brand>
                 <Title level={1}>ISUZU HINO FUSO UD</Title>
