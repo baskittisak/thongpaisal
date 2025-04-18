@@ -4,18 +4,14 @@ import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductDetails from "@/components/Products/ProductDetails";
 
-export default function TorqueRodBushDetailPage() {
+export default function SealDetailPage() {
   const { productType } = useParams();
   const pathName = usePathname();
 
   return (
     <>
       <NavBar type="fixed" />
-      <ProductDetails
-        type="torqueRodBush"
-        productType={productType}
-        pathName={pathName}
-      />
+      <ProductDetails type="seal" productType={productType} pathName={pathName} />
       <Footer />
     </>
   );

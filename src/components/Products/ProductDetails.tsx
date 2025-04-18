@@ -9,6 +9,16 @@ import {
   TORQUE_ROD_BUSH_CRANE,
   TORQUE_ROD_BUSH_SCANIA,
 } from "@/constant/torque-rod-bush";
+import {
+  SEAL_TRACTOR,
+  SEAL_TRAILER,
+  SEAL_HTNO,
+  SEAL_ISUZU,
+  SEAL_FUSO,
+  SEAL_UD,
+  SEAL_DUMP,
+  SEAL_PIG_SPUR,
+} from "@/constant/seal";
 import styled from "styled-components";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
@@ -18,6 +28,7 @@ import Box from "../Box";
 const { Title } = Typography;
 
 interface ProductDetailsProps {
+  type: "torqueRodBush" | "seal" | "bush";
   productType: ParamValue;
   pathName: string;
 }
@@ -124,6 +135,7 @@ const ButtonEvaluate = styled.div`
 `;
 
 export default function ProductDetails({
+  type,
   productType,
   pathName,
 }: ProductDetailsProps) {
@@ -153,7 +165,7 @@ export default function ProductDetails({
     arrows: false,
   };
 
-  const products = useMemo(() => {
+  const productsTorque = useMemo(() => {
     return productType === "bogie"
       ? TORQUE_ROD_BUSH_BOGIE
       : productType === "chinese"
@@ -162,6 +174,28 @@ export default function ProductDetails({
       ? TORQUE_ROD_BUSH_SCANIA
       : TORQUE_ROD_BUSH_CRANE;
   }, [productType]);
+
+  const productsSeal = useMemo(() => {
+    return productType === "tractor"
+      ? SEAL_TRACTOR
+      : productType === "trailer"
+      ? SEAL_TRAILER
+      : productType === "hino"
+      ? SEAL_HTNO
+      : productType === "isuzu"
+      ? SEAL_ISUZU
+      : productType === "fuso"
+      ? SEAL_FUSO
+      : productType === "ud"
+      ? SEAL_UD
+      : productType === "dump"
+      ? SEAL_DUMP
+      : SEAL_PIG_SPUR;
+  }, [productType]);
+
+  const products = useMemo(() => {
+    return type === "torqueRodBush" ? productsTorque : productsSeal;
+  }, [productsSeal, productsTorque, type]);
 
   const productDetail = useMemo(() => {
     return products.find((product) => product.link === pathName);
@@ -213,12 +247,14 @@ export default function ProductDetails({
           <SpaceContainer direction="vertical" size={16}>
             {productDetail?.details?.map((detail) => (
               <Box $align="center" key={detail.name}>
-                <Image
-                  width={80}
-                  height={80}
-                  src={detail.icons}
-                  alt="torque-rod-bush"
-                />
+                {detail.icons && (
+                  <Image
+                    width={80}
+                    height={80}
+                    src={detail.icons}
+                    alt={type}
+                  />
+                )}
                 <Content>
                   <Title level={1}>{detail.detail}</Title>
                 </Content>
