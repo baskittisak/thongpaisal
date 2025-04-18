@@ -20,6 +20,12 @@ const PRODUCT_COVER_DETAILS = [
       "/images/image-products-cover-1-3.png",
     ],
   },
+  {
+    type: "seal",
+    description:
+      "ซีลล้อ (Wheel seal) คือชิ้นส่วนสำคัญในระบบล้อของยานพาหนะ มีหน้าที่หลักคือป้องกันไม่ให้จาระบีหรือน้ำมันหล่อลื่นที่อยู่ในดุมล้อรั่วไหลออกมา และป้องกันสิ่งสกปรก ฝุ่นละออง และน้ำเข้าไปในดุมล้อป้องกันการรั่วไหลของสารหล่อลื่น ซีลล้อช่วยป้องกันไม่ให้จาระบีหรือน้ำมันหล่อลื่นที่อยู่ในดุมล้อรั่วไหลออกมา ซึ่งจะช่วยลดการสึกหรอของลูกปืนล้อและชิ้นส่วนอื่นๆ ในระบบล้อ",
+    images: ["/images/image-products-cover-2-1.png"],
+  },
 ];
 
 const FullScreenWrapper = styled.div`
@@ -93,7 +99,7 @@ const ImageTruck = styled.div`
   }
 `;
 
-const Icon = styled.div`
+const IconTorque = styled.div`
   position: absolute;
   top: 173px;
   right: 161px;
@@ -114,8 +120,72 @@ const Icon = styled.div`
   }
 `;
 
+const IconSeal1 = styled.div`
+  position: absolute;
+  top: 173px;
+  right: 111px;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 154px;
+    right: 64px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 146px;
+    right: 48px;
+  }
+`;
+
+const IconSeal2 = styled.div`
+  position: absolute;
+  top: 173px;
+  right: 212px;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 154px;
+    right: 134px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 146px;
+    right: 101px;
+  }
+`;
+
+const IconSeal3 = styled.div`
+  position: absolute;
+  top: 173px;
+  left: 67px;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    top: 154px;
+    left: 34px;
+  }
+
+  @media (max-width: 380px) {
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    top: 146px;
+    left: 25px;
+  }
+`;
+
 const ColImage = styled(Col)`
   img {
+    width: 100% !important;
     border-radius: 16px;
   }
 `;
@@ -183,6 +253,12 @@ const Description = styled.div`
   }
 `;
 
+const ImageSeal = styled.div`
+  position: relative;
+  width: 100%;
+  height: 160px;
+`;
+
 export default function ProductCover({ type }: ProductCoverProps) {
   const detail = useMemo(() => {
     return PRODUCT_COVER_DETAILS.find((detail) => detail.type === type);
@@ -195,30 +271,73 @@ export default function ProductCover({ type }: ProductCoverProps) {
       <Content>
         <RowContainer gutter={[32, 32]}>
           <ColContent xl={12} lg={24} sm={24} xs={24}>
-            <ImageTruck>
-              <Image
-                src="/images/image-products-truck-1.png"
-                alt="thongpaisal"
-                fill
-                priority
-              />
-              <Icon>
+            {type === "torqueRodBush" && (
+              <ImageTruck>
                 <Image
-                  src="/images/image-products-truck-2.png"
-                  alt="icon"
-                  width={80}
-                  height={80}
+                  src="/images/image-products-truck-1.png"
+                  alt="thongpaisal"
+                  fill
+                  priority
                 />
-              </Icon>
-            </ImageTruck>
+                <IconTorque>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconTorque>
+              </ImageTruck>
+            )}
+            {type === "seal" && (
+              <ImageTruck>
+                <Image
+                  src="/images/image-products-truck-1.png"
+                  alt="thongpaisal"
+                  fill
+                  priority
+                />
+                <IconSeal1>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconSeal1>
+                <IconSeal2>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconSeal2>
+                <IconSeal3>
+                  <Image
+                    src="/images/image-products-truck-2.png"
+                    alt="icon"
+                    width={80}
+                    height={80}
+                  />
+                </IconSeal3>
+              </ImageTruck>
+            )}
             <BoxImage>
-              <Row gutter={[24, 24]}>
-                {detail.images.map((image) => (
-                  <ColImage xl={8} key={image}>
-                    <Image src={image} alt="" width={160} height={160} />
-                  </ColImage>
-                ))}
-              </Row>
+              {type === "torqueRodBush" && (
+                <Row gutter={[24, 24]}>
+                  {detail.images.map((image) => (
+                    <ColImage xl={8} key={image}>
+                      <Image src={image} alt="" width={160} height={160} />
+                    </ColImage>
+                  ))}
+                </Row>
+              )}
+              {type === "seal" && (
+                <ImageSeal>
+                  <Image src={detail.images[0]} alt="" fill />
+                </ImageSeal>
+              )}
               <Brand>
                 <Title level={1}>ISUZU HINO FUSO UD</Title>
               </Brand>

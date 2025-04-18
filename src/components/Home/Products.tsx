@@ -118,7 +118,9 @@ export default function Products() {
               ทำหน้าที่ป้องกันการรั่วไหลของน้ำมันหล่อลื่นหรือจาระบีออกจากดุมล้อ
             </Title>
           </Text>
-          <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
+          <Link href="/products/seal" passHref>
+            <ButtonProducts>ดูสินค้าทั้งหมด</ButtonProducts>
+          </Link>
         </ColContent>
         <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Image
