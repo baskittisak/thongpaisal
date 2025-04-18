@@ -291,13 +291,13 @@ export const BUSH_BUSHINGS = [
     id: 100009,
     type: "บูชช่วงล่างรถ",
     kind: "BUSHINGS",
-    name: "busing-cap",
-    image: "/images/products/bush/bushings/cap/cap-1.jpg",
-    link: "/products/bush/bushings/cap",
+    name: "busing-cab",
+    image: "/images/products/bush/bushings/cab/cab-1.jpg",
+    link: "/products/bush/bushings/cab",
     images: [
-      "/images/products/bush/bushings/cap/cap-1.jpg",
-      "/images/products/bush/bushings/cap/cap-2.jpg",
-      "/images/products/bush/bushings/cap/cap-3.jpg",
+      "/images/products/bush/bushings/cab/cab-1.jpg",
+      "/images/products/bush/bushings/cab/cab-2.jpg",
+      "/images/products/bush/bushings/cab/cab-3.jpg",
     ],
     details: [
       {
