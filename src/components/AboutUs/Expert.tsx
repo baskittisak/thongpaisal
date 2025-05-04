@@ -19,7 +19,7 @@ const FullScreenWrapper = styled.div`
     display: block;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1500px) {
     height: 100%;
 
     .title {
@@ -56,7 +56,7 @@ const ImageContainer = styled.div`
   height: 100%;
 
   img {
-    object-fit: fill;
+    object-fit: cover;
   }
 
   @media (max-width: 991px) {
@@ -119,7 +119,7 @@ export default function Expert() {
             </Space>
           </Space>
         </Box>
-        <RowContainer gutter={[24, 24]}>
+        <RowContainer gutter={[0, 24]}>
           <ColImage xl={10} lg={10} sm={24} xs={24}>
             <ImageContainer>
               <Image
@@ -141,15 +141,15 @@ export default function Expert() {
               </Title>
             </Paragraph>
           </Col>
-          <Col xl={24} lg={24} sm={24} xs={24}>
+          <Col xl={24} lg={24} sm={24} xs={24} style={{ marginBottom: "16px" }}>
             <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
           </Col>
           <ColContent xl={4} lg={4} sm={12} xs={24}>
             <Space direction="vertical" size="small" align="center">
               <Image
                 src="/icons/icon-about-us-expert-1.png"
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 alt=""
               />
               <Title level={3}>ปรึกษา</Title>
@@ -159,8 +159,8 @@ export default function Expert() {
             <Space direction="vertical" size="small" align="center">
               <Image
                 src="/icons/icon-about-us-expert-2.png"
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 alt=""
               />
               <Title level={3}>ออกแบบ</Title>
@@ -170,8 +170,8 @@ export default function Expert() {
             <Space direction="vertical" size="small" align="center">
               <Image
                 src="/icons/icon-about-us-expert-3.png"
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 alt=""
               />
               <Title level={3}>ประเมินราคา</Title>
@@ -181,8 +181,8 @@ export default function Expert() {
             <Space direction="vertical" size="small" align="center">
               <Image
                 src="/icons/icon-about-us-expert-4.png"
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 alt=""
               />
               <Title level={3}>ทำตัวอย่าง</Title>
@@ -192,8 +192,8 @@ export default function Expert() {
             <Space direction="vertical" size="small" align="center">
               <Image
                 src="/icons/icon-about-us-expert-5.png"
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 alt=""
               />
               <Title level={3}>สั่งผลิต</Title>
@@ -203,8 +203,8 @@ export default function Expert() {
             <Space direction="vertical" size="small" align="center">
               <Image
                 src="/icons/icon-about-us-expert-6.png"
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 alt=""
               />
               <Title level={3}>ดูแลหลังการขาย</Title>
