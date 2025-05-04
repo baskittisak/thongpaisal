@@ -454,11 +454,11 @@ export const SEAL_TRAILER = [
     kind: "SEAL TRAILER",
     name: "trailer-chaina-no-steel-slip",
     image:
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-2.jpg",
     link: "/products/seal/trailer/chaina-no-steel-slip",
     images: [
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
       "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-2.jpg",
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
       "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-3.jpg",
       "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-4.jpg",
     ],
