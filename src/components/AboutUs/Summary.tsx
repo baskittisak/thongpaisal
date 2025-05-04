@@ -10,7 +10,11 @@ const FullScreenWrapper = styled.div`
   height: 100vh;
   overflow: hidden;
   padding: 36px;
-  background: linear-gradient(to bottom left, #000000, #1e9662);
+  background: linear-gradient(
+    175deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(30, 150, 98, 1) 60%
+  );
 
   @media (max-width: 1330px) {
     height: 180vh;
