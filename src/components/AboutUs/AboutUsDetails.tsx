@@ -33,6 +33,10 @@ const ColContent = styled(Col)`
     width: 100%;
     object-fit: contain;
   }
+
+  .map {
+    opacity: 0.7;
+  }
 `;
 
 const ImageContainer = styled.div<{ full?: "true" }>`
@@ -68,7 +72,7 @@ const Content = styled.div`
   }
 
   .content {
-    line-height: 1;
+    line-height: 1.5;
     font-weight: 400;
     color: #fff;
   }
@@ -104,7 +108,7 @@ export default function AboutUsDetails() {
           </BoxImage>
         </ColContent>
         <ColContent xl={12} lg={24} md={24} sm={24} xs={24}>
-          <Image src="/images/image-about-us-map.png" alt="thongpaisal" fill />
+          <Image className="map" src="/images/image-about-us-map.png" alt="thongpaisal" fill />
           <Content>
             <Title level={1} className="title">
               เกี่ยวกับเรา

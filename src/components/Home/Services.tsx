@@ -131,7 +131,7 @@ export default function Services() {
             </Title>
             <Title style={{ fontSize: "2.5rem", color: "#004aad" }}>
               ออกแบบชิ้นงาน พร้อม โรงงาน
-              <span style={{ color: "#10c0df" }}>แพ็คเกจจิ้ง</span>
+              <span style={{ color: "#10c0df" }}>บรรจุภัณฑ์</span>
             </Title>
           </Space>
           <Space direction="vertical">
@@ -139,7 +139,7 @@ export default function Services() {
               ฟรี บริการให้คำปรึกษา
             </Title>
             <Title level={2} style={{ fontWeight: 400, color: "#767676" }}>
-              เป็นเพื่อนคู่คิดช่วยออกแบบสั่งทำชิ้นงาน+กล่องแพคเกจจิ้ง
+              เป็นเพื่อนคู่คิดช่วยออกแบบสั่งทำชิ้นงาน+กล่องบรรจุภัณฑ์
               เพิ่มมูลค่าให้สินค้า
             </Title>
           </Space>
