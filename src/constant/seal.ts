@@ -1,8 +1,553 @@
+export const SEAL_TRAILER = [
+  {
+    id: 200001,
+    type: "BIGTO ซีลล้อรถพ่วงขอบยางมีเส้น",
+    kind: "Oil Seals",
+    name: "trailer-chaina-no-steel-slip",
+    image:
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-2.jpg",
+    link: "/products/seal/trailer/chaina-no-steel-slip",
+    images: [
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-2.jpg",
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-3.jpg",
+      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-19",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "42628",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "115-152.6-23",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "ไม่มีเหล็กสลิป CHAINA",
+      },
+    ],
+  },
+  {
+    id: 200002,
+    type: "BIGTO ซีลล้อรถพ่วงขอบยางมีเส้น",
+    kind: "Oil Seals",
+    name: "trailer-chaina-steel-slip",
+    image:
+      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-1.jpg",
+    link: "/products/seal/trailer/chaina-steel-slip",
+    images: [
+      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-1.jpg",
+      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-2.jpg",
+      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-3.jpg",
+      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-18",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "42628",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "107.5-152.3-24",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "มีเหล็กสลิป CHAINA",
+      },
+    ],
+  },
+  {
+    id: 200003,
+    type: "BIGTO ซีลล้อฟูว่า",
+    kind: "Oil Seals",
+    name: "trailer-fuva-376590x",
+    image: "/images/products/seal/trailer/fuva-376590x/fuva-376590x-1.jpg",
+    link: "/products/seal/trailer/fuva-376590x",
+    images: [
+      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-1.jpg",
+      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-2.jpg",
+      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-3.jpg",
+      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-15",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "376590 X",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TC 108-152.3-17.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "FUWA",
+      },
+    ],
+  },
+  {
+    id: 200004,
+    type: "BIGTO ซีลล้อรถพ่วงแม็กนั่ม ขอบแดง",
+    kind: "Oil Seals",
+    name: "trailer-mag-i",
+    image: "/images/products/seal/trailer/mag-i/mag-i-1.jpg",
+    link: "/products/seal/trailer/mag-i",
+    images: [
+      "/images/products/seal/trailer/mag-i/mag-i-1.jpg",
+      "/images/products/seal/trailer/mag-i/mag-i-2.jpg",
+      "/images/products/seal/trailer/mag-i/mag-i-3.jpg",
+      "/images/products/seal/trailer/mag-i/mag-i-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-01",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "455247-10343",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TBA 125-162-25.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "MAGNUM",
+      },
+    ],
+  },
+  {
+    id: 200005,
+    type: "BIGTO ซีลล้อรถพ่วงแม็กนั่ม ขอบเขียว",
+    kind: "Oil Seals",
+    name: "trailer-mag-ii",
+    image: "/images/products/seal/trailer/mag-ii/mag-ii-1.jpg",
+    link: "/products/seal/trailer/mag-ii",
+    images: [
+      "/images/products/seal/trailer/mag-ii/mag-ii-1.jpg",
+      "/images/products/seal/trailer/mag-ii/mag-ii-2.jpg",
+      "/images/products/seal/trailer/mag-ii/mag-ii-3.jpg",
+      "/images/products/seal/trailer/mag-ii/mag-ii-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-02",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "3762726-48794",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "123.8-162-25.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "MAGNUM",
+      },
+    ],
+  },
+  {
+    id: 200006,
+    type: "BIGTO ซีลล้อรถพ่วงแม็กนั่ม",
+    kind: "Oil Seals",
+    name: "trailer-mag-iii",
+    image: "/images/products/seal/trailer/mag-iii/mag-iii-1.jpg",
+    link: "/products/seal/trailer/mag-iii",
+    images: [
+      "/images/products/seal/trailer/mag-iii/mag-iii-1.jpg",
+      "/images/products/seal/trailer/mag-iii/mag-iii-2.jpg",
+      "/images/products/seal/trailer/mag-iii/mag-iii-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-03",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "8794/NAT  B37000 7 BG-10-4190",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TBA 123.8-162-24",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "MAGNUM",
+      },
+    ],
+  },
+  {
+    id: 200007,
+    type: "ซีลรถพ่วง",
+    kind: "Oil Seals",
+    name: "trailer-mag-iv",
+    image: "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
+    link: "/products/seal/trailer/mag-iv",
+    images: [
+      "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
+      "/images/products/seal/trailer/mag-iv/mag-iv-2.jpg",
+      "/images/products/seal/trailer/mag-iv/mag-iv-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+    noData: true,
+  },
+  {
+    id: 200008,
+    type: "BIGTO ซีลล้อรถพ่วง ROR ขอบเขียว",
+    kind: "Oil Seals",
+    name: "trailer-ror",
+    image: "/images/products/seal/trailer/ror/ror-1.jpg",
+    link: "/products/seal/trailer/ror",
+    images: [
+      "/images/products/seal/trailer/ror/ror-1.jpg",
+      "/images/products/seal/trailer/ror/ror-2.jpg",
+      "/images/products/seal/trailer/ror/ror-3.jpg",
+      "/images/products/seal/trailer/ror/ror-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-11",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "3762726-46305D6319",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TBA 117.5-152.3-25.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "ROR",
+      },
+    ],
+  },
+  {
+    id: 200009,
+    type: "BIGTO ซีลล้อรถพ่วง ROR ยูนิไท",
+    kind: "Oil Seals",
+    name: "trailer-ror-unithai",
+    image: "/images/products/seal/trailer/ror-unithai/ror-unithai-1.jpg",
+    link: "/products/seal/trailer/ror-unithai",
+    images: [
+      "/images/products/seal/trailer/ror-unithai/ror-unithai-1.jpg",
+      "/images/products/seal/trailer/ror-unithai/ror-unithai-2.jpg",
+      "/images/products/seal/trailer/ror-unithai/ror-unithai-3.jpg",
+      "/images/products/seal/trailer/ror-unithai/ror-unithai-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-10",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "21200321 A",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "117.5-152.3-25.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "ROR",
+      },
+    ],
+  },
+  {
+    id: 200010,
+    type: "BIGTO ซีลล้อรถพ่วงโทมิ",
+    kind: "Oil Seals",
+    name: "trailer-tomi",
+    image: "/images/products/seal/trailer/tomi/tomi-1.jpg",
+    link: "/products/seal/trailer/tomi",
+    images: [
+      "/images/products/seal/trailer/tomi/tomi-1.jpg",
+      "/images/products/seal/trailer/tomi/tomi-2.jpg",
+      "/images/products/seal/trailer/tomi/tomi-3.jpg",
+      "/images/products/seal/trailer/tomi/tomi-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-24",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "MO10102",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "125-160-15",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "TOMI",
+      },
+    ],
+  },
+  {
+    id: 200011,
+    type: "BIGTO ซีลล้อรถพ่วงยอร์ค ขอบเขียว",
+    kind: "Oil Seals",
+    name: "trailer-york-green",
+    image: "/images/products/seal/trailer/york-green/york-green-1.jpg",
+    link: "/products/seal/trailer/york-green",
+    images: [
+      "/images/products/seal/trailer/york-green/york-green-1.jpg",
+      "/images/products/seal/trailer/york-green/york-green-2.jpg",
+      "/images/products/seal/trailer/york-green/york-green-3.jpg",
+      "/images/products/seal/trailer/york-green/york-green-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-08",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "786114-B318",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TBA 117.5-152.3 25.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "YORK",
+      },
+    ],
+  },
+  {
+    id: 200012,
+    type: "BIGTO ซีลล้อรถพ่วงยอร์ค ขอบยางมีเส้น",
+    kind: "Oil Seals",
+    name: "trailer-york-new",
+    image: "/images/products/seal/trailer/york-new/york-new-1.jpg",
+    link: "/products/seal/trailer/york-new",
+    images: [
+      "/images/products/seal/trailer/york-new/york-new-1.jpg",
+      "/images/products/seal/trailer/york-new/york-new-2.jpg",
+      "/images/products/seal/trailer/york-new/york-new-3.jpg",
+      "/images/products/seal/trailer/york-new/york-new-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-09",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "786114",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "117.5-152.3-18",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "YORK",
+      },
+    ],
+  },
+  {
+    id: 200013,
+    type: "BIGTO ซีลล้อรถพ่วงยอร์ค ขอบแดง",
+    kind: "Oil Seals",
+    name: "trailer-york-red",
+    image: "/images/products/seal/trailer/york-red/york-red-1.jpg",
+    link: "/products/seal/trailer/york-red",
+    images: [
+      "/images/products/seal/trailer/york-red/york-red-1.jpg",
+      "/images/products/seal/trailer/york-red/york-red-2.jpg",
+      "/images/products/seal/trailer/york-red/york-red-3.jpg",
+      "/images/products/seal/trailer/york-red/york-red-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-07",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "B370025-BG-FGH 97",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TBA 117.5-152.3-25.5",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "YORK",
+      },
+    ],
+  },
+  {
+    id: 200014,
+    type: "BIGTO ซีลล้อรถพ่วง ZM เพลาจีน ขอบยาง",
+    kind: "Oil Seals",
+    name: "trailer-zm-rubber-edge",
+    image: "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-1.jpg",
+    link: "/products/seal/trailer/zm-rubber-edge",
+    images: [
+      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-1.jpg",
+      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edged-2.jpg",
+      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-3.jpg",
+      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-4.jpg",
+      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-5.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-32",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "930015013",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TC 145-170-13",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "ZM เพลาจีน ขอบยาง",
+      },
+    ],
+  },
+  {
+    id: 200015,
+    type: "BIGTO ซีลล้อรถพ่วง ZM เพลาจีน ขอบเหล็ก",
+    kind: "Oil Seals",
+    name: "trailer-zm-steel-edge",
+    image: "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-1.jpg",
+    link: "/products/seal/trailer/zm-steel-edge",
+    images: [
+      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-1.jpg",
+      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edged-2.jpg",
+      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-3.jpg",
+      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "TPS831288_S07-A-31",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "930015013",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "TC 145-170-13",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "ZM เพลาจีน ขอบเหล็ก",
+      },
+    ],
+  },
+];
+
 export const SEAL_TRACTOR = [
   {
     id: 100001,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลล้อเพลาตั้ง Kubota",
+    kind: "Oil Seals",
     name: "tractor-l2808",
     image: "/images/products/seal/tractor/l2808/l2808-1.jpg",
     link: "/products/seal/tractor/l2808",
@@ -16,30 +561,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-03",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "T1060",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "80-100-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "L3408 L3608",
       },
     ],
   },
   {
     id: 100002,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลโรลเลอร์ล่าง Kubota",
+    kind: "Oil Seals",
     name: "tractor-kubota-aq1389e",
     image: "/images/products/seal/tractor/kubota-aq1389e/kubota-aq1389e-1.jpg",
     link: "/products/seal/tractor/kubota-aq1389e",
@@ -53,30 +597,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-05",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "AQ1389E",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "25-62-11/14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "DC60-68",
       },
     ],
   },
   {
     id: 100003,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลเพลาตั้ง Kubota",
+    kind: "Oil Seals",
     name: "tractor-kubota-bg450hf",
     image: "/images/products/seal/tractor/kubota-bg450hf/kubota-bg450hf-1.jpg",
     link: "/products/seal/tractor/kubota-bg450hf",
@@ -90,30 +633,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-02",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "BG450HF",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "46-70-11/23",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "L3408 L3608",
       },
     ],
   },
   {
     id: 100004,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "",
+    kind: "Oil Seals",
     name: "tractor-kubota-bg6118e",
     image: "/images/products/seal/tractor/kubota-bg6118e/kubota-bg6118e-1.jpg",
     link: "/products/seal/tractor/kubota-bg6118e",
@@ -127,30 +669,30 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "",
       },
     ],
+    noData: true,
   },
   {
     id: 100005,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลล้อหน้า Kubota",
+    kind: "Oil Seals",
     name: "tractor-kubota-bq3164e",
     image: "/images/products/seal/tractor/kubota-bq3164e/kubota-bq3164e-1.jpg",
     link: "/products/seal/tractor/kubota-bq3164e",
@@ -164,30 +706,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-04",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "BQ3164E",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "45-75-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "M-5000",
       },
     ],
   },
   {
     id: 100006,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลล้อหลัง Kubota",
+    kind: "Oil Seals",
     name: "tractor-kubota-bq3201e",
     image: "/images/products/seal/tractor/kubota-bq3201e/kubota-bq3201e-1.jpg",
     link: "/products/seal/tractor/kubota-bq3201e",
@@ -201,30 +742,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-06",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "BQ3201E",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "52-85-16/19",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "L2808,3408,3608,4018",
       },
     ],
   },
   {
     id: 100007,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลล้อหลัง Kubota",
+    kind: "Oil Seals",
     name: "tractor-kubota-bq3203e",
     image: "/images/products/seal/tractor/kubota-bq3203e/kubota-bq3203e-1.jpg",
     link: "/products/seal/tractor/kubota-bq3203e",
@@ -238,30 +778,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-07",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "BQ3203E",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "58-90-17/19",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "L4508,4708,45,50",
       },
     ],
   },
   {
     id: 100008,
     type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    kind: "Oil Seals",
     name: "tractor-kubota-bq3861e",
     image: "/images/products/seal/tractor/kubota-bq3861e/kubota-bq3861e-1.jpg",
     link: "/products/seal/tractor/kubota-bq3861e",
@@ -275,30 +814,30 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "",
       },
     ],
+    noData: true,
   },
   {
     id: 100009,
     type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    kind: "Oil Seals",
     name: "tractor-kubota-xa1376e",
     image: "/images/products/seal/tractor/kubota-xa1376e/kubota-xa1376e-1.jpg",
     link: "/products/seal/tractor/kubota-xa1376e",
@@ -312,30 +851,30 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "",
       },
     ],
+    noData: true,
   },
   {
     id: 100010,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลโรลเลอร์รถเกี่ยว Kubota",
+    kind: "Oil Seals",
     name: "tractor-kubota-xo400e",
     image: "/images/products/seal/tractor/kubota-xo400e/kubota-xo400e-1.jpg",
     link: "/products/seal/tractor/kubota-xo400e",
@@ -349,30 +888,29 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-08",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "XO400E",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "30-67-11/15",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "รถเกี่ยว Kubota",
       },
     ],
   },
   {
     id: 100011,
     type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    kind: "Oil Seals",
     name: "tractor-yanmar-bq2386e",
     image: "/images/products/seal/tractor/yanmar-bq2386e/yanmar-bq2386e-1.jpg",
     link: "/products/seal/tractor/yanmar-bq2386e",
@@ -386,30 +924,30 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "",
       },
     ],
+    noData: true,
   },
   {
     id: 100012,
-    type: "ซีลรถไถ",
-    kind: "SEAL TRACTOR",
+    type: "BIGTO ซีลเพลาตั้ง YANMAR",
+    kind: "Oil Seals",
     name: "tractor-yanmar-bq4919e",
     image: "/images/products/seal/tractor/yanmar-bq4919e/yanmar-bq4919e-1.jpg",
     link: "/products/seal/tractor/yanmar-bq4919e",
@@ -425,582 +963,22 @@ export const SEAL_TRACTOR = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_K01-B-01",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "BQ4919E",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "57-80-11-17",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-];
-
-export const SEAL_TRAILER = [
-  {
-    id: 200001,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-chaina-no-steel-slip",
-    image:
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
-    link: "/products/seal/trailer/chaina-no-steel-slip",
-    images: [
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-2.jpg",
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-3.jpg",
-      "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200002,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-chaina-steel-slip",
-    image:
-      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-1.jpg",
-    link: "/products/seal/trailer/chaina-steel-slip",
-    images: [
-      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-1.jpg",
-      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-2.jpg",
-      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-3.jpg",
-      "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200003,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-fuva-376590x",
-    image: "/images/products/seal/trailer/fuva-376590x/fuva-376590x-1.jpg",
-    link: "/products/seal/trailer/fuva-376590x",
-    images: [
-      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-1.jpg",
-      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-2.jpg",
-      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-3.jpg",
-      "/images/products/seal/trailer/fuva-376590x/fuva-376590x-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200004,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-mag-i",
-    image: "/images/products/seal/trailer/mag-i/mag-i-1.jpg",
-    link: "/products/seal/trailer/mag-i",
-    images: [
-      "/images/products/seal/trailer/mag-i/mag-i-1.jpg",
-      "/images/products/seal/trailer/mag-i/mag-i-2.jpg",
-      "/images/products/seal/trailer/mag-i/mag-i-3.jpg",
-      "/images/products/seal/trailer/mag-i/mag-i-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200005,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-mag-ii",
-    image: "/images/products/seal/trailer/mag-ii/mag-ii-1.jpg",
-    link: "/products/seal/trailer/mag-ii",
-    images: [
-      "/images/products/seal/trailer/mag-ii/mag-ii-1.jpg",
-      "/images/products/seal/trailer/mag-ii/mag-ii-2.jpg",
-      "/images/products/seal/trailer/mag-ii/mag-ii-3.jpg",
-      "/images/products/seal/trailer/mag-ii/mag-ii-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200006,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-mag-iii",
-    image: "/images/products/seal/trailer/mag-iii/mag-iii-1.jpg",
-    link: "/products/seal/trailer/mag-iii",
-    images: [
-      "/images/products/seal/trailer/mag-iii/mag-iii-1.jpg",
-      "/images/products/seal/trailer/mag-iii/mag-iii-2.jpg",
-      "/images/products/seal/trailer/mag-iii/mag-iii-3.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200007,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-mag-iv",
-    image: "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
-    link: "/products/seal/trailer/mag-iv",
-    images: [
-      "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
-      "/images/products/seal/trailer/mag-iv/mag-iv-2.jpg",
-      "/images/products/seal/trailer/mag-iv/mag-iv-3.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200008,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-ror",
-    image: "/images/products/seal/trailer/ror/ror-1.jpg",
-    link: "/products/seal/trailer/ror",
-    images: [
-      "/images/products/seal/trailer/ror/ror-1.jpg",
-      "/images/products/seal/trailer/ror/ror-2.jpg",
-      "/images/products/seal/trailer/ror/ror-3.jpg",
-      "/images/products/seal/trailer/ror/ror-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200009,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-ror-unithai",
-    image: "/images/products/seal/trailer/ror-unithai/ror-unithai-1.jpg",
-    link: "/products/seal/trailer/ror-unithai",
-    images: [
-      "/images/products/seal/trailer/ror-unithai/ror-unithai-1.jpg",
-      "/images/products/seal/trailer/ror-unithai/ror-unithai-2.jpg",
-      "/images/products/seal/trailer/ror-unithai/ror-unithai-3.jpg",
-      "/images/products/seal/trailer/ror-unithai/ror-unithai-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200010,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-tomi",
-    image: "/images/products/seal/trailer/tomi/tomi-1.jpg",
-    link: "/products/seal/trailer/tomi",
-    images: [
-      "/images/products/seal/trailer/tomi/tomi-1.jpg",
-      "/images/products/seal/trailer/tomi/tomi-2.jpg",
-      "/images/products/seal/trailer/tomi/tomi-3.jpg",
-      "/images/products/seal/trailer/tomi/tomi-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200011,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-york-green",
-    image: "/images/products/seal/trailer/york-green/york-green-1.jpg",
-    link: "/products/seal/trailer/york-green",
-    images: [
-      "/images/products/seal/trailer/york-green/york-green-1.jpg",
-      "/images/products/seal/trailer/york-green/york-green-2.jpg",
-      "/images/products/seal/trailer/york-green/york-green-3.jpg",
-      "/images/products/seal/trailer/york-green/york-green-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200012,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-york-new",
-    image: "/images/products/seal/trailer/york-new/york-new-1.jpg",
-    link: "/products/seal/trailer/york-new",
-    images: [
-      "/images/products/seal/trailer/york-new/york-new-1.jpg",
-      "/images/products/seal/trailer/york-new/york-new-2.jpg",
-      "/images/products/seal/trailer/york-new/york-new-3.jpg",
-      "/images/products/seal/trailer/york-new/york-new-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200013,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-york-red",
-    image: "/images/products/seal/trailer/york-red/york-red-1.jpg",
-    link: "/products/seal/trailer/york-red",
-    images: [
-      "/images/products/seal/trailer/york-red/york-red-1.jpg",
-      "/images/products/seal/trailer/york-red/york-red-2.jpg",
-      "/images/products/seal/trailer/york-red/york-red-3.jpg",
-      "/images/products/seal/trailer/york-red/york-red-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200014,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-zm-rubber-edge",
-    image: "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-1.jpg",
-    link: "/products/seal/trailer/zm-rubber-edge",
-    images: [
-      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-1.jpg",
-      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edged-2.jpg",
-      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-3.jpg",
-      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-4.jpg",
-      "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-5.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-      },
-    ],
-  },
-  {
-    id: 200015,
-    type: "ซีลรถพ่วง",
-    kind: "SEAL TRAILER",
-    name: "trailer-zm-steel-edge",
-    image: "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-1.jpg",
-    link: "/products/seal/trailer/zm-steel-edge",
-    images: [
-      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-1.jpg",
-      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edged-2.jpg",
-      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-3.jpg",
-      "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "EF312-352",
       },
     ],
   },
@@ -1009,8 +987,8 @@ export const SEAL_TRAILER = [
 export const SEAL_HTNO = [
   {
     id: 300001,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังใน HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01110",
     image: "/images/products/seal/hino/9828-01110/9828-01110-1.jpg",
     link: "/products/seal/hino/9828-01110",
@@ -1024,30 +1002,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-13",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01110",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-146-170-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO BUS-RC FM",
       },
     ],
   },
   {
     id: 300002,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังใน HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01120",
     image: "/images/products/seal/hino/9828-01120/9828-01120-1.jpg",
     link: "/products/seal/hino/9828-01120",
@@ -1061,30 +1038,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-09",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01120",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP-140-160-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO KT",
       },
     ],
   },
   {
     id: 300003,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังใน HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01130",
     image: "/images/products/seal/hino/9828-01130/9828-01130-1.jpg",
     link: "/products/seal/hino/9828-01130",
@@ -1098,30 +1074,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-12",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01130",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-146-170-18",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO ZM-CM",
       },
     ],
   },
   {
     id: 300004,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหน้า HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01137",
     image: "/images/products/seal/hino/9828-01137/9828-01137-1.jpg",
     link: "/products/seal/hino/9828-01137",
@@ -1135,30 +1110,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-08",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01137,9828-01231,9828-01147",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB3 101-114-10",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO KI KR FD KQ",
       },
     ],
   },
   {
     id: 300005,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังใน HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01195-01230",
     image: "/images/products/seal/hino/9828-01195-01230/9828-01195-01230-1.jpg",
     link: "/products/seal/hino/9828-01195-01230",
@@ -1172,30 +1146,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-11",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01195/01230",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP-154-175-13",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO MEGA GH-HT-FS",
       },
     ],
   },
   {
     id: 300006,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังใน HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01203",
     image: "/images/products/seal/hino/9828-01203/9828-01203-1.jpg",
     link: "/products/seal/hino/9828-01203",
@@ -1209,30 +1182,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-14",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01203/01232",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP 126-147-11",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO FC/GD/FW/FD BD2322-E",
       },
     ],
   },
   {
     id: 300007,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังใน HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01204",
     image: "/images/products/seal/hino/9828-01204/9828-01204-1.jpg",
     link: "/products/seal/hino/9828-01204",
@@ -1247,30 +1219,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-10",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01204",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP-146-164-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO F-18 สิงห์ไฮเทค",
       },
     ],
   },
   {
     id: 300008,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหน้า HINO",
+    kind: "Oil Seals",
     name: "hino-9828-01207",
     image: "/images/products/seal/hino/9828-01207/9828-01207-1.jpg",
     link: "/products/seal/hino/9828-01207",
@@ -1284,30 +1255,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-07",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-01207,9828-01229",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB 3-138-152-12",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO KT-18 สิงหไฮเทค MEGA ZM",
       },
     ],
   },
   {
     id: 300009,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก",
+    kind: "Oil Seals",
     name: "hino-9828-52115",
     image: "/images/products/seal/hino/9828-52115/9828-52115-1.jpg",
     link: "/products/seal/hino/9828-52115",
@@ -1321,30 +1291,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-14",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-52115(6)",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP 52-64-9",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO KT",
       },
     ],
   },
   {
     id: 300010,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก",
+    kind: "Oil Seals",
     name: "hino-9828-57103",
     image: "/images/products/seal/hino/9828-57103/9828-57103-1.jpg",
     link: "/products/seal/hino/9828-57103",
@@ -1358,30 +1327,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-13",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-57103",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TC3Y 57-124-12.714",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO FC BE2323-E",
       },
     ],
   },
   {
     id: 300011,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก",
+    kind: "Oil Seals",
     name: "hino-9828-66106",
     image: "/images/products/seal/hino/9828-66106/9828-66106-1.jpg",
     link: "/products/seal/hino/9828-66106",
@@ -1395,30 +1363,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-10",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-66106",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TC3Y-66-134-15.8-17",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO F18 สิงหไฮเทค",
       },
     ],
   },
   {
     id: 300012,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก HINO",
+    kind: "Oil Seals",
     name: "hino-9828-76101",
     image: "/images/products/seal/hino/9828-76101/9828-76101-1.jpg",
     link: "/products/seal/hino/9828-76101",
@@ -1432,30 +1399,29 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-12",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-76101",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TCY-76-157-12-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO ZM ตัวใหม่",
       },
     ],
   },
   {
     id: 300013,
-    type: "ซีลล้อ HINO",
-    kind: "SEAL HINO WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก HINO",
+    kind: "Oil Seals",
     name: "hino-9828-76104",
     image: "/images/products/seal/hino/9828-76104/9828-76104-1.jpg",
     link: "/products/seal/hino/9828-76104",
@@ -1469,23 +1435,22 @@ export const SEAL_HTNO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-11",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9828-76104",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TCY-76-11.5-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "HINO MEGA มีปุ่ม",
       },
     ],
   },
@@ -1494,8 +1459,8 @@ export const SEAL_HTNO = [
 export const SEAL_ISUZU = [
   {
     id: 400001,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหน้า ISUZU CX-JCR",
+    kind: "Oil Seals",
     name: "isuzu-0-09625-129-0",
     image: "/images/products/seal/isuzu/0-09625-129-0/0-09625-129-0-1.jpg",
     link: "/products/seal/isuzu/0-09625-129-0",
@@ -1509,30 +1474,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-01",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "0-09625-129-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY-85-128-10-18",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU CX-JCR, ROCKY175",
       },
     ],
   },
   {
     id: 400002,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหน้า ISUZU SBR",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-006-0",
     image: "/images/products/seal/isuzu/1-09625-006-0/1-09625-006-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-006-0",
@@ -1546,30 +1510,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-03",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-006-0,1-09625-568-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY 75-112-10.18",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU SBR, TKK, SBR76, 145 แรง",
       },
     ],
   },
   {
     id: 400003,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหน้า ISUZU 240F DECA FSR JUMBO",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-041-0",
     image: "/images/products/seal/isuzu/1-09625-041-0/1-09625-041-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-041-0",
@@ -1583,30 +1546,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-02",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-041-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP-120-140-10.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU 240F DECA FSR JUMBO",
       },
     ],
   },
   {
     id: 400004,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังใน ISUZU SBR76 FSR",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-043-0",
     image: "/images/products/seal/isuzu/1-09625-043-0/1-09625-043-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-043-0",
@@ -1620,30 +1582,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-06",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-043-0, 1-09625-569-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY-94.5-132-12.22",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU SBR76 FSR",
       },
     ],
   },
   {
     id: 400005,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอกISUZU SBR76",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-044-0",
     image: "/images/products/seal/isuzu/1-09625-044-0/1-09625-044-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-044-0",
@@ -1657,30 +1618,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-08",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-044-0,1-09625-531-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "SCY-57-122.8-10.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU SBR76,FSR,FORWARDF,CCM",
       },
     ],
   },
   {
     id: 400006,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลเพลาแหนบ ISUZU JCM490",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-146-0",
     image: "/images/products/seal/isuzu/1-09625-146-0/1-09625-146-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-146-0",
@@ -1694,30 +1654,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S04-A-02",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-146-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY 130-160-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU JCM490, ROCKY 175แรง",
       },
     ],
   },
   {
     id: 400007,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก ISUZU DECA270",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-226-0",
     image: "/images/products/seal/isuzu/1-09625-226-0/1-09625-226-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-226-0",
@@ -1731,30 +1690,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-06",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-226-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TCY-78-163-16",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU DECA270, FSR,JUMBO260,JCM, FXZ, ROCKY",
       },
     ],
   },
   {
     id: 400008,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก ISUZU JUMBO",
+    kind: "Oil Seals",
     name: "isuzu-1-09625-227-0",
     image: "/images/products/seal/isuzu/1-09625-227-0/1-09625-227-0-1.jpg",
     link: "/products/seal/isuzu/1-09625-227-0",
@@ -1763,30 +1721,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-B-05",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-09625-227-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TCY 74-143-17.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU JUMBO, JCZ,SLR361",
       },
     ],
   },
   {
     id: 400009,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลเพลาแหนบ ISUZU BUS200-260",
+    kind: "Oil Seals",
     name: "isuzu-1-51389-005-0",
     image: "/images/products/seal/isuzu/1-51389-005-0/1-51389-005-0-1.jpg",
     link: "/products/seal/isuzu/1-51389-005-0",
@@ -1800,30 +1757,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S04-A-01",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1-51389-005-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY-155-185-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU BUS200-260,FXZ260, JCZ, JUMBO เพลาโบกี้",
       },
     ],
   },
   {
     id: 400010,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังใน ISUZU ELF250",
+    kind: "Oil Seals",
     name: "isuzu-5-09625-030-0",
     image: "/images/products/seal/isuzu/5-09625-030-0/5-09625-030-0-1.jpg",
     link: "/products/seal/isuzu/5-09625-030-0",
@@ -1837,30 +1793,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-02",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "5-09625-030-0, 8-94336-314-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY-75-102-10-19",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU ELF250,76-77,230/79K",
       },
     ],
   },
   {
     id: 400011,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหน้า ISUZU NPR",
+    kind: "Oil Seals",
     name: "isuzu-8-94248-117-1",
     image: "/images/products/seal/isuzu/8-94248-117-1/8-94248-117-1-1.jpg",
     link: "/products/seal/isuzu/8-94248-117-1",
@@ -1874,30 +1829,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-05",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "8-94248-117-1",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2 73-90-8",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU NPR, ELF350, NPR115, NPR110",
       },
     ],
   },
   {
     id: 400012,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "ISUZU",
+    kind: "Oil Seals",
     name: "isuzu-8-97147-977-1",
     image: "/images/products/seal/isuzu/8-97147-977-1/8-97147-977-1-1.jpg",
     link: "/products/seal/isuzu/8-97147-977-1",
@@ -1911,30 +1865,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "S02A08",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "982801231",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "10111410",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "abcdef",
       },
     ],
   },
   {
     id: 400013,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังใน ISUZU NQR",
+    kind: "Oil Seals",
     name: "isuzu-9-09724-018-0",
     image: "/images/products/seal/isuzu/9-09724-018-0/9-09724-018-0-1.jpg",
     link: "/products/seal/isuzu/9-09724-018-0",
@@ -1948,30 +1901,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-B-08",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "8-97147-977-1, 9-97023-977-1",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "QLNY 80-113-22",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU NQR, NPR 150 แรง",
       },
     ],
   },
   {
     id: 400014,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก ISUZU KS21-22",
+    kind: "Oil Seals",
     name: "isuzu-9-09724-019-0",
     image: "/images/products/seal/isuzu/9-09724-019-0/9-09724-019-0-1.jpg",
     link: "/products/seal/isuzu/9-09724-019-0",
@@ -1985,30 +1937,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-09",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09724-019-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "SCY 49-99.8-10.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU KS21-22,ELF350,KS,NPR115",
       },
     ],
   },
   {
     id: 400015,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหน้า ISUZU TX68",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-136-0",
     image: "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-136-0",
@@ -2022,30 +1973,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-B-04",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-136-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY 75-115-20.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU TX68, JCM, JCR",
       },
     ],
   },
   {
     id: 400016,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอกISUZU ELF250",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-242-0",
     image: "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-242-0",
@@ -2059,30 +2009,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-03",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-242-0,8-8-94336-315-2",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "SC-46-94-5.8-10",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU ELF250,250-73,NPR,NFR",
       },
     ],
   },
   {
     id: 400017,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังใน ISUZU CX-JCR ROCKY175",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-290-0",
     image: "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-290-0",
@@ -2096,30 +2045,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-07",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-290-0(415-0)",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY-100-145-26",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU CX-JCR ROCKY175",
       },
     ],
   },
   {
     id: 400018,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังใน ISUZU DECA270",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-350-0",
     image: "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-350-0",
@@ -2133,30 +2081,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-04",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-350-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TA2Y-117-174-28",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU DECA270 FSR145 JUMBO 260 240F ROCKY",
       },
     ],
   },
   {
     id: 400019,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก ISUZU BUS200 JCM",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-374-0",
     image: "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-374-0",
@@ -2170,30 +2117,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-04",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-374-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TC3Y-74-142-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU BUS200 JCM, SLR350, TD",
       },
     ],
   },
   {
     id: 400020,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก ISUZU 240F",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-444-0",
     image: "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-444-0",
@@ -2207,30 +2153,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-07",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-444-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TC3Y-78-162-16",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU 240F DECA FSR JUMBO",
       },
     ],
   },
   {
     id: 400021,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก ISUZU CX-JCR ROCKY175",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-470-0",
     image: "/images/products/seal/isuzu/9-09924-470-0/9-09924-470-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-470-0",
@@ -2244,30 +2189,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-01",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-470-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TC3Y-64-133-13",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU CX-JCR ROCKY175",
       },
     ],
   },
   {
     id: 400022,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังใน ISUZU BUS200",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-500-0",
     image: "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-500-0",
@@ -2281,30 +2225,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-03",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-500-0 , 1-09625-351-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TAY-113-156-26",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU BUS200 แรง SMR260",
       },
     ],
   },
   {
     id: 400023,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหลังนอก NGR 135 แรง",
+    kind: "Oil Seals",
     name: "isuzu-9-09924-511-0",
     image: "/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-1.jpg",
     link: "/products/seal/isuzu/9-09924-511-0",
@@ -2313,30 +2256,29 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-B-02",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-09924-511-0",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "SCY 49-106.5-8-11.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU NGR 135 แรง, 140 แรง",
       },
     ],
   },
   {
     id: 400024,
-    type: "ซีลล้อ ISUZU",
-    kind: "SEAL ISUZU WHEEL",
+    type: "BIGTO ซีลล้อหน้า ISUZU NPR 120 แรง",
+    kind: "Oil Seals",
     name: "isuzu-9-87239-780-9",
     image: "/images/products/seal/isuzu/9-87239-780-9/9-87239-780-9-1.jpg",
     link: "/products/seal/isuzu/9-87239-780-9-0",
@@ -2350,23 +2292,22 @@ export const SEAL_ISUZU = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-B-06",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "9-87239-780-9",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "Y 104-137-13",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ISUZU NPR 120 แรง",
       },
     ],
   },
@@ -2375,9 +2316,9 @@ export const SEAL_ISUZU = [
 export const SEAL_FUSO = [
   {
     id: 500001,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
-    name: "fuso-0-09625-129-0",
+    type: "BIGTO ซีลเพลาแหนบ MITSUBISHI",
+    kind: "Oil Seals",
+    name: "fuso-12857-16700",
     image: "/images/products/seal/fuso/12857-16700/12857-16700-1.jpg",
     link: "/products/seal/fuso/12857-16700",
     images: [
@@ -2392,30 +2333,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S04-A-05",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "12857-16700",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "Y-165-195-19/19.7",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN527 เพลาโบกี้",
       },
     ],
   },
   {
     id: 500002,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหลังใน MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mc-807438",
     image: "/images/products/seal/fuso/mc-807438/mc-807438-1.jpg",
     link: "/products/seal/fuso/mc-807438",
@@ -2429,30 +2369,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-B-15",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MC 807438",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-155-172-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "FUSO FN527-FP-FTเฉินหลงFUSO 10TONS",
       },
     ],
   },
   {
     id: 500003,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหลังใน MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034082",
     image: "/images/products/seal/fuso/mh-034082/mh-034082-1.jpg",
     link: "/products/seal/fuso/mh-034082",
@@ -2466,30 +2405,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-16",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034082",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-155-180-17",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "FUSO FN215, 225, 410, 8 ตัน, B8, R400",
       },
     ],
   },
   {
     id: 500004,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหน้า MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034086",
     image: "/images/products/seal/fuso/mh-034086/mh-034086-1.jpg",
     link: "/products/seal/fuso/mh-034086",
@@ -2503,30 +2441,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-B-09",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034086",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-125-150-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN215 225 410 527 เฉินหลง T4",
       },
     ],
   },
   {
     id: 500005,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหน้า MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034087",
     image: "/images/products/seal/fuso/mh-034087/mh-034087-1.jpg",
     link: "/products/seal/fuso/mh-034087",
@@ -2541,30 +2478,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-11",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034087",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-130-150-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN527-FP-FT เฉินหลง FUSO",
       },
     ],
   },
   {
     id: 500006,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหลังนอก MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034134",
     image: "/images/products/seal/fuso/mh-034134/mh-034134-1.jpg",
     link: "/products/seal/fuso/mh-034134",
@@ -2578,30 +2514,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-16",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034134",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB3-60-72-12",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN527-FP-FT เฉินหลงFUSO 10TONS",
       },
     ],
   },
   {
     id: 500007,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหลังนอก MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034135",
     image: "/images/products/seal/fuso/mh-034135/mh-034135-1.jpg",
     link: "/products/seal/fuso/mh-034135",
@@ -2616,30 +2551,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-15",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034135",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB3-65-77-12",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN627 260 แรง",
       },
     ],
   },
   {
     id: 500008,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหน้า MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034136",
     image: "/images/products/seal/fuso/mh-034136/mh-034136-1.jpg",
     link: "/products/seal/fuso/mh-034136",
@@ -2653,30 +2587,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-B-10",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034136",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-130-150-12",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN528 รุ่นใหม่ FM,MS,MU,MP,MM",
       },
     ],
   },
   {
     id: 500009,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหลังใน MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034175",
     image: "/images/products/seal/fuso/mh-034175/mh-034175-1.jpg",
     link: "/products/seal/fuso/mh-034175",
@@ -2690,30 +2623,29 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-B-17",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034175",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-155-180-17",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "FUSO FN415",
       },
     ],
   },
   {
     id: 500010,
-    type: "ซีล FUSO",
-    kind: "SEAL FUSO",
+    type: "BIGTO ซีลล้อหน้า MITSUBISHI",
+    kind: "Oil Seals",
     name: "fuso-mh-034180",
     image: "/images/products/seal/fuso/mh-034180/mh-034180-1.jpg",
     link: "/products/seal/fuso/mh-034180",
@@ -2727,23 +2659,22 @@ export const SEAL_FUSO = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-12",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "MH-034180",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-140-158-11",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "MITSUBISHI FN627 260 แรง (EURO-II)",
       },
     ],
   },
@@ -2752,8 +2683,8 @@ export const SEAL_FUSO = [
 export const SEAL_UD = [
   {
     id: 600001,
-    type: "ซีล UD",
-    kind: "SEAL UD",
+    type: "BIGTO ซีลล้อหลังนอก NISSAN",
+    kind: "Oil Seals",
     name: "ud-38212-90006",
     image: "/images/products/seal/ud/38212-90006/38212-90006-1.jpg",
     link: "/products/seal/ud/38212-90006",
@@ -2768,30 +2699,29 @@ export const SEAL_UD = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-19",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "38212-90006",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-60-72-7.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "NISSAN CW430 ปากเพลา",
       },
     ],
   },
   {
     id: 600002,
-    type: "ซีล UD",
-    kind: "SEAL UD",
+    type: "BIGTO ซีลล้อหลังใน NISSAN",
+    kind: "Oil Seals",
     name: "ud-43090-90060",
     image: "/images/products/seal/ud/43090-90060/43090-90060-1.jpg",
     link: "/products/seal/ud/43090-90060",
@@ -2805,30 +2735,29 @@ export const SEAL_UD = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-19",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "43090-90060",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TBP-154-175-13",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "NISSAN CW430",
       },
     ],
   },
   {
     id: 600003,
-    type: "ซีล UD",
-    kind: "SEAL UD",
+    type: "BIGTO ซีลล้อหลังนอก NISSAN",
+    kind: "Oil Seals",
     name: "ud-43421-9z00a",
     image: "/images/products/seal/ud/43421-9z00a/43421-9z00a-1.jpg",
     link: "/products/seal/ud/43421-9z00a",
@@ -2842,30 +2771,29 @@ export const SEAL_UD = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S03-A-18",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "43421-9Z00A, C-329-9200",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "72x156x14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "NISSAN CW430 QUESTER GWE 370",
       },
     ],
   },
   {
     id: 600004,
-    type: "ซีล UD",
-    kind: "SEAL UD",
+    type: "BIGTO ซีลล้อหน้า NISSAN",
+    kind: "Oil Seals",
     name: "ud-43443-9z00a",
     image: "/images/products/seal/ud/43443-9z00a/43443-9z00a-1.jpg",
     link: "/products/seal/ud/43443-9z00a",
@@ -2879,30 +2807,29 @@ export const SEAL_UD = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S02-A-15",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "43443-9Z00A",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "WHW 100-131-24",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "NISSAN QUESTER",
       },
     ],
   },
   {
     id: 600005,
-    type: "ซีล UD",
-    kind: "SEAL UD",
+    type: "BIGTO ซีลเพลาแหนบ NISSAN",
+    kind: "Oil Seals",
     name: "ud-55515-00z00",
     image: "/images/products/seal/ud/55515-00z00/55515-00z00-1.jpg",
     link: "/products/seal/ud/55515-00z00",
@@ -2916,30 +2843,29 @@ export const SEAL_UD = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S04-A-06",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "55515-00Z00",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "19Z 145-175-15.5",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "NISSAN CW41, UD780, CW430 (เพลาโบกี้)",
       },
     ],
   },
   {
     id: 600006,
-    type: "ซีล UD",
-    kind: "SEAL UD",
+    type: "BIGTO ซีลล้อหลังใน NISSAN",
+    kind: "Oil Seals",
     name: "ud-1030074",
     image: "/images/products/seal/ud/1030074/1030074-1.jpg",
     link: "/products/seal/ud/1030074",
@@ -2953,23 +2879,22 @@ export const SEAL_UD = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S01-A-18",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "1030074",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "TB2-162-182-14",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "NISSAN CW 454 เพลาเกาหลี",
       },
     ],
   },
@@ -2978,8 +2903,8 @@ export const SEAL_UD = [
 export const SEAL_DUMP = [
   {
     id: 700001,
-    type: "ซีลกระบอกดั้มพ์",
-    kind: "SEAL DUMP",
+    type: "BIGTO ซีลกระบอกดั๊ม",
+    kind: "Oil Seals",
     name: "dump-dump",
     image: "/images/products/seal/dump/dump/dump-1.jpg",
     link: "/products/seal/dump/dump",
@@ -2992,63 +2917,62 @@ export const SEAL_DUMP = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "S02-A-08",
+        detail: "TPS831288_S08-A-01-1/13",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "9828-01231",
+        detail: "-",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "101-114-10",
+        detail: "30-140 mm.",
       },
       {
         name: "product-detail",
         icons: "",
-        detail:
-          "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
+        detail: "ชุดอะไหล่กระบอกดั๊มพ์",
       },
     ],
   },
 ];
 
 export const SEAL_PIG_SPUR = [
-    {
-      id: 700001,
-      type: "ซีลเดือยหมู",
-      kind: "SEAL PIG SPUR",
-      name: "dump-dump",
-      image: "/images/products/seal/pig-spur/pig-spur/pig-spur-1.jpg",
-      link: "/products/seal/pig-spur/pig-spur",
-      images: [
-        "/images/products/seal/pig-spur/pig-spur/pig-spur-1.jpg",
-        "/images/products/seal/pig-spur/pig-spur/pig-spur-2.jpg",
-        "/images/products/seal/pig-spur/pig-spur/pig-spur-3.jpg",
-      ],
-      details: [
-        {
-          name: "product-code",
-          icons: "/icons/products/seal/icon-product-code.png",
-          detail: "S02-A-08",
-        },
-        {
-          name: "product-no",
-          icons: "/icons/products/seal/icon-part-no.png",
-          detail: "9828-01231",
-        },
-        {
-          name: "product-sizing",
-          icons: "/icons/products/seal/icon-sizing.png",
-          detail: "101-114-10",
-        },
-        {
-          name: "product-detail",
-          icons: "",
-          detail:
-            "ใส่กับรุ่น KI / KR / FD / KQ / RL 300 / RJ130 / FB / FC / GD / FW / KS (ADD1390A)",
-        },
-      ],
-    },
-  ];
+  {
+    id: 700001,
+    type: "BIGTO ซีลเดื่อยหมู",
+    kind: "Oil Seals",
+    name: "dump-dump",
+    image: "/images/products/seal/pig-spur/pig-spur/pig-spur-1.jpg",
+    link: "/products/seal/pig-spur/pig-spur",
+    images: [
+      "/images/products/seal/pig-spur/pig-spur/pig-spur-1.jpg",
+      "/images/products/seal/pig-spur/pig-spur/pig-spur-2.jpg",
+      "/images/products/seal/pig-spur/pig-spur/pig-spur-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/seal/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/seal/icon-part-no.png",
+        detail: "BE4516E",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/seal/icon-sizing.png",
+        detail: "20-68-10",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "เดือยหมู",
+      },
+    ],
+    noData: true,
+  },
+];

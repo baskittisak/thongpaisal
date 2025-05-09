@@ -49,6 +49,7 @@ const RowContainer = styled(Row)`
 `;
 
 const ColProduct = styled(Col)`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,6 +70,17 @@ const ButtonProducts = styled.div`
   font-size: 1rem;
   font-family: var(--font-prompt), sans-serif;
   margin-top: 12px;
+`;
+
+const NoData = styled.div`
+  position: absolute;
+  background: #ff3130;
+  padding: 16px;
+  border-radius: 6px;
+
+  .ant-typography {
+    color: #fff;
+  }
 `;
 
 export default function Bush() {
@@ -93,6 +105,11 @@ export default function Bush() {
                 hoverable
                 cover={<Image fill alt={busing.name} src={busing.image} />}
               />
+              {busing.noData && (
+                <NoData>
+                  <Title level={5}>ไม่มีข้อมูล</Title>
+                </NoData>
+              )}
               <Link href={busing.link} passHref>
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
@@ -109,6 +126,11 @@ export default function Bush() {
                 hoverable
                 cover={<Image fill alt={rubber.name} src={rubber.image} />}
               />
+              {rubber.noData && (
+                <NoData>
+                  <Title level={5}>ไม่มีข้อมูล</Title>
+                </NoData>
+              )}
               <Link href={rubber.link} passHref>
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>

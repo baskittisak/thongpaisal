@@ -52,6 +52,7 @@ const RowContainer = styled(Row)`
 `;
 
 const ColProduct = styled(Col)`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,6 +73,17 @@ const ButtonProducts = styled.div`
   font-size: 1rem;
   font-family: var(--font-prompt), sans-serif;
   margin-top: 12px;
+`;
+
+const NoData = styled.div`
+  position: absolute;
+  background: #ff3130;
+  padding: 16px;
+  border-radius: 6px;
+
+  .ant-typography {
+    color: #fff;
+  }
 `;
 
 export default function Seal() {
@@ -96,6 +108,11 @@ export default function Seal() {
                 hoverable
                 cover={<Image fill alt={trailer.name} src={trailer.image} />}
               />
+              {trailer.noData && (
+                <NoData>
+                  <Title level={5}>ไม่มีข้อมูล</Title>
+                </NoData>
+              )}
               <Link href={trailer.link} passHref>
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
@@ -112,6 +129,11 @@ export default function Seal() {
                 hoverable
                 cover={<Image fill alt={tractor.name} src={tractor.image} />}
               />
+              {tractor.noData && (
+                <NoData>
+                  <Title level={5}>ไม่มีข้อมูล</Title>
+                </NoData>
+              )}
               <Link href={tractor.link} passHref>
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
@@ -208,6 +230,11 @@ export default function Seal() {
                 hoverable
                 cover={<Image fill alt={spur.name} src={spur.image} />}
               />
+              {spur.noData && (
+                <NoData>
+                  <Title level={5}>ไม่มีข้อมูล</Title>
+                </NoData>
+              )}
               <Link href={spur.link} passHref>
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>

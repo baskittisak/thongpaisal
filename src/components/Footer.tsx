@@ -1,5 +1,6 @@
 import { Col, Row, Space, Typography } from "antd";
 import Image from "next/image";
+import Link from "next/link";
 import styled from "styled-components";
 
 const { Title } = Typography;
@@ -113,24 +114,37 @@ export default function Footer() {
         <ColContent xl={8} lg={12} sm={24} xs={24}>
           <Title level={3}>ติดตามข่าวสารอยู่เสมอ</Title>
           <Space className="content">
-            <Image
-              src="/icons/icon-facebook.png"
-              width={32}
-              height={32}
-              alt="thongpaisal"
-            />
-            <Image
-              src="/icons/icon-instagram.png"
-              width={32}
-              height={32}
-              alt="thongpaisal"
-            />
-            <Image
+            <Link
+              href="https://www.facebook.com/profile.php?id=61564186742636"
+              passHref
+              target="_blank"
+            >
+              <Image
+                src="/icons/icon-facebook.png"
+                width={32}
+                height={32}
+                alt="thongpaisal"
+              />
+            </Link>
+            <Link
+              href="https://www.instagram.com/bigto_official/#"
+              passHref
+              target="_blank"
+            >
+              <Image
+                src="/icons/icon-instagram.png"
+                width={32}
+                height={32}
+                alt="thongpaisal"
+              />
+            </Link>
+
+            {/* <Image
               src="/icons/icon-twitter.png"
               width={32}
               height={32}
               alt="thongpaisal"
-            />
+            /> */}
           </Space>
         </ColContent>
       </RowContainer>
