@@ -17,7 +17,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: calc(100vh + 69px);
   overflow: hidden;
-  padding: 36px 150px;
+  padding: 36px 200px;
   background-color: rgba(0, 0, 0, 0.3);
 
   .ant-typography {

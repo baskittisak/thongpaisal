@@ -149,7 +149,7 @@ const Wrapper = styled.div`
   overflow: hidden;
 
   .title {
-    padding: 36px 150px 0;
+    padding: 36px 200px 0;
   }
 
   .content {
