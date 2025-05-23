@@ -1,8 +1,10 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import { Space, Typography } from "antd";
 import Image from "next/image";
 import styled from "styled-components";
+import Slider from "react-slick";
 import Box from "@/components/Box";
 import NavBar from "@/components/Navbar";
 
@@ -19,11 +21,20 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 48px 150px 48px;
-  background-color: rgba(0, 0, 0, 0.3);
+  padding: 48px 150px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
 
   .ant-typography {
     color: #fff !important;
+    z-index: 2;
+    position: relative;
   }
 
   @media (max-width: 768px) {
@@ -36,9 +47,45 @@ const BackgroundImage = styled(Image)`
   z-index: -1;
 `;
 
+const SliderWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .slick-slide > div {
+    height: 100vh;
+    position: relative;
+  }
+
+  .slick-prev {
+    left: 16px;
+  }
+
+  .slick-next {
+    right: 16px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px;
+    color: white;
+  }
+`;
+
 const TextOverlay = styled.div`
   position: relative;
   width: 70%;
+  z-index: 10;
 
   .title {
     font-size: 5rem;
@@ -104,6 +151,8 @@ export default function Cover() {
     text: 3,
   });
 
+  const [currentSlide, setCurrentSlide] = useState<number>(0);
+
   useEffect(() => {
     const updateSizing = () => {
       if (window.innerWidth <= 768) {
@@ -123,18 +172,57 @@ export default function Cover() {
 
     updateSizing();
     window.addEventListener("resize", updateSizing);
-
     return () => window.removeEventListener("resize", updateSizing);
   }, []);
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    arrows: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    afterChange: (current: number) => setCurrentSlide(current),
+  };
+
   return (
     <FullScreenWrapper>
-      <BackgroundImage
-        src="/images/image-cover.png"
-        alt="thongpaisal home"
-        fill
-        priority
-      />
+      <SliderWrapper>
+        <Slider {...settings}>
+          <div>
+            <BackgroundImage
+              src="/images/image-cover.png"
+              alt="cover-1"
+              fill
+              priority
+            />
+          </div>
+          <div>
+            <BackgroundImage
+              src="/images/image-cover-2.png"
+              alt="cover-2"
+              fill
+            />
+          </div>
+          <div>
+            <BackgroundImage
+              src="/images/image-cover-3.png"
+              alt="cover-3"
+              fill
+            />
+          </div>
+          <div>
+            <BackgroundImage
+              src="/images/image-cover-4.png"
+              alt="cover-4"
+              fill
+            />
+          </div>
+        </Slider>
+      </SliderWrapper>
+
       <Box height="100%" $direction="column" $justify="space-between">
         <Box $justify="space-between" $align="center">
           <Box $align="center" $cursor="pointer">
@@ -142,38 +230,42 @@ export default function Cover() {
               src="/icons/icon-logo.png"
               width={sizing.logo}
               height={sizing.logo}
-              alt="thongpaisal"
+              alt="logo"
+              style={{ position: "relative", zIndex: 2, marginRight: "8px" }}
             />
             <Title level={sizing.text}>THONGPAISAL CO.,LTD.</Title>
           </Box>
           <NavBar />
         </Box>
-        <TextOverlay>
-          <Title className="title">ผู้ผลิต ชิ้นส่วน</Title>
-          <Title className="title">อะไหล่ช่วงล่าง</Title>
-          <Text className="subtitle">Manufacturer of suspension parts</Text>
-          <ImageContainer size="large">
-            <Image
-              src="/icons/icon-made-in-thailand.png"
-              width={sizing.image}
-              height={sizing.image}
-              alt="thongpaisal made in thailand"
-            />
-            <Image
-              src="/icons/icon-quality-guaranteed.png"
-              width={sizing.image}
-              height={sizing.image}
-              alt="thongpaisal quality guaranteed"
-            />
-            <Image
-              src="/icons/icon-oem.png"
-              width={sizing.image}
-              height={sizing.image}
-              alt="thongpaisal oem"
-            />
-          </ImageContainer>
-          <ButtonContract>ข้อมูลติดต่อ</ButtonContract>
-        </TextOverlay>
+
+        {currentSlide === 0 && (
+          <TextOverlay>
+            <Title className="title">ผู้ผลิต ชิ้นส่วน</Title>
+            <Title className="title">อะไหล่ช่วงล่าง</Title>
+            <Text className="subtitle">Manufacturer of suspension parts</Text>
+            <ImageContainer size="large">
+              <Image
+                src="/icons/icon-made-in-thailand.png"
+                width={sizing.image}
+                height={sizing.image}
+                alt="made-in-thailand"
+              />
+              <Image
+                src="/icons/icon-quality-guaranteed.png"
+                width={sizing.image}
+                height={sizing.image}
+                alt="quality-guaranteed"
+              />
+              <Image
+                src="/icons/icon-oem.png"
+                width={sizing.image}
+                height={sizing.image}
+                alt="oem"
+              />
+            </ImageContainer>
+            <ButtonContract>ข้อมูลติดต่อ</ButtonContract>
+          </TextOverlay>
+        )}
       </Box>
     </FullScreenWrapper>
   );
