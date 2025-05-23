@@ -9,7 +9,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 36px 150px;
+  padding: 36px 200px;
   background-color: #f5f4f3;
 
   img {
@@ -73,6 +73,7 @@ const Topic = styled(Space)`
   .ant-typography {
     font-size: 3rem;
     font-style: italic;
+    font-family: var(--font-antonio), sans-serif !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 `;

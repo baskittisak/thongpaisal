@@ -1,14 +1,15 @@
 "use client";
 import { useEffect, useState } from "react";
 import NavBar from "@/components/Navbar";
-import AboutUs from "@/components/Home/AboutUs";
+// import AboutUs from "@/components/Home/AboutUs";
 import AboutUsDetails from "@/components/AboutUs/AboutUsDetails";
 import Footer from "@/components/Footer";
 import Expert from "@/components/AboutUs/Expert";
 import Type from "@/components/AboutUs/Type";
 import TpsTechnology from "@/components/AboutUs/TpsTechnology";
 import Highlights from "@/components/AboutUs/Highlights";
-import Summary from "@/components/AboutUs/Summary";
+// import Summary from "@/components/AboutUs/Summary";
+import SummaryOnlyImage from "@/components/AboutUs/SummaryOnlyImage";
 
 export default function AboutUsPage() {
   const [isClient, setIsClient] = useState(false);
@@ -22,13 +23,14 @@ export default function AboutUsPage() {
   return (
     <>
       <NavBar type="fixed" />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <AboutUsDetails />
       <Expert />
       <Type />
       <TpsTechnology />
       <Highlights />
-      <Summary />
+      {/* <Summary /> */}
+      <SummaryOnlyImage />
       <Footer />
     </>
   );

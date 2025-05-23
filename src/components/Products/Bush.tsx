@@ -18,7 +18,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100%;
   overflow: hidden;
-  padding: 36px 150px;
+  padding: 36px 200px;
   background-color: #ffffff;
 
   .title {
@@ -100,7 +100,14 @@ export default function Bush() {
         </Space>
         <RowContainer gutter={[24, 32]}>
           {BUSH_BUSHINGS.map((busing) => (
-            <ColProduct key={busing.name} xl={6} lg={8} sm={12} xs={24}>
+            <ColProduct
+              key={busing.name}
+              xl={6}
+              lg={8}
+              sm={12}
+              xs={24}
+              style={{ display: busing.noData ? "none" : "flex" }}
+            >
               <CardContainer
                 hoverable
                 cover={<Image fill alt={busing.name} src={busing.image} />}
@@ -121,7 +128,14 @@ export default function Bush() {
         </Title>
         <RowContainer gutter={[24, 32]}>
           {BUSH_RUBBER.map((rubber) => (
-            <ColProduct key={rubber.name} xl={6} lg={8} sm={12} xs={24}>
+            <ColProduct
+              key={rubber.name}
+              xl={6}
+              lg={8}
+              sm={12}
+              xs={24}
+              style={{ display: rubber.noData ? "none" : "flex" }}
+            >
               <CardContainer
                 hoverable
                 cover={<Image fill alt={rubber.name} src={rubber.image} />}

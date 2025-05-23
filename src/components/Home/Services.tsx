@@ -49,8 +49,8 @@ const Content = styled.div`
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 36px 150px;
-  background-color: #f5f4f3;
+  padding: 36px 200px;
+  background-color: #f6f6f6;
 
   @media (max-width: 992px) {
     flex-direction: column;
@@ -126,7 +126,7 @@ export default function Services() {
       <Content>
         <Space direction="vertical" size="large">
           <Space direction="vertical">
-            <Title style={{ fontSize: "3rem", color: "#004aad" }}>
+            <Title style={{ fontSize: "5rem", color: "#004aad" }}>
               เรารับผลิตตามแบบ
             </Title>
             <Title style={{ fontSize: "2.5rem", color: "#004aad" }}>

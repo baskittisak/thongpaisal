@@ -10,7 +10,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  padding: 36px 150px;
+  padding: 36px 200px;
   background-color: #f5f4f3;
 
   .title {

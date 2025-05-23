@@ -142,18 +142,27 @@ const images = [
 
 const Wrapper = styled.div`
   position: relative;
-  background-color: #f5f4f3;
+  background-color: #fff;
   width: 100vw;
   height: 100vh;
   padding-bottom: 36px;
   overflow: hidden;
 
   .title {
-    padding: 36px 150px 0;
+    padding: 36px 200px 0;
   }
 
   .content {
-    padding: 0 150px;
+    width: 1368px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  @media (max-width: 1350px) {
+    .content {
+      padding: 0 36px;
+      width: auto;
+    }
   }
 
   @media (max-width: 1200px) {
@@ -163,10 +172,6 @@ const Wrapper = styled.div`
   @media (max-width: 768px) {
     .title {
       padding: 36px;
-    }
-
-    .content {
-      padding: 0 36px;
     }
   }
 `;

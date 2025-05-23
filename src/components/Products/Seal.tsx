@@ -10,7 +10,7 @@ import {
   SEAL_FUSO,
   SEAL_UD,
   SEAL_DUMP,
-  SEAL_PIG_SPUR,
+  // SEAL_PIG_SPUR,
 } from "@/constant/seal";
 import Link from "next/link";
 
@@ -21,7 +21,7 @@ const FullScreenWrapper = styled.div`
   width: 100vw;
   height: 100%;
   overflow: hidden;
-  padding: 36px 150px;
+  padding: 36px 200px;
   background-color: #ffffff;
 
   .title {
@@ -108,11 +108,6 @@ export default function Seal() {
                 hoverable
                 cover={<Image fill alt={trailer.name} src={trailer.image} />}
               />
-              {trailer.noData && (
-                <NoData>
-                  <Title level={5}>ไม่มีข้อมูล</Title>
-                </NoData>
-              )}
               <Link href={trailer.link} passHref>
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
@@ -124,7 +119,14 @@ export default function Seal() {
         </Title>
         <RowContainer gutter={[24, 32]}>
           {SEAL_TRACTOR.map((tractor) => (
-            <ColProduct key={tractor.name} xl={6} lg={8} sm={12} xs={24}>
+            <ColProduct
+              key={tractor.name}
+              xl={6}
+              lg={8}
+              sm={12}
+              xs={24}
+              style={{ display: tractor.noData ? "none" : "flex" }}
+            >
               <CardContainer
                 hoverable
                 cover={<Image fill alt={tractor.name} src={tractor.image} />}
@@ -220,12 +222,19 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
+        {/* <Title level={1} className="title">
           ซีลกระเดือยหมู
         </Title>
         <RowContainer gutter={[24, 32]}>
           {SEAL_PIG_SPUR.map((spur) => (
-            <ColProduct key={spur.name} xl={6} lg={8} sm={12} xs={24}>
+            <ColProduct
+              key={spur.name}
+              xl={6}
+              lg={8}
+              sm={12}
+              xs={24}
+              style={{ display: spur.noData ? "none" : "flex" }}
+            >
               <CardContainer
                 hoverable
                 cover={<Image fill alt={spur.name} src={spur.image} />}
@@ -240,7 +249,7 @@ export default function Seal() {
               </Link>
             </ColProduct>
           ))}
-        </RowContainer>
+        </RowContainer> */}
       </FullScreenWrapper>
     </>
   );

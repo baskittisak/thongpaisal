@@ -12,6 +12,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-1.jpg",
       "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-3.jpg",
       "/images/products/seal/trailer/chaina-no-steel-slip/chaina-no-steel-slip-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -49,6 +52,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-2.jpg",
       "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-3.jpg",
       "/images/products/seal/trailer/chaina-steel-slip/chaina-steel-slip-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -85,6 +91,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/fuva-376590x/fuva-376590x-2.jpg",
       "/images/products/seal/trailer/fuva-376590x/fuva-376590x-3.jpg",
       "/images/products/seal/trailer/fuva-376590x/fuva-376590x-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -121,6 +130,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/mag-i/mag-i-2.jpg",
       "/images/products/seal/trailer/mag-i/mag-i-3.jpg",
       "/images/products/seal/trailer/mag-i/mag-i-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -157,6 +169,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/mag-ii/mag-ii-2.jpg",
       "/images/products/seal/trailer/mag-ii/mag-ii-3.jpg",
       "/images/products/seal/trailer/mag-ii/mag-ii-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -192,6 +207,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/mag-iii/mag-iii-1.jpg",
       "/images/products/seal/trailer/mag-iii/mag-iii-2.jpg",
       "/images/products/seal/trailer/mag-iii/mag-iii-3.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -218,7 +236,7 @@ export const SEAL_TRAILER = [
   },
   {
     id: 200007,
-    type: "ซีลรถพ่วง",
+    type: "BIGTO ซีลล้อรถพ่วงแม็กนั่ม",
     kind: "Oil Seals",
     name: "trailer-mag-iv",
     image: "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
@@ -227,30 +245,32 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
       "/images/products/seal/trailer/mag-iv/mag-iv-2.jpg",
       "/images/products/seal/trailer/mag-iv/mag-iv-3.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "",
+        detail: "TPS831288_S07-A-25",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "",
+        detail: "B370043BG",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "",
+        detail: "TBA 139.8-181-30",
       },
       {
         name: "product-detail",
         icons: "",
-        detail: "",
+        detail: "MAGNUM",
       },
     ],
-    noData: true,
   },
   {
     id: 200008,
@@ -264,6 +284,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/ror/ror-2.jpg",
       "/images/products/seal/trailer/ror/ror-3.jpg",
       "/images/products/seal/trailer/ror/ror-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -300,6 +323,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/ror-unithai/ror-unithai-2.jpg",
       "/images/products/seal/trailer/ror-unithai/ror-unithai-3.jpg",
       "/images/products/seal/trailer/ror-unithai/ror-unithai-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -336,6 +362,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/tomi/tomi-2.jpg",
       "/images/products/seal/trailer/tomi/tomi-3.jpg",
       "/images/products/seal/trailer/tomi/tomi-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -372,6 +401,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/york-green/york-green-2.jpg",
       "/images/products/seal/trailer/york-green/york-green-3.jpg",
       "/images/products/seal/trailer/york-green/york-green-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -408,6 +440,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/york-new/york-new-2.jpg",
       "/images/products/seal/trailer/york-new/york-new-3.jpg",
       "/images/products/seal/trailer/york-new/york-new-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -444,6 +479,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/york-red/york-red-2.jpg",
       "/images/products/seal/trailer/york-red/york-red-3.jpg",
       "/images/products/seal/trailer/york-red/york-red-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -481,6 +519,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-3.jpg",
       "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-4.jpg",
       "/images/products/seal/trailer/zm-rubber-edge/zm-rubber-edge-5.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -517,6 +558,9 @@ export const SEAL_TRAILER = [
       "/images/products/seal/trailer/zm-steel-edge/zm-steel-edged-2.jpg",
       "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-3.jpg",
       "/images/products/seal/trailer/zm-steel-edge/zm-steel-edge-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -556,6 +600,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/l2808/l2808-2.jpg",
       "/images/products/seal/tractor/l2808/l2808-3.jpg",
       "/images/products/seal/tractor/l2808/l2808-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -592,6 +639,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-aq1389e/kubota-aq1389e-2.jpg",
       "/images/products/seal/tractor/kubota-aq1389e/kubota-aq1389e-3.jpg",
       "/images/products/seal/tractor/kubota-aq1389e/kubota-aq1389e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -628,6 +678,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-bg450hf/kubota-bg450hf-2.jpg",
       "/images/products/seal/tractor/kubota-bg450hf/kubota-bg450hf-3.jpg",
       "/images/products/seal/tractor/kubota-bg450hf/kubota-bg450hf-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -664,6 +717,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-bg6118e/kubota-bg6118e-2.jpg",
       "/images/products/seal/tractor/kubota-bg6118e/kubota-bg6118e-3.jpg",
       "/images/products/seal/tractor/kubota-bg6118e/kubota-bg6118e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -701,6 +757,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-bq3164e/kubota-bq3164e-2.jpg",
       "/images/products/seal/tractor/kubota-bq3164e/kubota-bq3164e-3.jpg",
       "/images/products/seal/tractor/kubota-bq3164e/kubota-bq3164e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -737,6 +796,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-bq3201e/kubota-bq3201e-2.jpg",
       "/images/products/seal/tractor/kubota-bq3201e/kubota-bq3201e-3.jpg",
       "/images/products/seal/tractor/kubota-bq3201e/kubota-bq3201e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -773,6 +835,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-bq3203e/kubota-bq3203e-2.jpg",
       "/images/products/seal/tractor/kubota-bq3203e/kubota-bq3203e-3.jpg",
       "/images/products/seal/tractor/kubota-bq3203e/kubota-bq3203e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -809,6 +874,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-bq3861e/kubota-bq3861e-2.jpg",
       "/images/products/seal/tractor/kubota-bq3861e/kubota-bq3861e-3.jpg",
       "/images/products/seal/tractor/kubota-bq3861e/kubota-bq3861e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -846,6 +914,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-xa1376e/kubota-xa1376e-2.jpg",
       "/images/products/seal/tractor/kubota-xa1376e/kubota-xa1376e-3.jpg",
       "/images/products/seal/tractor/kubota-xa1376e/kubota-xa1376e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -883,6 +954,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/kubota-xo400e/kubota-xo400e-2.jpg",
       "/images/products/seal/tractor/kubota-xo400e/kubota-xo400e-3.jpg",
       "/images/products/seal/tractor/kubota-xo400e/kubota-xo400e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -919,6 +993,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/yanmar-bq2386e/yanmar-bq2386e-2.jpg",
       "/images/products/seal/tractor/yanmar-bq2386e/yanmar-bq2386e-3.jpg",
       "/images/products/seal/tractor/yanmar-bq2386e/yanmar-bq2386e-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -958,6 +1035,9 @@ export const SEAL_TRACTOR = [
       "/images/products/seal/tractor/yanmar-bq4919e/yanmar-bq4919e-4.jpg",
       "/images/products/seal/tractor/yanmar-bq4919e/yanmar-bq4919e-5.jpg",
       "/images/products/seal/tractor/yanmar-bq4919e/yanmar-bq4919e-6.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -997,6 +1077,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01110/9828-01110-2.jpg",
       "/images/products/seal/hino/9828-01110/9828-01110-3.jpg",
       "/images/products/seal/hino/9828-01110/9828-01110-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1033,6 +1116,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01120/9828-01120-2.jpg",
       "/images/products/seal/hino/9828-01120/9828-01120-3.jpg",
       "/images/products/seal/hino/9828-01120/9828-01120-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1069,6 +1155,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01130/9828-01130-2.jpg",
       "/images/products/seal/hino/9828-01130/9828-01130-3.jpg",
       "/images/products/seal/hino/9828-01130/9828-01130-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1105,6 +1194,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01137/9828-01137-2.jpg",
       "/images/products/seal/hino/9828-01137/9828-01137-3.jpg",
       "/images/products/seal/hino/9828-01137/9828-01137-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1141,6 +1233,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01195-01230/9828-01195-01230-2.jpg",
       "/images/products/seal/hino/9828-01195-01230/9828-01195-01230-3.jpg",
       "/images/products/seal/hino/9828-01195-01230/9828-01195-01230-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1177,6 +1272,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01203/9828-01203-2.jpg",
       "/images/products/seal/hino/9828-01203/9828-01203-3.jpg",
       "/images/products/seal/hino/9828-01203/9828-01203-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1214,6 +1312,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01204/9828-01204-3.jpg",
       "/images/products/seal/hino/9828-01204/9828-01204-4.jpg",
       "/images/products/seal/hino/9828-01204/9828-01204-5.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1250,6 +1351,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-01207/9828-01207-2.jpg",
       "/images/products/seal/hino/9828-01207/9828-01207-3.jpg",
       "/images/products/seal/hino/9828-01207/9828-01207-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1286,6 +1390,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-52115/9828-52115-2.jpg",
       "/images/products/seal/hino/9828-52115/9828-52115-3.jpg",
       "/images/products/seal/hino/9828-52115/9828-52115-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1322,6 +1429,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-57103/9828-57103-2.jpg",
       "/images/products/seal/hino/9828-57103/9828-57103-3.jpg",
       "/images/products/seal/hino/9828-57103/9828-57103-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1358,6 +1468,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-66106/9828-66106-2.jpg",
       "/images/products/seal/hino/9828-66106/9828-66106-3.jpg",
       "/images/products/seal/hino/9828-66106/9828-66106-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1394,6 +1507,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-76101/9828-76101-2.jpg",
       "/images/products/seal/hino/9828-76101/9828-76101-3.jpg",
       "/images/products/seal/hino/9828-76101/9828-76101-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1430,6 +1546,9 @@ export const SEAL_HTNO = [
       "/images/products/seal/hino/9828-76104/9828-76104-2.jpg",
       "/images/products/seal/hino/9828-76104/9828-76104-3.jpg",
       "/images/products/seal/hino/9828-76104/9828-76104-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1469,6 +1588,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/0-09625-129-0/0-09625-129-0-2.jpg",
       "/images/products/seal/isuzu/0-09625-129-0/0-09625-129-0-3.jpg",
       "/images/products/seal/isuzu/0-09625-129-0/0-09625-129-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1505,6 +1627,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-09625-006-0/1-09625-006-0-2.jpg",
       "/images/products/seal/isuzu/1-09625-006-0/1-09625-006-0-3.jpg",
       "/images/products/seal/isuzu/1-09625-006-0/1-09625-006-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1541,6 +1666,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-09625-041-0/1-09625-041-0-2.jpg",
       "/images/products/seal/isuzu/1-09625-041-0/1-09625-041-0-3.jpg",
       "/images/products/seal/isuzu/1-09625-041-0/1-09625-041-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1577,6 +1705,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-09625-043-0/1-09625-043-0-2.jpg",
       "/images/products/seal/isuzu/1-09625-043-0/1-09625-043-0-3.jpg",
       "/images/products/seal/isuzu/1-09625-043-0/1-09625-043-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1613,6 +1744,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-09625-044-0/1-09625-044-0-2.jpg",
       "/images/products/seal/isuzu/1-09625-044-0/1-09625-044-0-3.jpg",
       "/images/products/seal/isuzu/1-09625-044-0/1-09625-044-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1649,6 +1783,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-09625-146-0/1-09625-146-0-2.jpg",
       "/images/products/seal/isuzu/1-09625-146-0/1-09625-146-0-3.jpg",
       "/images/products/seal/isuzu/1-09625-146-0/1-09625-146-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1685,6 +1822,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-09625-226-0/1-09625-226-0-2.jpg",
       "/images/products/seal/isuzu/1-09625-226-0/1-09625-226-0-3.jpg",
       "/images/products/seal/isuzu/1-09625-226-0/1-09625-226-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1714,9 +1854,15 @@ export const SEAL_ISUZU = [
     type: "BIGTO ซีลล้อหลังนอก ISUZU JUMBO",
     kind: "Oil Seals",
     name: "isuzu-1-09625-227-0",
-    image: "/images/products/seal/isuzu/1-09625-227-0/1-09625-227-0-1.jpg",
+    image: "/images/products/seal/isuzu/1-09625-227-0/1-09625-227-0-2.jfif",
     link: "/products/seal/isuzu/1-09625-227-0",
-    images: ["/images/products/seal/isuzu/1-09625-227-0/1-09625-227-0-1.jpg"],
+    images: [
+      "/images/products/seal/isuzu/1-09625-227-0/1-09625-227-0-2.jfif",
+      "/images/products/seal/isuzu/1-09625-227-0/1-09625-227-0-1.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
+    ],
     details: [
       {
         name: "product-code",
@@ -1752,6 +1898,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/1-51389-005-0/1-51389-005-0-2.jpg",
       "/images/products/seal/isuzu/1-51389-005-0/1-51389-005-0-3.jpg",
       "/images/products/seal/isuzu/1-51389-005-0/1-51389-005-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1788,6 +1937,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/5-09625-030-0/5-09625-030-0-2.jpg",
       "/images/products/seal/isuzu/5-09625-030-0/5-09625-030-0-3.jpg",
       "/images/products/seal/isuzu/5-09625-030-0/5-09625-030-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1824,6 +1976,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/8-94248-117-1/8-94248-117-1-2.jpg",
       "/images/products/seal/isuzu/8-94248-117-1/8-94248-117-1-3.jpg",
       "/images/products/seal/isuzu/8-94248-117-1/8-94248-117-1-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1860,6 +2015,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/8-97147-977-1/8-97147-977-1-2.jpg",
       "/images/products/seal/isuzu/8-97147-977-1/8-97147-977-1-3.jpg",
       "/images/products/seal/isuzu/8-97147-977-1/8-97147-977-1-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1896,6 +2054,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09724-018-0/9-09724-018-0-2.jpg",
       "/images/products/seal/isuzu/9-09724-018-0/9-09724-018-0-3.jpg",
       "/images/products/seal/isuzu/9-09724-018-0/9-09724-018-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1932,6 +2093,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09724-019-0/9-09724-019-0-2.jpg",
       "/images/products/seal/isuzu/9-09724-019-0/9-09724-019-0-3.jpg",
       "/images/products/seal/isuzu/9-09724-019-0/9-09724-019-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -1968,6 +2132,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-136-0/9-09924-136-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2004,6 +2171,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-242-0/9-09924-242-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2040,6 +2210,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-290-0/9-09924-290-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2076,6 +2249,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-350-0/9-09924-350-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2112,6 +2288,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-374-0/9-09924-374-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2148,6 +2327,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-444-0/9-09924-444-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2220,6 +2402,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-2.jpg",
       "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-3.jpg",
       "/images/products/seal/isuzu/9-09924-500-0/9-09924-500-0-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2249,9 +2434,15 @@ export const SEAL_ISUZU = [
     type: "BIGTO ซีลล้อหลังนอก NGR 135 แรง",
     kind: "Oil Seals",
     name: "isuzu-9-09924-511-0",
-    image: "/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-1.jpg",
+    image: "/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-2.jfif",
     link: "/products/seal/isuzu/9-09924-511-0",
-    images: ["/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-1.jpg"],
+    images: [
+      "/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-2.jfif",
+      "/images/products/seal/isuzu/9-09924-511-0/9-09924-511-0-1.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
+    ],
     details: [
       {
         name: "product-code",
@@ -2287,6 +2478,9 @@ export const SEAL_ISUZU = [
       "/images/products/seal/isuzu/9-87239-780-9-0/9-87239-780-9-2.jpg",
       "/images/products/seal/isuzu/9-87239-780-9-0/9-87239-780-9-3.jpg",
       "/images/products/seal/isuzu/9-87239-780-9-0/9-87239-780-9-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2328,6 +2522,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/12857-16700/12857-16700-4.jpg",
       "/images/products/seal/fuso/12857-16700/12857-16700-5.jpg",
       "/images/products/seal/fuso/12857-16700/12857-16700-6.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2364,6 +2561,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mc-807438/mc-807438-2.jpg",
       "/images/products/seal/fuso/mc-807438/mc-807438-3.jpg",
       "/images/products/seal/fuso/mc-807438/mc-807438-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2400,6 +2600,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034082/mh-034082-2.jpg",
       "/images/products/seal/fuso/mh-034082/mh-034082-3.jpg",
       "/images/products/seal/fuso/mh-034082/mh-034082-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2436,6 +2639,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034086/mh-034086-2.jpg",
       "/images/products/seal/fuso/mh-034086/mh-034086-3.jpg",
       "/images/products/seal/fuso/mh-034086/mh-034086-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2473,6 +2679,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034087/mh-034087-3.jpg",
       "/images/products/seal/fuso/mh-034087/mh-034087-4.jpg",
       "/images/products/seal/fuso/mh-034087/mh-034087-5.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2509,6 +2718,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034134/mh-034134-2.jpg",
       "/images/products/seal/fuso/mh-034134/mh-034134-3.jpg",
       "/images/products/seal/fuso/mh-034134/mh-034134-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2546,6 +2758,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034135/mh-034135-3.jpg",
       "/images/products/seal/fuso/mh-034135/mh-034135-4.jpg",
       "/images/products/seal/fuso/mh-034135/mh-034135-5.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2582,6 +2797,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034136/mh-034136-2.jpg",
       "/images/products/seal/fuso/mh-034136/mh-034136-3.jpg",
       "/images/products/seal/fuso/mh-034136/mh-034136-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2618,6 +2836,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034175/mh-034175-2.jpg",
       "/images/products/seal/fuso/mh-034175/mh-034175-3.jpg",
       "/images/products/seal/fuso/mh-034175/mh-034175-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2654,6 +2875,9 @@ export const SEAL_FUSO = [
       "/images/products/seal/fuso/mh-034180/mh-034180-2.jpg",
       "/images/products/seal/fuso/mh-034180/mh-034180-3.jpg",
       "/images/products/seal/fuso/mh-034180/mh-034180-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2694,6 +2918,9 @@ export const SEAL_UD = [
       "/images/products/seal/ud/38212-90006/38212-90006-3.jpg",
       "/images/products/seal/ud/38212-90006/38212-90006-4.jpg",
       "/images/products/seal/ud/38212-90006/38212-90006-5.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2730,6 +2957,9 @@ export const SEAL_UD = [
       "/images/products/seal/ud/43090-90060/43090-90060-2.jpg",
       "/images/products/seal/ud/43090-90060/43090-90060-3.jpg",
       "/images/products/seal/ud/43090-90060/43090-90060-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2766,6 +2996,9 @@ export const SEAL_UD = [
       "/images/products/seal/ud/43421-9z00a/43421-9z00a-2.jpg",
       "/images/products/seal/ud/43421-9z00a/43421-9z00a-3.jpg",
       "/images/products/seal/ud/43421-9z00a/43421-9z00a-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2802,6 +3035,9 @@ export const SEAL_UD = [
       "/images/products/seal/ud/43443-9z00a/43443-9z00a-2.jpg",
       "/images/products/seal/ud/43443-9z00a/43443-9z00a-3.jpg",
       "/images/products/seal/ud/43443-9z00a/43443-9z00a-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2838,6 +3074,9 @@ export const SEAL_UD = [
       "/images/products/seal/ud/55515-00z00/55515-00z00-2.jpg",
       "/images/products/seal/ud/55515-00z00/55515-00z00-3.jpg",
       "/images/products/seal/ud/55515-00z00/55515-00z00-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2874,6 +3113,9 @@ export const SEAL_UD = [
       "/images/products/seal/ud/1030074/1030074-2.jpg",
       "/images/products/seal/ud/1030074/1030074-3.jpg",
       "/images/products/seal/ud/1030074/1030074-4.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2912,6 +3154,9 @@ export const SEAL_DUMP = [
       "/images/products/seal/dump/dump/dump-1.jpg",
       "/images/products/seal/dump/dump/dump-2.jpg",
       "/images/products/seal/dump/dump/dump-3.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {
@@ -2950,6 +3195,9 @@ export const SEAL_PIG_SPUR = [
       "/images/products/seal/pig-spur/pig-spur/pig-spur-1.jpg",
       "/images/products/seal/pig-spur/pig-spur/pig-spur-2.jpg",
       "/images/products/seal/pig-spur/pig-spur/pig-spur-3.jpg",
+      "/images/products/seal/seal-1.jpg",
+      "/images/products/seal/seal-2.jpg",
+      "/images/products/seal/seal-3.jpg",
     ],
     details: [
       {

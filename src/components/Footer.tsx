@@ -2,18 +2,24 @@ import { Col, Row, Space, Typography } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import styled from "styled-components";
+import { TikTokFilled } from "@ant-design/icons";
 
 const { Title } = Typography;
 
 const FullScreenWrapper = styled.div`
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   overflow: hidden;
   padding: 48px 150px 48px;
 
   .ant-typography {
     color: #fff !important;
+  }
+
+  .anticon svg {
+    font-size: 36px;
+    color: #fff;
   }
 
   @media (max-width: 1200px) {
@@ -82,7 +88,7 @@ export default function Footer() {
       />
       <Name>
         <Image
-          src="/icons/icon-footer.png"
+          src="/icons/icon-logo.png"
           width={80}
           height={80}
           alt="thongpaisal"
@@ -138,13 +144,13 @@ export default function Footer() {
                 alt="thongpaisal"
               />
             </Link>
-
-            {/* <Image
-              src="/icons/icon-twitter.png"
-              width={32}
-              height={32}
-              alt="thongpaisal"
-            /> */}
+            <Link
+              href="https://www.tiktok.com/embed/@bigtothai"
+              passHref
+              target="_blank"
+            >
+              <TikTokFilled className="icon" />
+            </Link>
           </Space>
         </ColContent>
       </RowContainer>
