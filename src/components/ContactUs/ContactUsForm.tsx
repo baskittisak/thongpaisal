@@ -1,6 +1,7 @@
 import { Col, Input, Row, Select, Space, Typography } from "antd";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import styled from "styled-components";
 
 const { Title } = Typography;
@@ -182,6 +183,46 @@ const Button = styled.div`
 `;
 
 export default function ContactUsForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    purpose: "",
+    other: "",
+  });
+
+  const onChange = (
+    type: "name" | "email" | "purpose" | "other",
+    value: unknown
+  ) => {
+    setFormData((prev) => ({
+      ...prev,
+      [type]: value,
+    }));
+  };
+
+  const onSubmitForm = async () => {
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        alert("ส่งข้อความสำเร็จ!");
+        setFormData({ name: "", email: "", purpose: "", other: "" });
+      } else {
+        alert("ส่งข้อความล้มเหลว: " + result.error);
+      }
+    } catch (error: unknown) {
+      console.error(error);
+      alert("เกิดข้อผิดพลาดในการส่งข้อมูล");
+    }
+  };
+
   return (
     <FullScreenWrapper>
       <BackgroundImage
@@ -256,15 +297,29 @@ export default function ContactUsForm() {
               <Form>
                 <Space direction="vertical" size={4}>
                   <Typography>ชื่อ-สกุล</Typography>
-                  <Input type="text" placeholder="กรอกชื่อ-สกุล" />
+                  <Input
+                    type="text"
+                    placeholder="กรอกชื่อ-สกุล"
+                    value={formData.name}
+                    onChange={(event) => onChange("name", event.target.value)}
+                  />
                 </Space>
                 <Space direction="vertical" size={4}>
                   <Typography>อีเมล์</Typography>
-                  <Input type="text" placeholder="กรอกอีเมล์" />
+                  <Input
+                    type="text"
+                    placeholder="กรอกอีเมล์"
+                    value={formData.email}
+                    onChange={(event) => onChange("email", event.target.value)}
+                  />
                 </Space>
                 <Space direction="vertical" size={4}>
                   <Typography>วัตถุประสงค์</Typography>
-                  <SelectContainer placeholder="เลือกวัตถุประสงค์">
+                  <SelectContainer
+                    placeholder="เลือกวัตถุประสงค์"
+                    value={formData.purpose}
+                    onChange={(_, option) => onChange("purpose", option)}
+                  >
                     <Select.Option key="1" value="สอบถามข้อมูลสินค้า">
                       สอบถามข้อมูลสินค้า
                     </Select.Option>
@@ -290,9 +345,14 @@ export default function ContactUsForm() {
                 </Space>
                 <Space direction="vertical" size={4}>
                   <Typography>ข้อความเพิ่มเติม</Typography>
-                  <Input.TextArea rows={2} placeholder="กรอข้อความเพิ่มเติม" />
+                  <Input.TextArea
+                    rows={2}
+                    placeholder="กรอข้อความเพิ่มเติม"
+                    value={formData.other}
+                    onChange={(event) => onChange("other", event.target.value)}
+                  />
                 </Space>
-                <Button>
+                <Button onClick={onSubmitForm}>
                   <Title level={5}>ส่งฟอร์ม</Title>
                 </Button>
               </Form>
