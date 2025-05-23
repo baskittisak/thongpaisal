@@ -73,6 +73,7 @@ const Topic = styled(Space)`
   .ant-typography {
     font-size: 3rem;
     font-style: italic;
+    font-family: var(--font-antonio), sans-serif !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 `;
