@@ -1,11 +1,11 @@
 "use client";
-import { useEffect, useState } from "react";
-import { Col, Row, Typography } from "antd";
+import { useState } from "react";
+import { Col, Row, Space, Typography } from "antd";
 import Image from "next/image";
 import Box from "@/components/Box";
 import styled from "styled-components";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 interface SizingProps {
   title: React.ComponentProps<typeof Typography.Title>["level"];
@@ -67,13 +67,10 @@ const TitleWrapper = styled.div`
 const Paragraph = styled.div`
   background-color: #004aad;
   padding: 24px;
+  margin-bottom: 36px;
 
   .ant-typography {
     line-height: 1.5;
-  }
-
-  @media (max-width: 1200px) {
-    margin-bottom: 24px;
   }
 `;
 
@@ -84,6 +81,7 @@ const ColImage = styled(Col)`
   @media (max-width: 1200px) {
     max-width: 80%;
     margin: auto;
+    margin-top: 24px;
   }
 
   @media (max-width: 992px) {
@@ -100,31 +98,10 @@ const ImageContainer = styled.div<{ full?: "true" }>`
 `;
 
 export default function AboutUs() {
-  const [sizing, setSizing] = useState<SizingProps>({
-    title: 2,
-    subtitle: 4,
+  const [sizing] = useState<SizingProps>({
+    title: 4,
+    subtitle: 5,
   });
-
-  useEffect(() => {
-    const updateSizing = () => {
-      if (window.innerWidth <= 768) {
-        setSizing({
-          title: 3,
-          subtitle: 5,
-        });
-      } else {
-        setSizing({
-          title: 2,
-          subtitle: 4,
-        });
-      }
-    };
-
-    updateSizing();
-    window.addEventListener("resize", updateSizing);
-
-    return () => window.removeEventListener("resize", updateSizing);
-  }, []);
 
   return (
     <FullScreenWrapper>
@@ -139,8 +116,8 @@ export default function AboutUs() {
           <Box $align="center" $cursor="pointer">
             <Image
               src="/icons/icon-logo.png"
-              width={100}
-              height={100}
+              width={60}
+              height={60}
               alt="thongpaisal"
             />
             <Box $direction="column">
@@ -167,6 +144,55 @@ export default function AboutUs() {
               และพร้อมส่งมอบประสบการณ์ที่ดีที่สุดให้กับลูกค้าทุกท่าน
             </Title>
           </Paragraph>
+          <Space direction="vertical" size={16}>
+            <Space size={24}>
+              <Image
+                src="/images/image-home-about-us-4.png"
+                width={100}
+                height={100}
+                alt="logo"
+              />
+              <Space direction="vertical" size={2}>
+                <Text style={{ fontSize: "18px" }}>ทีมงานมืออาชีพ</Text>
+                <Text style={{ fontSize: "18px" }}>
+                  ทีมงานที่ได้รับการฝึกฝนเฉพาะทาง และ ประสบการณ์ในการทำงานสูง
+                </Text>
+                <Text style={{ fontSize: "18px" }}>รับประกันคุณภาพ</Text>
+              </Space>
+            </Space>
+            <Space size={24}>
+              <Image
+                src="/images/image-home-about-us-5.png"
+                width={100}
+                height={100}
+                alt="logo"
+              />
+              <Space direction="vertical" size={2}>
+                <Text style={{ fontSize: "18px" }}>
+                  รักษาคุณภาพและมาตรฐานบริการ เพื่อลูกค้าของเรา
+                </Text>
+                <Text style={{ fontSize: "18px" }}>
+                  Maintain quality and service standards for our customers
+                </Text>
+              </Space>
+            </Space>
+            <Space size={24}>
+              <Image
+                src="/images/image-home-about-us-6.png"
+                width={100}
+                height={100}
+                alt="logo"
+              />
+              <Space direction="vertical" size={2}>
+                <Text style={{ fontSize: "18px" }}>
+                  ด้วยประสบการณ์กว่า 30 ปี ทีมงานของ ทองไพศาล พร้อมมอบสินค้า
+                </Text>
+                <Text style={{ fontSize: "18px" }}>
+                  คุณภาพสูงให้แก่ท่าน ดูแลหลังการใช้งานอย่างมืออาชีพ
+                </Text>
+              </Space>
+            </Space>
+          </Space>
         </Col>
         <ColImage xl={12} lg={24} md={24} sm={24} xs={24}>
           <ImageContainer full="true">
