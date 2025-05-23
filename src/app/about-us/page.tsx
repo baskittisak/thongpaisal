@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import NavBar from "@/components/Navbar";
-import AboutUs from "@/components/Home/AboutUs";
+// import AboutUs from "@/components/Home/AboutUs";
 import AboutUsDetails from "@/components/AboutUs/AboutUsDetails";
 import Footer from "@/components/Footer";
 import Expert from "@/components/AboutUs/Expert";
@@ -23,7 +23,7 @@ export default function AboutUsPage() {
   return (
     <>
       <NavBar type="fixed" />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <AboutUsDetails />
       <Expert />
       <Type />

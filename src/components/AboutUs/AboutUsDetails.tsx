@@ -7,7 +7,7 @@ const { Title } = Typography;
 const FullScreenWrapper = styled.div`
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   padding: 36px 200px;
   background-color: #004aad;
@@ -67,7 +67,7 @@ const Content = styled.div`
   position: relative;
 
   .title {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #fff;
   }
 
