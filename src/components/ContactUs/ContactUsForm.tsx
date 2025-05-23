@@ -1,5 +1,6 @@
 import { Col, Input, Row, Select, Space, Typography } from "antd";
 import Image from "next/image";
+import Link from "next/link";
 import styled from "styled-components";
 
 const { Title } = Typography;
@@ -27,8 +28,8 @@ const FullScreenWrapper = styled.div`
     font-weight: 400;
   }
 
-  .q1 {
-    margin-right: -36px;
+  .tps {
+    margin-right: 16px;
   }
 
   .topic {
@@ -76,10 +77,9 @@ const FullScreenWrapper = styled.div`
       white-space: pre;
     }
 
-    .q1 {
+    .tps {
       width: 150px;
       height: 150px;
-      margin-right: -24px;
     }
 
     .thai {
@@ -119,11 +119,17 @@ const Box = styled.div`
   height: auto;
   width: 100%;
 
+  .add-line > div:last-child > a > img {
+    height: 80px;
+    object-fit: cover;
+  }
+
   @media (max-width: 960px) {
     flex-direction: column;
 
-    .qr-code {
+    .add-line {
       flex-direction: row;
+      align-items: center;
     }
   }
 
@@ -131,11 +137,6 @@ const Box = styled.div`
     .map {
       width: 350px;
       height: 300px;
-    }
-
-    .qr-code > div > img {
-      width: 120px;
-      height: 120px;
     }
   }
 `;
@@ -194,11 +195,11 @@ export default function ContactUsForm() {
           <Col xl={14} lg={24} sm={24} xs={24}>
             <Space size={0} className="topic">
               <Image
-                src="/icons/icon-q1.png"
-                width={220}
-                height={220}
+                src="/icons/icon-tps.png"
+                width={180}
+                height={180}
                 alt=""
-                className="q1"
+                className="tps"
               />
               <Space direction="vertical" size={16}>
                 <Space direction="vertical" size={0}>
@@ -227,19 +228,25 @@ export default function ContactUsForm() {
                 height={450}
                 className="map"
               />
-              <Space direction="vertical" size={32} className="qr-code">
+              <Space direction="vertical" className="add-line">
                 <Image
-                  src="/icons/icon-qr-green.png"
+                  src="/icons/icon-cartoon.png"
                   alt="thongpaisal"
                   width={170}
                   height={170}
                 />
-                <Image
-                  src="/icons/icon-qr-gray.png"
-                  alt="thongpaisal"
-                  width={170}
-                  height={170}
-                />
+                <Link
+                  href="https://line.me/R/ti/p/@bigtothai"
+                  passHref
+                  target="_blank"
+                >
+                  <Image
+                    src="/icons/icon-add-line.png"
+                    alt="thongpaisal"
+                    width={200}
+                    height={80}
+                  />
+                </Link>
               </Space>
             </Box>
           </Col>
