@@ -236,7 +236,7 @@ export const SEAL_TRAILER = [
   },
   {
     id: 200007,
-    type: "ซีลรถพ่วง",
+    type: "BIGTO ซีลล้อรถพ่วงแม็กนั่ม",
     kind: "Oil Seals",
     name: "trailer-mag-iv",
     image: "/images/products/seal/trailer/mag-iv/mag-iv-1.jpg",
@@ -253,25 +253,24 @@ export const SEAL_TRAILER = [
       {
         name: "product-code",
         icons: "/icons/products/seal/icon-product-code.png",
-        detail: "",
+        detail: "TPS831288_S07-A-25",
       },
       {
         name: "product-no",
         icons: "/icons/products/seal/icon-part-no.png",
-        detail: "",
+        detail: "B370043BG",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/seal/icon-sizing.png",
-        detail: "",
+        detail: "TBA 139.8-181-30",
       },
       {
         name: "product-detail",
         icons: "",
-        detail: "",
+        detail: "MAGNUM",
       },
     ],
-    noData: true,
   },
   {
     id: 200008,
