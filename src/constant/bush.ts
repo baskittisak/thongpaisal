@@ -1051,44 +1051,6 @@ export const BUSH_RUBBER = [
       },
     ],
   },
-  {
-    id: 300001,
-    type: "ยาง",
-    kind: "RUBBER",
-    name: "shockproof-1-nut",
-    image: "/images/products/bush/shockproof/1-nut/1-nut-1.jpg",
-    link: "/products/bush/shockproof/1-nut",
-    images: [
-      "/images/products/bush/shockproof/1-nut/1-nut-1.jpg",
-      "/images/products/bush/shockproof/1-nut/1-nut-2.jpg",
-      "/images/products/bush/shockproof/1-nut/1-nut-3.jpg",
-      "/images/products/bush/shockproof/1-nut/1-nut-4.jpg",
-      "/images/products/bush/shockproof/1-nut/1-nut-5.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/bush/icon-product-code.png",
-        detail: "",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/bush/icon-part-no.png",
-        detail: "",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/bush/icon-spare.png",
-        detail: "",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail: "",
-      },
-    ],
-    noData: true,
-  },
 ];
 
 export const BUSH_SHOCKPROOF = [
