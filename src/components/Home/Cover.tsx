@@ -41,14 +41,14 @@ const TextOverlay = styled.div`
   width: 70%;
 
   .title {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bold;
     display: block;
     line-height: 95px;
   }
 
   .subtitle {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
     display: block;
     line-height: 60px;
@@ -87,15 +87,9 @@ const ButtonContract = styled.div`
   align-items: center;
   background-color: #fff;
   border-radius: 8px;
-  width: 40%;
-  height: 65px;
-  font-size: 1.5rem;
-
-  @media (max-width: 1024px) {
-    font-size: 1rem;
-    height: 55px;
-    width: 30%;
-  }
+  width: 20%;
+  height: 55px;
+  font-size: 1rem;
 
   @media (max-width: 768px) {
     margin: auto;
