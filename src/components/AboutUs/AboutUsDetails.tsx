@@ -85,7 +85,7 @@ export default function AboutUsDetails() {
         <ColContent xl={12} lg={24} md={24} sm={24} xs={24}>
           <ImageContainer full="true">
             <Video>
-              <iframe src="https://www.youtube.com/embed/fXw1PERFGMs?si=7SakEbv1p8zqjRH_" />
+              <iframe src="https://www.youtube.com/embed/_1lCG1to2HA?si=1bEESduiS8VseA3Y" />
             </Video>
           </ImageContainer>
           <BoxImage>
@@ -108,7 +108,12 @@ export default function AboutUsDetails() {
           </BoxImage>
         </ColContent>
         <ColContent xl={12} lg={24} md={24} sm={24} xs={24}>
-          <Image className="map" src="/images/image-about-us-map.png" alt="thongpaisal" fill />
+          <Image
+            className="map"
+            src="/images/image-about-us-map.png"
+            alt="thongpaisal"
+            fill
+          />
           <Content>
             <Title level={1} className="title">
               เกี่ยวกับเรา
