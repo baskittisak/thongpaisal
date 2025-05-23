@@ -7,6 +7,7 @@ import styled from "styled-components";
 import Slider from "react-slick";
 import Box from "@/components/Box";
 import NavBar from "@/components/Navbar";
+import Link from "next/link";
 
 const { Title, Text } = Typography;
 
@@ -263,7 +264,9 @@ export default function Cover() {
                 alt="oem"
               />
             </ImageContainer>
-            <ButtonContract>ข้อมูลติดต่อ</ButtonContract>
+            <Link href="/contact-us">
+              <ButtonContract>ข้อมูลติดต่อ</ButtonContract>
+            </Link>
           </TextOverlay>
         )}
       </Box>
