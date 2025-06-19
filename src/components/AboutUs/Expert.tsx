@@ -72,6 +72,7 @@ const Paragraph = styled.div`
 
   .ant-typography {
     color: #fff;
+    line-height: 2;
   }
 `;
 
@@ -132,7 +133,7 @@ export default function Expert() {
           </ColImage>
           <Col xl={14} lg={14} sm={24} xs={24}>
             <Paragraph>
-              <Title level={2}>
+              <Title level={3}>
                 สร้างสรรค์ผลิตภัณฑ์ที่ตอบโจทย์ความต้องการของคุณ ด้วยบริการ OEM
                 จากทองไพศาล ในยุคที่การแข่งขันทางธุรกิจทวีความรุนแรง
                 การสร้างความแตกต่างด้วยผลิตภัณฑ์ที่เป็นเอกลักษณ์ของตนเองจึงเป็นสิ่งสำคัญ
