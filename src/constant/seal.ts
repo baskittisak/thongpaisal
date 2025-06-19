@@ -355,11 +355,11 @@ export const SEAL_TRAILER = [
     type: "BIGTO ซีลล้อรถพ่วงโทมิ",
     kind: "Oil Seals",
     name: "trailer-tomi",
-    image: "/images/products/seal/trailer/tomi/tomi-1.jpg",
+    image: "/images/products/seal/trailer/tomi/tomi-2.jpg",
     link: "/products/seal/trailer/tomi",
     images: [
-      "/images/products/seal/trailer/tomi/tomi-1.jpg",
       "/images/products/seal/trailer/tomi/tomi-2.jpg",
+      "/images/products/seal/trailer/tomi/tomi-1.jpg",
       "/images/products/seal/trailer/tomi/tomi-3.jpg",
       "/images/products/seal/trailer/tomi/tomi-4.jpg",
       "/images/products/seal/seal-1.jpg",
