@@ -33,11 +33,33 @@ const FullScreenWrapper = styled.div`
   @media (max-width: 768px) {
     padding: 36px;
   }
+
+  .ant-col-xl-6 {
+    max-width: 30%;
+  }
+
+  @media (min-width: 1672px) {
+    .ant-col-xl-6:last-child {
+      margin-right: auto;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .ant-col-xl-6 {
+      max-width: 50%;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .ant-col-xl-6 {
+      max-width: 75%;
+    }
+  }
 `;
 
 const CardContainer = styled(Card)`
-  height: 220px;
-  width: 220px;
+  height: 300px;
+  width: 300px;
 
   img {
     object-fit: contain;
@@ -46,6 +68,7 @@ const CardContainer = styled(Card)`
 
 const RowContainer = styled(Row)`
   margin: 24px 0 56px;
+  justify-content: center;
 `;
 
 const ColProduct = styled(Col)`
@@ -66,7 +89,7 @@ const ButtonProducts = styled.div`
   color: #fff;
   border-radius: 8px;
   height: 40px;
-  width: 200px;
+  width: 300px;
   font-size: 1rem;
   font-family: var(--font-prompt), sans-serif;
   margin-top: 12px;
@@ -84,6 +107,10 @@ const NoData = styled.div`
 `;
 
 export default function Bush() {
+  const transform = (text: string) => {
+    return text.replace(/^BIGTO\s*/, "");
+  };
+
   return (
     <>
       <ProductCover type="bush" />
@@ -91,7 +118,7 @@ export default function Bush() {
         <Space>
           <Space direction="vertical" size={4}>
             <Title level={1} className="title">
-              บูช ช่วงล่างรถ
+              บูชช่วงล่างรถบรรทุก
             </Title>
             <Title level={2} className="subtitle">
               BUSHINGS
@@ -108,63 +135,68 @@ export default function Bush() {
               xs={24}
               style={{ display: busing.noData ? "none" : "flex" }}
             >
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={busing.name} src={busing.image} />}
-              />
-              {busing.noData && (
-                <NoData>
-                  <Title level={5}>ไม่มีข้อมูล</Title>
-                </NoData>
-              )}
               <Link href={busing.link} passHref>
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={busing.name} src={busing.image} />}
+                />
+                {busing.noData && (
+                  <NoData>
+                    <Title level={5}>ไม่มีข้อมูล</Title>
+                  </NoData>
+                )}
+                <ButtonProducts>{transform(busing.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
         </RowContainer>
         <Title level={1} className="title">
-          ยาง
+          บูชช่วงล่างรถยนต์
         </Title>
         <RowContainer gutter={[24, 32]}>
-          {BUSH_RUBBER.map((rubber) => (
+          {[
+            ...BUSH_RUBBER,
+            ...BUSH_SHOCKPROOF,
+            ...BUSH_SLANT,
+            ...BUSH_LOCK_DUMP,
+          ].map((car) => (
             <ColProduct
-              key={rubber.name}
+              key={car.name}
               xl={6}
               lg={8}
               sm={12}
               xs={24}
-              style={{ display: rubber.noData ? "none" : "flex" }}
+              style={{ display: car.noData ? "none" : "flex" }}
             >
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={rubber.name} src={rubber.image} />}
-              />
-              {rubber.noData && (
-                <NoData>
-                  <Title level={5}>ไม่มีข้อมูล</Title>
-                </NoData>
-              )}
-              <Link href={rubber.link} passHref>
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+              <Link href={car.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={car.name} src={car.image} />}
+                />
+                {car.noData && (
+                  <NoData>
+                    <Title level={5}>ไม่มีข้อมูล</Title>
+                  </NoData>
+                )}
+                <ButtonProducts>{transform(car.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
+        {/* <Title level={1} className="title">
           กันกระแทก
         </Title>
         <RowContainer gutter={[24, 32]}>
           {BUSH_SHOCKPROOF.map((shockproof) => (
             <ColProduct key={shockproof.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={
-                  <Image fill alt={shockproof.name} src={shockproof.image} />
-                }
-              />
               <Link href={shockproof.link} passHref>
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <CardContainer
+                  hoverable
+                  cover={
+                    <Image fill alt={shockproof.name} src={shockproof.image} />
+                  }
+                />
+                <ButtonProducts>{transform(shockproof.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -175,12 +207,12 @@ export default function Bush() {
         <RowContainer gutter={[24, 32]}>
           {BUSH_SLANT.map((slant) => (
             <ColProduct key={slant.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={slant.name} src={slant.image} />}
-              />
               <Link href={slant.link} passHref>
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={slant.name} src={slant.image} />}
+                />
+                <ButtonProducts>{transform(slant.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -191,16 +223,16 @@ export default function Bush() {
         <RowContainer gutter={[24, 32]}>
           {BUSH_LOCK_DUMP.map((lock) => (
             <ColProduct key={lock.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={lock.name} src={lock.image} />}
-              />
               <Link href={lock.link} passHref>
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={lock.name} src={lock.image} />}
+                />
+                <ButtonProducts>{transform(lock.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
-        </RowContainer>
+        </RowContainer> */}
       </FullScreenWrapper>
     </>
   );

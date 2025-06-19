@@ -1,6 +1,7 @@
 import { Space, Typography } from "antd";
 import styled from "styled-components";
 import Image from "next/image";
+import Link from "next/link";
 
 const { Title } = Typography;
 
@@ -252,7 +253,9 @@ export default function Summary() {
             <Title className="subtitle">รับประกันสินค้า</Title>
           </Space>
         </Space>
-        <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+        <Link href="/contact-us">
+          <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+        </Link>
       </Content>
       <Parallelogram>
         <Image

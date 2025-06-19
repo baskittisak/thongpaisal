@@ -16,11 +16,11 @@ export async function POST(request: Request) {
     const mailOptions = {
       from: email,
       to: process.env.NEXT_PUBLIC_MAIL_HOST,
-      subject: `Contact Us Form: ${purpose}`,
+      subject: `Contact Us Form: ${purpose?.value}`,
       text: `
         ชื่อ-สกุล: ${name}
         อีเมล์ผู้ติดต่อ: ${email}
-        วัตถุประสงค์: ${purpose}
+        วัตถุประสงค์: ${purpose?.value}
         ข้อความเพิ่มเติม:
         ${other}
       `,

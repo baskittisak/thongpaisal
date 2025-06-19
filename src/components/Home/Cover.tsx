@@ -28,7 +28,7 @@ const FullScreenWrapper = styled.div`
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     z-index: 1;
   }
 
@@ -44,7 +44,7 @@ const FullScreenWrapper = styled.div`
 `;
 
 const BackgroundImage = styled(Image)`
-  object-fit: cover;
+  object-fit: fill;
   z-index: -1;
 `;
 
@@ -145,6 +145,18 @@ const ButtonContract = styled.div`
   }
 `;
 
+const BoxNavbar = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 24px;
+  border-radius: 16px;
+  margin-top: -48px;
+`;
+
 export default function Cover() {
   const [sizing, setSizing] = useState<SizingProps>({
     logo: 48,
@@ -183,7 +195,7 @@ export default function Cover() {
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 5000,
     afterChange: (current: number) => setCurrentSlide(current),
   };
@@ -225,7 +237,7 @@ export default function Cover() {
       </SliderWrapper>
 
       <Box height="100%" $direction="column" $justify="space-between">
-        <Box $justify="space-between" $align="center">
+        <BoxNavbar>
           <Box $align="center" $cursor="pointer">
             <Image
               src="/icons/icon-logo.png"
@@ -237,7 +249,7 @@ export default function Cover() {
             <Title level={sizing.text}>THONGPAISAL CO.,LTD.</Title>
           </Box>
           <NavBar />
-        </Box>
+        </BoxNavbar>
 
         {currentSlide === 0 && (
           <TextOverlay>

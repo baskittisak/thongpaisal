@@ -1092,42 +1092,7 @@ export const BUSH_SHOCKPROOF = [
         detail: "",
       },
     ],
-  },
-  {
-    id: 300003,
-    type: "BIGTO ยางกันกระแทกหลังเต่า",
-    kind: "Oil Seals",
-    name: "shockproof-cricle",
-    image: "/images/products/bush/shockproof/cricle/cricle-1.jpg",
-    link: "/products/bush/shockproof/cricle",
-    images: [
-      "/images/products/bush/shockproof/cricle/cricle-1.jpg",
-      "/images/products/bush/shockproof/cricle/cricle-2.jpg",
-      "/images/products/bush/shockproof/cricle/cricle-3.jpg",
-      "/images/products/bush/shockproof/cricle/cricle-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/bush/icon-product-code.png",
-        detail: "TPS831288_B01-A-20",
-      },
-      {
-        name: "product-no",
-        icons: "/icons/products/bush/icon-part-no.png",
-        detail: "123-40-137.8 mm.",
-      },
-      {
-        name: "product-sizing",
-        icons: "/icons/products/bush/icon-spare.png",
-        detail: "อะไหล่เสริม",
-      },
-      {
-        name: "product-detail",
-        icons: "",
-        detail: "",
-      },
-    ],
+    noData: false,
   },
 ];
 
@@ -1167,6 +1132,7 @@ export const BUSH_SLANT = [
         detail: "",
       },
     ],
+    noData: false,
   },
   {
     id: 400002,
@@ -1243,5 +1209,6 @@ export const BUSH_LOCK_DUMP = [
         detail: "",
       },
     ],
+    noData: false,
   },
 ];
