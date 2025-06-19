@@ -118,7 +118,7 @@ export default function Bush() {
         <Space>
           <Space direction="vertical" size={4}>
             <Title level={1} className="title">
-              บูช ช่วงล่างรถ
+              บูชช่วงล่างรถบรรทุก
             </Title>
             <Title level={2} className="subtitle">
               BUSHINGS
@@ -151,34 +151,39 @@ export default function Bush() {
           ))}
         </RowContainer>
         <Title level={1} className="title">
-          ยาง
+          บูชช่วงล่างรถยนต์
         </Title>
         <RowContainer gutter={[24, 32]}>
-          {BUSH_RUBBER.map((rubber) => (
+          {[
+            ...BUSH_RUBBER,
+            ...BUSH_SHOCKPROOF,
+            ...BUSH_SLANT,
+            ...BUSH_LOCK_DUMP,
+          ].map((car) => (
             <ColProduct
-              key={rubber.name}
+              key={car.name}
               xl={6}
               lg={8}
               sm={12}
               xs={24}
-              style={{ display: rubber.noData ? "none" : "flex" }}
+              style={{ display: car.noData ? "none" : "flex" }}
             >
-              <Link href={rubber.link} passHref>
+              <Link href={car.link} passHref>
                 <CardContainer
                   hoverable
-                  cover={<Image fill alt={rubber.name} src={rubber.image} />}
+                  cover={<Image fill alt={car.name} src={car.image} />}
                 />
-                {rubber.noData && (
+                {car.noData && (
                   <NoData>
                     <Title level={5}>ไม่มีข้อมูล</Title>
                   </NoData>
                 )}
-                <ButtonProducts>{transform(rubber.type)}</ButtonProducts>
+                <ButtonProducts>{transform(car.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
+        {/* <Title level={1} className="title">
           กันกระแทก
         </Title>
         <RowContainer gutter={[24, 32]}>
@@ -227,7 +232,7 @@ export default function Bush() {
               </Link>
             </ColProduct>
           ))}
-        </RowContainer>
+        </RowContainer> */}
       </FullScreenWrapper>
     </>
   );
