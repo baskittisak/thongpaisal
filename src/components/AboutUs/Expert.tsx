@@ -56,7 +56,7 @@ const ImageContainer = styled.div`
   height: 100%;
 
   img {
-    object-fit: cover;
+    object-fit: fill;
   }
 
   @media (max-width: 991px) {
