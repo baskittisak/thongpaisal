@@ -24,13 +24,21 @@ const PRODUCT_COVER_DETAILS = [
     type: "seal",
     description:
       "ซีลล้อ (Wheel seal) คือชิ้นส่วนสำคัญในระบบล้อของยานพาหนะ มีหน้าที่หลักคือป้องกันไม่ให้จาระบีหรือน้ำมันหล่อลื่นที่อยู่ในดุมล้อรั่วไหลออกมา และป้องกันสิ่งสกปรก ฝุ่นละออง และน้ำเข้าไปในดุมล้อป้องกันการรั่วไหลของสารหล่อลื่น ซีลล้อช่วยป้องกันไม่ให้จาระบีหรือน้ำมันหล่อลื่นที่อยู่ในดุมล้อรั่วไหลออกมา ซึ่งจะช่วยลดการสึกหรอของลูกปืนล้อและชิ้นส่วนอื่นๆ ในระบบล้อ",
-    images: ["/images/image-products-cover-2-1.png"],
+    images: [
+      "/images/image-products-cover-2-1.jpg",
+      "/images/image-products-cover-2-2.jpg",
+      "/images/image-products-cover-2-3.jpg",
+    ],
   },
   {
     type: "bush",
     description:
       "บูชช่วงล่างรถยนต์ คือชิ้นส่วนสำคัญในระบบช่วงล่างของรถยนต์ มีหน้าที่หลักคือเป็นตัวเชื่อมระหว่างชิ้นส่วนต่างๆ ของช่วงล่าง เช่น ปีกนก โช้คอัพ และเหล็กกันโคลง ทำให้ชิ้นส่วนเหล่านี้สามารถเคลื่อนที่ได้อย่างอิสระและยืดหยุ่นดยทั่วไป บูชช่วงล่างทำจากยางหรือวัสดุสังเคราะห์ที่มีความยืดหยุ่น",
-    images: ["/images/image-products-cover-3-1.png"],
+    images: [
+      "/images/image-products-cover-3-1.jpg",
+      "/images/image-products-cover-3-2.jpg",
+      "/images/image-products-cover-3-3.jpg",
+    ],
   },
 ];
 
@@ -387,12 +395,6 @@ const Description = styled.div`
   }
 `;
 
-const ImageSealBush = styled.div`
-  position: relative;
-  width: 100%;
-  height: 160px;
-`;
-
 export default function ProductCover({ type }: ProductCoverProps) {
   const detail = useMemo(() => {
     return PRODUCT_COVER_DETAILS.find((detail) => detail.type === type);
@@ -516,20 +518,13 @@ export default function ProductCover({ type }: ProductCoverProps) {
               </ImageTruck>
             )}
             <BoxImage>
-              {type === "torqueRodBush" && (
-                <Row gutter={[24, 24]}>
-                  {detail.images.map((image) => (
-                    <ColImage xl={8} key={image}>
-                      <Image src={image} alt="" width={160} height={160} />
-                    </ColImage>
-                  ))}
-                </Row>
-              )}
-              {(type === "seal" || type === "bush") && (
-                <ImageSealBush>
-                  <Image src={detail.images[0]} alt="" fill />
-                </ImageSealBush>
-              )}
+              <Row gutter={[24, 24]}>
+                {detail.images.map((image) => (
+                  <ColImage xl={8} key={image}>
+                    <Image src={image} alt="" width={160} height={160} />
+                  </ColImage>
+                ))}
+              </Row>
               <Brand>
                 <Title level={1}>ISUZU HINO FUSO UD</Title>
               </Brand>
