@@ -31,6 +31,7 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Box from "../Box";
+import Link from "next/link";
 
 const { Title } = Typography;
 
@@ -281,7 +282,9 @@ export default function ProductDetails({
           </SpaceContainer>
           <Box $align="center" $justify="center">
             <Title level={2}>ID: {productDetail?.id}</Title>
-            <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+            <Link href="/contact-us">
+              <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+            </Link>
           </Box>
         </Col>
       </Row>

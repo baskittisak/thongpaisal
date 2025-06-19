@@ -2,6 +2,7 @@ import { Col, Row, Space, Typography } from "antd";
 import styled from "styled-components";
 import Box from "@/components/Box";
 import Image from "next/image";
+import Link from "next/link";
 
 const { Title } = Typography;
 
@@ -142,7 +143,9 @@ export default function Expert() {
             </Paragraph>
           </Col>
           <Col xl={24} lg={24} sm={24} xs={24} style={{ marginBottom: "16px" }}>
-            <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+            <Link href="/contact-us">
+              <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+            </Link>
           </Col>
           <ColContent xl={4} lg={4} sm={12} xs={24}>
             <Space direction="vertical" size="small" align="center">
@@ -174,7 +177,9 @@ export default function Expert() {
                 height={150}
                 alt=""
               />
-              <Title level={3}>ประเมินราคา</Title>
+              <Link href="/contact-us">
+                <Title level={3}>ประเมินราคา</Title>
+              </Link>
             </Space>
           </ColContent>
           <ColContent xl={4} lg={4} sm={12} xs={24}>

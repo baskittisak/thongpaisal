@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styled from "styled-components";
 
 const FullScreenWrapper = styled.div`
@@ -17,12 +18,14 @@ const StyledImage = styled(Image)`
 export default function SummaryOnlyImage() {
   return (
     <FullScreenWrapper>
-      <StyledImage
-        src="/images/image-about-us-summary.png"
-        alt="thongpaisal"
-        fill
-        priority
-      />
+      <Link href="/contact-us">
+        <StyledImage
+          src="/images/image-about-us-summary.png"
+          alt="thongpaisal"
+          fill
+          priority
+        />
+      </Link>
     </FullScreenWrapper>
   );
 }

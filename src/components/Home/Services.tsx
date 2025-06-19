@@ -1,6 +1,7 @@
 import { Row, Col, Space, Typography } from "antd";
 import styled from "styled-components";
 import Image from "next/image";
+import Link from "next/link";
 
 const { Title } = Typography;
 
@@ -151,7 +152,9 @@ export default function Services() {
             alt="thongpaisal"
             src="/icons/icon-oem.png"
           />
-          <ButtonProducts>ดูรายละเอียดเพิ่มเติม</ButtonProducts>
+          <Link href="/about-us">
+            <ButtonProducts>ดูรายละเอียดเพิ่มเติม</ButtonProducts>
+          </Link>
         </Space>
       </Content>
     </>
