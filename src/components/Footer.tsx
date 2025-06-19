@@ -106,6 +106,8 @@ export default function Footer() {
           </Title>
           <Title level={4} className="content">
             โทรศัพท์ : 093-559-8266 <br /> อีเมล์ : thongpaisalgroup@gmail.com
+            <br /> เบอร์โรงงาน : 024539382-3 <br /> WeChat : Thongpaisal_group
+            <br /> Whatsapp : +6695-7645896
           </Title>
         </ColContent>
         <ColContent xl={8} lg={12} sm={24} xs={24}>
