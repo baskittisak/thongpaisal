@@ -117,7 +117,7 @@ export default function Seal() {
         <Space>
           <Space direction="vertical" size={4}>
             <Title level={1} className="title">
-              ซีลรถบรรทุก/รถพ่วง
+              ซีลล้อรถพ่วง
             </Title>
             <Title level={2} className="subtitle">
               SEAL TRAILER
