@@ -90,12 +90,14 @@ const Brand = styled.div`
   }
 `;
 
-const Content = styled.div`
+const Content = styled.div<{ type?: "empty" }>`
   background-color: rgba(255, 49, 48, 0.7);
   width: 100%;
   padding: 12px;
   border-radius: 24px;
   margin-left: 12px;
+
+  height: ${({ type }) => (type === "empty" ? "120px" : "auto")};
 
   .ant-typography {
     color: #fff;
@@ -275,16 +277,20 @@ export default function ProductDetails({
                 {detail.icons && (
                   <Image width={80} height={80} src={detail.icons} alt={type} />
                 )}
-                <Content>
-                  <Title level={1}>{detail.detail}</Title>
-                </Content>
+                {detail.detail ? (
+                  <Content>
+                    <Title level={1}>{detail.detail}</Title>
+                  </Content>
+                ) : (
+                  <Content type="empty" />
+                )}
               </Box>
             ))}
           </SpaceContainer>
           <Box $align="center" $justify="center">
-            <Title level={2}>ID: {productDetail?.id}</Title>
+            {/* <Title level={2}>ID: {productDetail?.id}</Title> */}
             <Link href="/contact-us">
-              <ButtonEvaluate>ประเมินราคา</ButtonEvaluate>
+              <ButtonEvaluate>ขอใบเสนอราคา</ButtonEvaluate>
             </Link>
           </Box>
         </Col>
