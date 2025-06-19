@@ -106,6 +106,10 @@ const NoData = styled.div`
 `;
 
 export default function Seal() {
+  const transform = (text: string) => {
+    return text.replace(/^BIGTO\s*/, "");
+  };
+
   return (
     <>
       <ProductCover type="seal" />
@@ -128,7 +132,9 @@ export default function Seal() {
                   hoverable
                   cover={<Image fill alt={trailer.name} src={trailer.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(trailer.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -156,7 +162,9 @@ export default function Seal() {
                     <Title level={5}>ไม่มีข้อมูล</Title>
                   </NoData>
                 )}
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(tractor.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -172,7 +180,9 @@ export default function Seal() {
                   hoverable
                   cover={<Image fill alt={hino.name} src={hino.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(hino.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -188,7 +198,9 @@ export default function Seal() {
                   hoverable
                   cover={<Image fill alt={isuzu.name} src={isuzu.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(isuzu.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -204,7 +216,9 @@ export default function Seal() {
                   hoverable
                   cover={<Image fill alt={fuso.name} src={fuso.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(fuso.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -220,7 +234,9 @@ export default function Seal() {
                   hoverable
                   cover={<Image fill alt={ud.name} src={ud.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(ud.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -236,7 +252,9 @@ export default function Seal() {
                   hoverable
                   cover={<Image fill alt={dump.name} src={dump.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>
+                  {transform(dump.details[1].detail)}
+                </ButtonProducts>
               </Link>
             </ColProduct>
           ))}

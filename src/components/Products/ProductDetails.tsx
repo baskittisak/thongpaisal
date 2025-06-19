@@ -125,10 +125,11 @@ const ButtonEvaluate = styled.div`
   background-color: #03bf62;
   color: #fff;
   border-radius: 8px;
-  width: 30%;
+  width: 100%;
   height: 60px;
   font-size: 1.5rem;
   margin-left: 24px;
+  font-family: var(--font-prompt), sans-serif;
 
   @media (max-width: 1024px) {
     font-size: 1rem;

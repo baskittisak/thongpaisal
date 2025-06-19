@@ -107,6 +107,10 @@ const NoData = styled.div`
 `;
 
 export default function Bush() {
+  const transform = (text: string) => {
+    return text.replace(/^BIGTO\s*/, "");
+  };
+
   return (
     <>
       <ProductCover type="bush" />
@@ -141,7 +145,7 @@ export default function Bush() {
                     <Title level={5}>ไม่มีข้อมูล</Title>
                   </NoData>
                 )}
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(busing.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -169,7 +173,7 @@ export default function Bush() {
                     <Title level={5}>ไม่มีข้อมูล</Title>
                   </NoData>
                 )}
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(rubber.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -187,7 +191,7 @@ export default function Bush() {
                     <Image fill alt={shockproof.name} src={shockproof.image} />
                   }
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(shockproof.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -203,7 +207,7 @@ export default function Bush() {
                   hoverable
                   cover={<Image fill alt={slant.name} src={slant.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(slant.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -219,7 +223,7 @@ export default function Bush() {
                   hoverable
                   cover={<Image fill alt={lock.name} src={lock.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(lock.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}

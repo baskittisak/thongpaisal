@@ -97,6 +97,10 @@ const ButtonProducts = styled.div`
 `;
 
 export default function TorqueRodBush() {
+  const transform = (text: string) => {
+    return text.replace(/^BIGTO\s*/, "");
+  };
+
   return (
     <>
       <ProductCover type="torqueRodBush" />
@@ -125,7 +129,7 @@ export default function TorqueRodBush() {
                   hoverable
                   cover={<Image fill alt={bogie.name} src={bogie.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(bogie.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -141,7 +145,7 @@ export default function TorqueRodBush() {
                   hoverable
                   cover={<Image fill alt={scania.name} src={scania.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(scania.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -157,7 +161,7 @@ export default function TorqueRodBush() {
                   hoverable
                   cover={<Image fill alt={chinese.name} src={chinese.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(chinese.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
@@ -173,7 +177,7 @@ export default function TorqueRodBush() {
                   hoverable
                   cover={<Image fill alt={crane.name} src={crane.image} />}
                 />
-                <ButtonProducts>ดูสินค้า</ButtonProducts>
+                <ButtonProducts>{transform(crane.type)}</ButtonProducts>
               </Link>
             </ColProduct>
           ))}
