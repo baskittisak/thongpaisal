@@ -36,19 +36,38 @@ const FullScreenWrapper = styled.div`
   @media (max-width: 768px) {
     padding: 36px;
   }
+
+  .ant-col-xl-6 {
+    max-width: 30%;
+  }
+
+  @media (min-width: 1672px) {
+    .ant-col-xl-6:last-child {
+      margin-right: auto;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .ant-col-xl-6 {
+      max-width: 50%;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .ant-col-xl-6 {
+      max-width: 75%;
+    }
+  }
 `;
 
 const CardContainer = styled(Card)`
-  height: 220px;
-  width: 220px;
-
-  img {
-    object-fit: contain;
-  }
+  height: 300px;
+  width: 300px;
 `;
 
 const RowContainer = styled(Row)`
   margin: 24px 0 56px;
+  justify-content: center;
 `;
 
 const ColProduct = styled(Col)`
@@ -69,7 +88,7 @@ const ButtonProducts = styled.div`
   color: #fff;
   border-radius: 8px;
   height: 40px;
-  width: 200px;
+  width: 300px;
   font-size: 1rem;
   font-family: var(--font-prompt), sans-serif;
   margin-top: 12px;
@@ -104,11 +123,11 @@ export default function Seal() {
         <RowContainer gutter={[24, 32]}>
           {SEAL_TRAILER.map((trailer) => (
             <ColProduct key={trailer.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={trailer.name} src={trailer.image} />}
-              />
               <Link href={trailer.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={trailer.name} src={trailer.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -127,16 +146,16 @@ export default function Seal() {
               xs={24}
               style={{ display: tractor.noData ? "none" : "flex" }}
             >
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={tractor.name} src={tractor.image} />}
-              />
-              {tractor.noData && (
-                <NoData>
-                  <Title level={5}>ไม่มีข้อมูล</Title>
-                </NoData>
-              )}
               <Link href={tractor.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={tractor.name} src={tractor.image} />}
+                />
+                {tractor.noData && (
+                  <NoData>
+                    <Title level={5}>ไม่มีข้อมูล</Title>
+                  </NoData>
+                )}
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -148,11 +167,11 @@ export default function Seal() {
         <RowContainer gutter={[24, 32]}>
           {SEAL_HTNO.map((hino) => (
             <ColProduct key={hino.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={hino.name} src={hino.image} />}
-              />
               <Link href={hino.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={hino.name} src={hino.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -164,11 +183,11 @@ export default function Seal() {
         <RowContainer gutter={[24, 32]}>
           {SEAL_ISUZU.map((isuzu) => (
             <ColProduct key={isuzu.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={isuzu.name} src={isuzu.image} />}
-              />
               <Link href={isuzu.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={isuzu.name} src={isuzu.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -180,11 +199,11 @@ export default function Seal() {
         <RowContainer gutter={[24, 32]}>
           {SEAL_FUSO.map((fuso) => (
             <ColProduct key={fuso.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={fuso.name} src={fuso.image} />}
-              />
               <Link href={fuso.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={fuso.name} src={fuso.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -196,11 +215,11 @@ export default function Seal() {
         <RowContainer gutter={[24, 32]}>
           {SEAL_UD.map((ud) => (
             <ColProduct key={ud.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={ud.name} src={ud.image} />}
-              />
               <Link href={ud.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={ud.name} src={ud.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -212,11 +231,11 @@ export default function Seal() {
         <RowContainer gutter={[24, 32]}>
           {SEAL_DUMP.map((dump) => (
             <ColProduct key={dump.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={dump.name} src={dump.image} />}
-              />
               <Link href={dump.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={dump.name} src={dump.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>

@@ -42,15 +42,16 @@ const ColContent = styled(Col)`
 
   img {
     width: 100%;
-    object-fit: fill;
+    object-fit: none;
   }
 `;
 
 const Text = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 24px;
   height: 200px;
+  width: 380px;
+  margin: auto;
 
   h5 {
     margin-top: 12px !important;

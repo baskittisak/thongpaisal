@@ -32,6 +32,28 @@ const FullScreenWrapper = styled.div`
   @media (max-width: 768px) {
     padding: 36px;
   }
+
+  .ant-col-xl-6 {
+    max-width: 30%;
+  }
+
+  @media (min-width: 1672px) {
+    .ant-col-xl-6:last-child {
+      margin-right: auto;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .ant-col-xl-6 {
+      max-width: 50%;
+    }
+  }
+
+  @media (max-width: 998px) {
+    .ant-col-xl-6 {
+      max-width: 75%;
+    }
+  }
 `;
 
 const ImageWolf = styled(Image)`
@@ -42,16 +64,13 @@ const ImageWolf = styled(Image)`
 `;
 
 const CardContainer = styled(Card)`
-  height: 220px;
-  width: 220px;
-
-  img {
-    object-fit: contain;
-  }
+  height: 300px;
+  width: 300px;
 `;
 
 const RowContainer = styled(Row)`
   margin: 24px 0 56px;
+  justify-content: center;
 `;
 
 const ColProduct = styled(Col)`
@@ -71,7 +90,7 @@ const ButtonProducts = styled.div`
   color: #fff;
   border-radius: 8px;
   height: 40px;
-  width: 200px;
+  width: 300px;
   font-size: 1rem;
   font-family: var(--font-prompt), sans-serif;
   margin-top: 12px;
@@ -101,11 +120,11 @@ export default function TorqueRodBush() {
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_BOGIE.map((bogie) => (
             <ColProduct key={bogie.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={bogie.name} src={bogie.image} />}
-              />
               <Link href={bogie.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={bogie.name} src={bogie.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -117,11 +136,11 @@ export default function TorqueRodBush() {
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_SCANIA.map((scania) => (
             <ColProduct key={scania.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={scania.name} src={scania.image} />}
-              />
               <Link href={scania.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={scania.name} src={scania.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -133,11 +152,11 @@ export default function TorqueRodBush() {
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_CHINESE.map((chinese) => (
             <ColProduct key={chinese.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={chinese.name} src={chinese.image} />}
-              />
               <Link href={chinese.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={chinese.name} src={chinese.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
@@ -149,11 +168,11 @@ export default function TorqueRodBush() {
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_CRANE.map((crane) => (
             <ColProduct key={crane.name} xl={6} lg={8} sm={12} xs={24}>
-              <CardContainer
-                hoverable
-                cover={<Image fill alt={crane.name} src={crane.image} />}
-              />
               <Link href={crane.link} passHref>
+                <CardContainer
+                  hoverable
+                  cover={<Image fill alt={crane.name} src={crane.image} />}
+                />
                 <ButtonProducts>ดูสินค้า</ButtonProducts>
               </Link>
             </ColProduct>
