@@ -20,7 +20,7 @@ export default function SummaryOnlyImage() {
     <FullScreenWrapper>
       <Link href="/contact-us">
         <StyledImage
-          src="/images/image-about-us-summary.png"
+          src="/images/image-about-us-summary.jpg"
           alt="thongpaisal"
           fill
           priority
