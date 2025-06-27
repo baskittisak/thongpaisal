@@ -835,6 +835,153 @@ export const BUSH_BUSHINGS = [
       },
     ],
   },
+  {
+    id: 100024,
+    type: "BIGTO พลาสติกรองปลายแหนบ",
+    kind: "Bushing",
+    name: "plastic-support",
+    image:
+      "/images/products/bush/bushings/plastic-support/plastic-support-1.jpg",
+    link: "/products/bush/bushings/plastic-support",
+    images: [
+      "/images/products/bush/bushings/plastic-support/plastic-support-1.jpg",
+      "/images/products/bush/bushings/plastic-support/plastic-support-2.jpg",
+      "/images/products/bush/bushings/plastic-support/plastic-support-3.jpg",
+      "/images/products/bush/bushings/plastic-support/plastic-support-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/bush/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/bush/icon-part-no.png",
+        detail: "",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/bush/icon-spare.png",
+        detail: "",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+  },
+  {
+    id: 100025,
+    type: "BIGTO ยางรองปลายแหนบเหลี่ยม",
+    kind: "Bushing",
+    name: "square-leaf",
+    image: "/images/products/bush/bushings/square-leaf/square-leaf-1.jpg",
+    link: "/products/bush/bushings/square-leaf",
+    images: [
+      "/images/products/bush/bushings/square-leaf/square-leaf-1.jpg",
+      "/images/products/bush/bushings/square-leaf/square-leaf-2.jpg",
+      "/images/products/bush/bushings/square-leaf/square-leaf-3.jpg",
+      "/images/products/bush/bushings/square-leaf/square-leaf-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/bush/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/bush/icon-part-no.png",
+        detail: "",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/bush/icon-spare.png",
+        detail: "",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+  },
+  {
+    id: 100026,
+    type: "BIGTO ยางรองปลายแหนบเหลี่ยมพิเศษ",
+    kind: "Bushing",
+    name: "square-extra-leaf",
+    image:
+      "/images/products/bush/bushings/square-extra-leaf/square-extra-leaf-1.jpg",
+    link: "/products/bush/bushings/square-extra-leaf",
+    images: [
+      "/images/products/bush/bushings/square-extra-leaf/square-extra-leaf-1.jpg",
+      "/images/products/bush/bushings/square-extra-leaf/square-extra-leaf-2.jpg",
+      "/images/products/bush/bushings/square-extra-leaf/square-extra-leaf-3.jpg",
+      "/images/products/bush/bushings/square-extra-leaf/square-extra-leaf-4.jpg",
+      "/images/products/bush/bushings/square-extra-leaf/square-extra-leaf-5.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/bush/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/bush/icon-part-no.png",
+        detail: "",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/bush/icon-spare.png",
+        detail: "",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+  },
+  {
+    id: 100027,
+    type: "BIGTO ยางรองหัวน็อต",
+    kind: "Bushing",
+    name: "nut-head",
+    image:
+      "/images/products/bush/bushings/nut-head/nut-head-1.jpg",
+    link: "/products/bush/bushings/nut-head",
+    images: [
+      "/images/products/bush/bushings/nut-head/nut-head-1.jpg",
+      "/images/products/bush/bushings/nut-head/nut-head-2.jpg",
+      "/images/products/bush/bushings/nut-head/nut-head-3.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/bush/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/bush/icon-part-no.png",
+        detail: "",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/bush/icon-spare.png",
+        detail: "",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+  },
 ];
 
 export const BUSH_RUBBER = [
@@ -1055,7 +1202,7 @@ export const BUSH_RUBBER = [
 
 export const BUSH_SHOCKPROOF = [
   {
-    id: 300002,
+    id: 300001,
     type: "BIGTO ยางกันกระแทกรถบด",
     kind: "Anti Vibration Block Rubber",
     name: "shockproof-compactor",
@@ -1085,6 +1232,43 @@ export const BUSH_SHOCKPROOF = [
         name: "product-sizing",
         icons: "/icons/products/bush/icon-spare.png",
         detail: "อะไหล่รถบดถนน",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+    noData: false,
+  },
+  {
+    id: 300002,
+    type: "BIGTO ยางกันกระแทก 2 น็อต",
+    kind: "Bushing",
+    name: "2-nut",
+    image: "/images/products/bush/shockproof/2-nut/2-nut-1.jpg",
+    link: "/products/bush/shockproof/2-nut",
+    images: [
+      "/images/products/bush/shockproof/2-nut/2-nut-1.jpg",
+      "/images/products/bush/shockproof/2-nut/2-nut-2.jpg",
+      "/images/products/bush/shockproof/2-nut/2-nut-3.jpg",
+      "/images/products/bush/shockproof/2-nut/2-nut-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/bush/icon-product-code.png",
+        detail: "",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/bush/icon-part-no.png",
+        detail: "",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/bush/icon-spare.png",
+        detail: "",
       },
       {
         name: "product-detail",
