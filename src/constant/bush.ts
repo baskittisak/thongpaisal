@@ -683,7 +683,7 @@ export const BUSH_BUSHINGS = [
   },
   {
     id: 100020,
-    type: "BIGTO ยางรองแหนบ",
+    type: "BIGTO ยางหูแหนบ D-MAX,TFA,KBZ",
     kind: "Bushing",
     name: "busing-tweezers-ears-dmax",
     image:
@@ -721,7 +721,7 @@ export const BUSH_BUSHINGS = [
   },
   {
     id: 100021,
-    type: "BIGTO ยางรองแหนบ",
+    type: "BIGTO ยางหูแหนบ VIGO ตัวใหญ่",
     kind: "Bushing",
     name: "busing-tweezers-ears-vigo-big",
     image:
@@ -760,7 +760,7 @@ export const BUSH_BUSHINGS = [
   },
   {
     id: 100022,
-    type: "BIGTO ยางรองแหนบ",
+    type: "BIGTO ยางหูแหนบหลังโตโยต้า ตัวขาว",
     kind: "Bushing",
     name: "busing-tweezers-ears-vigo-long",
     image:
@@ -798,7 +798,7 @@ export const BUSH_BUSHINGS = [
   },
   {
     id: 100023,
-    type: "BIGTO ยางรองแหนบ",
+    type: "BIGTO ยางหูแหนบ VIGO ตัวสั้น",
     kind: "Bushing",
     name: "busing-tweezers-ears-vigo-short",
     image:

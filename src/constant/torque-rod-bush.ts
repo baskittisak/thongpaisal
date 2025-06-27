@@ -106,7 +106,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100004,
-    type: "BIGTO หัวเก๋ง ISUZU SBR, FTR, ROCKY",
+    type: "BIGTO ลูกหมากหัวเก๋ง ISUZU SBR, FTR, ROCKY",
     kind: "Torque rod Bushing",
     name: "bogie-isuzu",
     image: "/images/products/torque-rod-bush/bogie/isuzu/isuzu-1.jpg",
@@ -251,7 +251,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100008,
-    type: "ลูกหมากเพลาโบกี้",
+    type: "ลูกหมากรถยักษ์ LGMG MT60",
     kind: "Torque rod Bushing",
     name: "bogie-lg-mg-mt",
     image: "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
@@ -392,7 +392,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100012,
-    type: "P.A. INTER",
+    type: "ลูกหมาก P.A. INTER",
     kind: "Torque rod Bushing",
     name: "bogie-p.a.inter",
     image: "/images/products/torque-rod-bush/bogie/p.a.inter/p.a.inter-2.jpg",
@@ -427,7 +427,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100013,
-    type: "BIGTO รุ่น PY หน้าเต็ม",
+    type: "BIGTO ลูกหมากรุ่น PY หน้าเต็ม",
     kind: "Torque rod Bushing",
     name: "bogie-py",
     image: "/images/products/torque-rod-bush/bogie/py/py-1.jpg",
@@ -463,7 +463,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100014,
-    type: "BIGTO สำหรับรถ SANY",
+    type: "BIGTO ลูกหมาก SANY",
     kind: "Torque rod Bushing",
     name: "bogie-sunny",
     image: "/images/products/torque-rod-bush/bogie/sunny/sunny-3.jpg",
