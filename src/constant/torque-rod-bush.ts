@@ -214,7 +214,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100007,
-    type: "BIGTO รุ่น Series700",
+    type: "BIGTO ลูกหมากรุ่น Series700",
     kind: "Torque rod Bushing",
     name: "bogie-hino-series",
     image:
@@ -236,42 +236,6 @@ export const TORQUE_ROD_BUSH_BOGIE = [
         name: "product-type",
         icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
         detail: "HINO,UD,Isuzu,FUSO",
-      },
-      {
-        name: "product-ability",
-        icons: "/icons/products/torque-rod-bush/icon-move.png",
-        detail: "แกนหมุนได้",
-      },
-      {
-        name: "product-weight",
-        icons: "/icons/products/torque-rod-bush/icon-weight.png",
-        detail: "40 T",
-      },
-    ],
-  },
-  {
-    id: 100008,
-    type: "ลูกหมากรถยักษ์ LGMG MT60",
-    kind: "Torque rod Bushing",
-    name: "bogie-lg-mg-mt",
-    image: "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
-    link: "/products/torque-rod-bush/bogie/lg-mg-mt",
-    images: [
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-2.jpg",
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-3.jpg",
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-4.jpg",
-    ],
-    details: [
-      {
-        name: "product-code",
-        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
-        detail: "AP-78-410",
-      },
-      {
-        name: "product-type",
-        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
-        detail: "ใช้ได้ในรถเครน",
       },
       {
         name: "product-ability",
@@ -606,7 +570,7 @@ export const TORQUE_ROD_BUSH_BOGIE = [
   },
   {
     id: 100018,
-    type: "BIGTO รุ่น Super PYK ",
+    type: "BIGTO ลูกหมากรุ่น Super PYK ",
     kind: "Torque rod Bushing",
     name: "bogie-super-pyk",
     image: "/images/products/torque-rod-bush/bogie/super-pyk/super-pyk-1.jpg",
@@ -864,7 +828,8 @@ export const TORQUE_ROD_BUSH_SCANIA = [
     type: "BIGTO ลูกหมาก SCANIA รู 22mm.",
     kind: "Torque rod Bushing",
     name: "scania-big-hole-2",
-    image: "/images/products/torque-rod-bush/scania/big-hole-2/big-hole-2-1.jpg",
+    image:
+      "/images/products/torque-rod-bush/scania/big-hole-2/big-hole-2-1.jpg",
     link: "/products/torque-rod-bush/scania/big-hole-2",
     images: [
       "/images/products/torque-rod-bush/scania/big-hole-2/big-hole-2-1.jpg",
@@ -1112,6 +1077,42 @@ export const TORQUE_ROD_BUSH_CHINESE = [
         name: "product-weight",
         icons: "/icons/products/torque-rod-bush/icon-weight.png",
         detail: "30-50 T+",
+      },
+    ],
+  },
+  {
+    id: 300006,
+    type: "ลูกหมากรถยักษ์ LGMG MT60",
+    kind: "Torque rod Bushing",
+    name: "bogie-lg-mg-mt",
+    image: "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
+    link: "/products/torque-rod-bush/bogie/lg-mg-mt",
+    images: [
+      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
+      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-2.jpg",
+      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-3.jpg",
+      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "AP-78-410",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "ใช้ได้ในรถเครน",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "แกนหมุนได้",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "40 T",
       },
     ],
   },

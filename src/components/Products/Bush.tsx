@@ -106,6 +106,13 @@ const NoData = styled.div`
   }
 `;
 
+const ImageWolf = styled(Image)`
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: fill;
+`;
+
 export default function Bush() {
   const transform = (text: string) => {
     return text.replace(/^BIGTO\s*/, "");
@@ -118,15 +125,27 @@ export default function Bush() {
         <Space>
           <Space direction="vertical" size={4}>
             <Title level={1} className="title">
-              บูชช่วงล่างรถบรรทุก
+              บูชช่วงล่างรถบรรทุก/รถยนต์
             </Title>
             <Title level={2} className="subtitle">
               BUSHINGS
             </Title>
           </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
         </Space>
         <RowContainer gutter={[24, 32]}>
-          {BUSH_BUSHINGS.map((busing) => (
+          {[
+            ...BUSH_BUSHINGS,
+            ...BUSH_RUBBER,
+            ...BUSH_SHOCKPROOF,
+            ...BUSH_SLANT,
+            ...BUSH_LOCK_DUMP,
+          ].map((busing) => (
             <ColProduct
               key={busing.name}
               xl={6}
@@ -150,16 +169,11 @@ export default function Bush() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
+        {/* <Title level={1} className="title">
           บูชช่วงล่างรถยนต์
         </Title>
         <RowContainer gutter={[24, 32]}>
-          {[
-            ...BUSH_RUBBER,
-            ...BUSH_SHOCKPROOF,
-            ...BUSH_SLANT,
-            ...BUSH_LOCK_DUMP,
-          ].map((car) => (
+          {[].map((car) => (
             <ColProduct
               key={car.name}
               xl={6}
@@ -182,7 +196,7 @@ export default function Bush() {
               </Link>
             </ColProduct>
           ))}
-        </RowContainer>
+        </RowContainer> */}
         {/* <Title level={1} className="title">
           กันกระแทก
         </Title>
