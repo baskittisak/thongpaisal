@@ -1085,13 +1085,13 @@ export const TORQUE_ROD_BUSH_CHINESE = [
     type: "ลูกหมากรถยักษ์ LGMG MT60",
     kind: "Torque rod Bushing",
     name: "bogie-lg-mg-mt",
-    image: "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
-    link: "/products/torque-rod-bush/bogie/lg-mg-mt",
+    image: "/images/products/torque-rod-bush/chinese/lg-mg-mt/lg-mg-mt-1.jpg",
+    link: "/products/torque-rod-bush/chinese/lg-mg-mt",
     images: [
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-1.jpg",
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-2.jpg",
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-3.jpg",
-      "/images/products/torque-rod-bush/bogie/lg-mg-mt/lg-mg-mt-4.jpg",
+      "/images/products/torque-rod-bush/chinese/lg-mg-mt/lg-mg-mt-1.jpg",
+      "/images/products/torque-rod-bush/chinese/lg-mg-mt/lg-mg-mt-2.jpg",
+      "/images/products/torque-rod-bush/chinese/lg-mg-mt/lg-mg-mt-3.jpg",
+      "/images/products/torque-rod-bush/chinese/lg-mg-mt/lg-mg-mt-4.jpg",
     ],
     details: [
       {
@@ -1113,6 +1113,43 @@ export const TORQUE_ROD_BUSH_CHINESE = [
         name: "product-weight",
         icons: "/icons/products/torque-rod-bush/icon-weight.png",
         detail: "40 T",
+      },
+    ],
+  },
+    {
+    id: 300007,
+    type: "ลูกหมาก FAW 2919040 Q175A",
+    kind: "Torque rod Bushing",
+    name: "faw-2919040-q175a",
+    image: "/images/products/torque-rod-bush/chinese/faw-2919040-q175a/faw-2919040-q175a-1.jpg",
+    link: "/products/torque-rod-bush/chinese/faw-2919040-q175a",
+    images: [
+      "/images/products/torque-rod-bush/chinese/faw-2919040-q175a/faw-2919040-q175a-1.jpg",
+      "/images/products/torque-rod-bush/chinese/faw-2919040-q175a/faw-2919040-q175a-2.jpg",
+      "/images/products/torque-rod-bush/chinese/faw-2919040-q175a/faw-2919040-q175a-3.jpg",
+      "/images/products/torque-rod-bush/chinese/faw-2919040-q175a/faw-2919040-q175a-4.jpg",
+      "/images/products/torque-rod-bush/chinese/faw-2919040-q175a/faw-2919040-q175a-5.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/torque-rod-bush/icon-product-code.png",
+        detail: "2919040-Q175A",
+      },
+      {
+        name: "product-type",
+        icons: "/icons/products/torque-rod-bush/icon-type-crane.png",
+        detail: "",
+      },
+      {
+        name: "product-ability",
+        icons: "/icons/products/torque-rod-bush/icon-move.png",
+        detail: "",
+      },
+      {
+        name: "product-weight",
+        icons: "/icons/products/torque-rod-bush/icon-weight.png",
+        detail: "",
       },
     ],
   },

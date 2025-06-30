@@ -77,11 +77,11 @@ export const BUSH_BUSHINGS = [
     type: "BIGTO บูชแขนยึด CIMC",
     kind: "Bushing",
     name: "busing-arm-cimc",
-    image: "/images/products/bush/bushings/arm-cimc/arm-cimc-1.jpg",
+    image: "/images/products/bush/bushings/arm-cimc/arm-cimc-2.jpg",
     link: "/products/bush/bushings/arm-cimc",
     images: [
-      "/images/products/bush/bushings/arm-cimc/arm-cimc-1.jpg",
       "/images/products/bush/bushings/arm-cimc/arm-cimc-2.jpg",
+      "/images/products/bush/bushings/arm-cimc/arm-cimc-1.jpg",
       "/images/products/bush/bushings/arm-cimc/arm-cimc-3.jpg",
       "/images/products/bush/bushings/arm-cimc/arm-cimc-4.jpg",
     ],
@@ -113,11 +113,11 @@ export const BUSH_BUSHINGS = [
     type: "BIGTO บูช SMM รู25.5มม.",
     kind: "Bushing",
     name: "busing-arm-ssm",
-    image: "/images/products/bush/bushings/arm-ssm/arm-ssm-1.jpg",
+    image: "/images/products/bush/bushings/arm-ssm/arm-ssm-2.jpg",
     link: "/products/bush/bushings/arm-ssm",
     images: [
-      "/images/products/bush/bushings/arm-ssm/arm-ssm-1.jpg",
       "/images/products/bush/bushings/arm-ssm/arm-ssm-2.jpg",
+      "/images/products/bush/bushings/arm-ssm/arm-ssm-1.jpg",
       "/images/products/bush/bushings/arm-ssm/arm-ssm-3.jpg",
       "/images/products/bush/bushings/arm-ssm/arm-ssm-4.jpg",
     ],
@@ -951,8 +951,7 @@ export const BUSH_BUSHINGS = [
     type: "BIGTO ยางรองหัวน็อต",
     kind: "Bushing",
     name: "nut-head",
-    image:
-      "/images/products/bush/bushings/nut-head/nut-head-1.jpg",
+    image: "/images/products/bush/bushings/nut-head/nut-head-1.jpg",
     link: "/products/bush/bushings/nut-head",
     images: [
       "/images/products/bush/bushings/nut-head/nut-head-1.jpg",
@@ -1198,6 +1197,43 @@ export const BUSH_RUBBER = [
       },
     ],
   },
+      {
+    id: 200007,
+    type: "BIGTO ยางรองปลายแหนบกลม",
+    kind: "Bushing",
+    name: "round-rubber",
+    image: "/images/products/bush/rubber/round-rubber/round-rubber-1.jpg",
+    link: "/products/bush/rubber/round-rubber",
+    images: [
+      "/images/products/bush/rubber/round-rubber/round-rubber-1.jpg",
+      "/images/products/bush/rubber/round-rubber/round-rubber-2.jpg",
+      "/images/products/bush/rubber/round-rubber/round-rubber-3.jpg",
+      "/images/products/bush/rubber/round-rubber/round-rubber-4.jpg",
+    ],
+    details: [
+      {
+        name: "product-code",
+        icons: "/icons/products/bush/icon-product-code.png",
+        detail: "TPS831288_B01-A-08",
+      },
+      {
+        name: "product-no",
+        icons: "/icons/products/bush/icon-part-no.png",
+        detail: "37.2-113-150 mm.",
+      },
+      {
+        name: "product-sizing",
+        icons: "/icons/products/bush/icon-spare.png",
+        detail: "อะไหล่ดั๊มพ์",
+      },
+      {
+        name: "product-detail",
+        icons: "",
+        detail: "",
+      },
+    ],
+    noData: false,
+  },
 ];
 
 export const BUSH_SHOCKPROOF = [
@@ -1286,11 +1322,11 @@ export const BUSH_SLANT = [
     type: "BIGTO บูชแขนยึดพลาสติก",
     kind: "Bushing",
     name: "slant-plastic",
-    image: "/images/products/bush/slant/plastic/plastic-1.jpg",
+    image: "/images/products/bush/slant/plastic/plastic-2.jpg",
     link: "/products/bush/slant/plastic",
     images: [
-      "/images/products/bush/slant/plastic/plastic-1.jpg",
       "/images/products/bush/slant/plastic/plastic-2.jpg",
+      "/images/products/bush/slant/plastic/plastic-1.jpg",
       "/images/products/bush/slant/plastic/plastic-3.jpg",
       "/images/products/bush/slant/plastic/plastic-4.jpg",
     ],
@@ -1323,11 +1359,11 @@ export const BUSH_SLANT = [
     type: "BIGTO บูชแขนยึดเหล็ก",
     kind: "Bushing",
     name: "slant-steel",
-    image: "/images/products/bush/slant/steel/steel-1.jpg",
+    image: "/images/products/bush/slant/steel/steel-2.jpg",
     link: "/products/bush/slant/steel",
     images: [
-      "/images/products/bush/slant/steel/steel-1.jpg",
       "/images/products/bush/slant/steel/steel-2.jpg",
+      "/images/products/bush/slant/steel/steel-1.jpg",
       "/images/products/bush/slant/steel/steel-3.jpg",
       "/images/products/bush/slant/steel/steel-4.jpg",
     ],
