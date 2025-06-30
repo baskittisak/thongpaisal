@@ -134,9 +134,22 @@ export default function TorqueRodBush() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ลูกหมาก SCANIA
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ลูกหมาก SCANIA
+            </Title>
+            <Title level={2} className="subtitle">
+              TORQUE ROD BUSHING
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_SCANIA.map((scania) => (
             <ColProduct key={scania.name} xl={6} lg={8} sm={12} xs={24}>
@@ -150,9 +163,22 @@ export default function TorqueRodBush() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ลูกหมากรถจีน
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ลูกหมากรถจีน
+            </Title>
+            <Title level={2} className="subtitle">
+              TORQUE ROD BUSHING
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_CHINESE.map((chinese) => (
             <ColProduct key={chinese.name} xl={6} lg={8} sm={12} xs={24}>
@@ -166,9 +192,22 @@ export default function TorqueRodBush() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ลูกหมากเครน
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ลูกหมากเครน
+            </Title>
+            <Title level={2} className="subtitle">
+              TORQUE ROD BUSHING
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {TORQUE_ROD_BUSH_CRANE.map((crane) => (
             <ColProduct key={crane.name} xl={6} lg={8} sm={12} xs={24}>

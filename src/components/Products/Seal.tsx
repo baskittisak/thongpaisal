@@ -105,6 +105,13 @@ const NoData = styled.div`
   }
 `;
 
+const ImageWolf = styled(Image)`
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: fill;
+`;
+
 export default function Seal() {
   const transform = (text: string) => {
     return text.replace(/^BIGTO\s*/, "");
@@ -123,6 +130,12 @@ export default function Seal() {
               SEAL TRAILER
             </Title>
           </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
         </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_TRAILER.map((trailer) => (
@@ -139,9 +152,22 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ซีลรถไถ
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ซีลรถไถ
+            </Title>
+            <Title level={2} className="subtitle">
+              SEAL TRACTOR
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_TRACTOR.map((tractor) => (
             <ColProduct
@@ -169,9 +195,22 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ซีล Hino
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ซีล HINO
+            </Title>
+            <Title level={2} className="subtitle">
+              SEAL HINO
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_HTNO.map((hino) => (
             <ColProduct key={hino.name} xl={6} lg={8} sm={12} xs={24}>
@@ -187,9 +226,22 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ซีลรถ ISUZU
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ซีล ISUZU
+            </Title>
+            <Title level={2} className="subtitle">
+              SEAL ISUZU
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_ISUZU.map((isuzu) => (
             <ColProduct key={isuzu.name} xl={6} lg={8} sm={12} xs={24}>
@@ -205,9 +257,22 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ซีลรถ FUSO
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ซีล FUSO
+            </Title>
+            <Title level={2} className="subtitle">
+              SEAL FUSO
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_FUSO.map((fuso) => (
             <ColProduct key={fuso.name} xl={6} lg={8} sm={12} xs={24}>
@@ -223,9 +288,22 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ซีลรถ UD
-        </Title>
+        <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ซีล UD
+            </Title>
+            <Title level={2} className="subtitle">
+              SEAL UD
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_UD.map((ud) => (
             <ColProduct key={ud.name} xl={6} lg={8} sm={12} xs={24}>
@@ -241,9 +319,22 @@ export default function Seal() {
             </ColProduct>
           ))}
         </RowContainer>
-        <Title level={1} className="title">
-          ซีลกระบอกดั้มพ์
-        </Title>
+                <Space>
+          <Space direction="vertical" size={4}>
+            <Title level={1} className="title">
+              ซีลกระบอกดั้มพ์
+            </Title>
+            <Title level={2} className="subtitle">
+              SEAL DUMPER
+            </Title>
+          </Space>
+          <ImageWolf
+            src="/icons/icon-wolf-bigto.png"
+            width={60}
+            height={60}
+            alt=""
+          />
+        </Space>
         <RowContainer gutter={[24, 32]}>
           {SEAL_DUMP.map((dump) => (
             <ColProduct key={dump.name} xl={6} lg={8} sm={12} xs={24}>
