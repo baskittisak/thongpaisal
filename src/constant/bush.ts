@@ -877,9 +877,10 @@ export const BUSH_BUSHINGS = [
     type: "BIGTO ยางรองปลายแหนบเหลี่ยม",
     kind: "Bushing",
     name: "square-leaf",
-    image: "/images/products/bush/bushings/square-leaf/square-leaf-1.jpg",
+    image: "/images/products/bush/bushings/square-leaf/square-leaf-0.jpg",
     link: "/products/bush/bushings/square-leaf",
     images: [
+      "/images/products/bush/bushings/square-leaf/square-leaf-0.jpg",
       "/images/products/bush/bushings/square-leaf/square-leaf-1.jpg",
       "/images/products/bush/bushings/square-leaf/square-leaf-2.jpg",
       "/images/products/bush/bushings/square-leaf/square-leaf-3.jpg",
@@ -1202,9 +1203,10 @@ export const BUSH_RUBBER = [
     type: "BIGTO ยางรองปลายแหนบกลม",
     kind: "Bushing",
     name: "round-rubber",
-    image: "/images/products/bush/rubber/round-rubber/round-rubber-1.jpg",
+    image: "/images/products/bush/rubber/round-rubber/round-rubber-0.jpg",
     link: "/products/bush/rubber/round-rubber",
     images: [
+      "/images/products/bush/rubber/round-rubber/round-rubber-0.jpg",
       "/images/products/bush/rubber/round-rubber/round-rubber-1.jpg",
       "/images/products/bush/rubber/round-rubber/round-rubber-2.jpg",
       "/images/products/bush/rubber/round-rubber/round-rubber-3.jpg",
@@ -1214,17 +1216,17 @@ export const BUSH_RUBBER = [
       {
         name: "product-code",
         icons: "/icons/products/bush/icon-product-code.png",
-        detail: "TPS831288_B01-A-08",
+        detail: "",
       },
       {
         name: "product-no",
         icons: "/icons/products/bush/icon-part-no.png",
-        detail: "37.2-113-150 mm.",
+        detail: "",
       },
       {
         name: "product-sizing",
         icons: "/icons/products/bush/icon-spare.png",
-        detail: "อะไหล่ดั๊มพ์",
+        detail: "",
       },
       {
         name: "product-detail",
